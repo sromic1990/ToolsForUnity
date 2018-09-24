@@ -11,6 +11,7 @@ public class PathMovement : MonoBehaviour
     public iTween.EaseType easetype;
     #region CHANGE
     public GameObject test;
+    public GameObject test2;
     #endregion
 
     // Use this for initialization

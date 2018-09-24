@@ -136,8 +136,8 @@ namespace Sourav.Utilities.Tools
         private const float WINDOW_HEIGHT = 70;
         private const float MOUSE_HOVER_DELTA = 54;
         private const float MOVE_WINDOW_HEIGHT = 110;
-        private const string REUNITER_POSITION_X = "REUNITER_POSITION_X";
-        private const string REUNITER_POSITION_Y = "REUNITER_POSITION_Y";
+        private const string SEARCH_POSITION_X = "SEARCH_POSITION_X";
+        private const string SEARCH_POSITION_Y = "SEARCH_POSITION_Y";
         private const string DARK_COLORIZE_PREFIX = "<b><color=#07c7f2>";
         private const string LIGHT_COLORIZE_PREFIX = "<b><color=#008293>";
         private const string COLORIZE_SUFFIX = "</color></b>";
@@ -203,7 +203,7 @@ namespace Sourav.Utilities.Tools
             ShowWindow(new SearchMode
             {
                 RefreshAction = null,
-                SearchLabel = "Move window to desired location then click button below to save.\nReUniter windows will have no frame/title bar so please ignore the frame on this window.",
+                SearchLabel = "Move window to desired location then click button below to save.",
                 LoadItem = null,
                 MoveWindowMode = true
             });
@@ -267,15 +267,15 @@ namespace Sourav.Utilities.Tools
             {                
                 var positionRect = PositionRect(WINDOW_HEIGHT);
                 positionRect.y -= positionRect.height;
-                search.ShowAsDropDown(positionRect, new Vector2(WINDOW_WIDTH, WINDOW_HEIGHT-1));
+                search.ShowAsDropDown(positionRect, new Vector2(WINDOW_WIDTH, WINDOW_HEIGHT - 1));
             }
             PreviousWindow = search;
         }
 
         private static Rect PositionRect(float windowHeight)
         {
-            var positionX = EditorPrefs.GetFloat(REUNITER_POSITION_X, (float)Screen.currentResolution.width/2 - WINDOW_WIDTH/2);
-            var positionY = EditorPrefs.GetFloat(REUNITER_POSITION_Y, Screen.currentResolution.height/2 - 100);
+            var positionX = EditorPrefs.GetFloat(SEARCH_POSITION_X, (float)Screen.currentResolution.width/2 - WINDOW_WIDTH/2);
+            var positionY = EditorPrefs.GetFloat(SEARCH_POSITION_Y, Screen.currentResolution.height/2 - 100);
             return new Rect(positionX, positionY, WINDOW_WIDTH, windowHeight);
         }
 
@@ -584,11 +584,11 @@ namespace Sourav.Utilities.Tools
             var searchTerms = itemName.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToList();
             var results = ResultsFor(searchTerms, UnityTypes, findAction);
 
-            var reUniterItemInfos = results.Take(100)
+            var itemInfos = results.Take(100)
                 .OrderBy(x => x.PenaltyScore).ThenBy(x => x.Name).ThenBy(x => x.ParentPath)
                 .Take(MAX_ITEMS_COUNT);
 
-            return reUniterItemInfos;
+            return itemInfos;
         }
 
         private static IEnumerable<SearchItemInfo> ResultsFor(List<string> searchTerms, IEnumerable<Type> unityTypes,
@@ -877,14 +877,14 @@ namespace Sourav.Utilities.Tools
 
         private void StoreWindowPosition()
         {
-            EditorPrefs.SetFloat(REUNITER_POSITION_X, position.x);
-            EditorPrefs.SetFloat(REUNITER_POSITION_Y, position.y);
+            EditorPrefs.SetFloat(SEARCH_POSITION_X, position.x);
+            EditorPrefs.SetFloat(SEARCH_POSITION_Y, position.y);
         }
 
         private void ClearWindowPosition()
         {
-            EditorPrefs.DeleteKey(REUNITER_POSITION_X);
-            EditorPrefs.DeleteKey(REUNITER_POSITION_Y);
+            EditorPrefs.DeleteKey(SEARCH_POSITION_X);
+            EditorPrefs.DeleteKey(SEARCH_POSITION_Y);
         }
 
         private void ForceCaretToEndOfTextField()
