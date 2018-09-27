@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using UnityEngine;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     [Serializable]
     internal class AssetDependencies

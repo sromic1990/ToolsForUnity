@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     [Serializable]
     public class SerializableCache

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace AssetUsageFinder.Styles
+namespace Sourav.Utilities.Tools
 {
     [Serializable]
     internal class ContentStylePair

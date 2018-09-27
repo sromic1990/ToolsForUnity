@@ -5,10 +5,9 @@ using UnityEditor;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 using System.Linq;
-using AssetUsageFinder.Styles;
 using UnityEditor.SceneManagement;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     internal class DependencyWindow : EditorWindow
     {
@@ -34,7 +33,6 @@ namespace AssetUsageFinder
             public GUIStyle TabBreadcrumb1 = new GUIStyle();
             public GUIStyle RowMainAssetBtn = new GUIStyle();
             public Vector2 Size = new Vector2(250f, 800f);
-            public ContentStylePair FeedbackPopupBtn = new ContentStylePair();
 
             public static Style Instance
             {
@@ -129,7 +127,7 @@ namespace AssetUsageFinder
         }
 
 
-        [MenuItem("GameObject/Usages in Scene", false, -1)]
+        [MenuItem("GameObject/Usages in Scene %Q", false, -1)]
         private static void FindReferencesToAsset(MenuCommand data)
         {
             var selected = Selection.activeObject;

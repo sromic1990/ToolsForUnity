@@ -7,7 +7,7 @@ using UnityEngine.Assertions;
 using UnityEngine.Serialization;
 using Object = UnityEngine.Object;
 
-namespace AssetUsageFinder.Styles
+namespace Sourav.Utilities.Tools
 {
     internal class DependencyStyle : ScriptableObject
     {
@@ -25,7 +25,7 @@ namespace AssetUsageFinder.Styles
 
         [SerializeField, HideInInspector] private bool _pro;
         [FormerlySerializedAs("Row")]public DependencyWindow.Style DependencyWindow = new DependencyWindow.Style();
-        public FeedbackPopup.Style Popup= new FeedbackPopup.Style();
+        public FeedbackPopup.Style Popup = new FeedbackPopup.Style();
 
         public static DependencyStyle Instance
         {

@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     public class CacheManager:IDisposable
     {

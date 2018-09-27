@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
+using Sourav.Utilities.Extensions;
 #if (UNITY_5)
 using UnityEngine.Audio;
 #endif
@@ -1068,21 +1069,5 @@ namespace Sourav.Utilities.Tools
             return itemInfo.UnityObjects;
         }
 
-    }
-
-    [SuppressMessage("Search", "InconsistentNaming")]
-    public static class IEnumerableExtensions
-    {
-        public static void _Each<T>(this IEnumerable<T> enumeration, Action<T> action)
-        {
-            foreach (T item in enumeration)
-                action(item);
-        }
-
-        public static void _Each<T>(this IEnumerable<T> ie, Action<T, int> action)
-        {
-            var i = 0;
-            foreach (var e in ie) action(e, i++);
-        }
     }
 }

@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     internal static class FindDependencies
     {
@@ -286,7 +286,7 @@ namespace AssetUsageFinder
                     case PrefabType.DisconnectedPrefabInstance:
                     case PrefabType.DisconnectedModelPrefabInstance:
                     case PrefabType.PrefabInstance:
-                        if (PrefabUtility.GetPrefabParent(go) == to)
+                        if (PrefabUtility.GetCorrespondingObjectFromSource(go) == to)
                             referencedBy.Add(go);
                         break;
                 }

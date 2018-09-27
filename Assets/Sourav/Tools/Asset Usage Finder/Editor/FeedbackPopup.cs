@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
-using AssetUsageFinder.Styles;
 using UnityEditor;
 using UnityEngine;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     internal class FeedbackPopup : EditorWindow
     {

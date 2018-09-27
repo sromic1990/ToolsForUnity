@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     [Serializable]
     internal class SearchTarget

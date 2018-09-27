@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace AssetUsageFinder
+namespace Sourav.Utilities.Tools
 {
     [Serializable]
     internal sealed class FileDependency : DependencyBase
