@@ -638,6 +638,8 @@ namespace Sourav.Utilities.Tools
 
         private static IEnumerable<SearchItemInfo> FindRecentItemsAction(string[] searchTerms, IEnumerable<Type> unityTypes)
         {
+            Debug.Log("FindRecentItemsAction");
+
             var selections = SearchSelectionHistoryTracker.PreviousSelections
                 .Where(x=>x != null && x.Length > 0 && x.Any(y => y != null))
                 .Select(x => new SearchItemInfo(x.Length + " item(s)", NameForObjects(x), x));
