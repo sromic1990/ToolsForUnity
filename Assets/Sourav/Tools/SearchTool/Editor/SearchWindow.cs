@@ -176,7 +176,7 @@ namespace Sourav.Utilities.Tools
                 });
         }
 
-        [MenuItem("ProjectUtility/Tools/Search/Recent Items %e")]
+        [MenuItem("ProjectUtility/Tools/Search/Recent Items %r")]
         [SuppressMessage("Search", "UnusedMember.Local")]
         static void RecentItems()
         {

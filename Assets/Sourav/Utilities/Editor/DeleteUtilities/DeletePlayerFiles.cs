@@ -7,7 +7,7 @@ namespace Sourav.Utilities.EditorUtils
 {
     public class DeletePlayerFiles : Editor
     {
-        [MenuItem("ProjectUtility/Utilities/Delete PlayerPrefs &d")]
+        [MenuItem("ProjectUtility/Utilities/Delete PlayerPrefs %&d")]
         public static void DeletePrefs()
         {
             if(EditorUtility.DisplayDialog("Delete Player Prefs?", "Are you sure you want to delete the data in PlayerPrefs?", "Yes", "No"))
@@ -27,7 +27,7 @@ namespace Sourav.Utilities.EditorUtils
         
         //Actual Method
         [ExecuteInEditMode]
-        [MenuItem("ProjectUtility/Utilities/Delete Saved Files #d")]
+        [MenuItem("ProjectUtility/Utilities/Delete Saved Files %#d")]
         public static void DeleteSavedFiles()
         {
             if(EditorUtility.DisplayDialog("Delete All Saved Files?", "Are you sure you want to delete all saved files?", "Yes", "No"))
