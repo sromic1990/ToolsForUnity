@@ -44,31 +44,31 @@ namespace Sourav.Utilities.Scripts.Algorithms.Randomization
 
         private static void Shuffle(List<int> tempOutputList)
         {
-            int randomIteration = (int)Random.Range(0, (tempOutputList.Count + 1));
-
-            List<int> alreadyTampered = new List<int>();
-
-            for (int i = 0; i < randomIteration; i++)
-            {
-                int randomStart = 0;
-                int randomEnd = 0;
-
-                do
-                {
-                    randomStart = Random.Range(0, tempOutputList.Count);
-                    randomEnd = Random.Range(0, tempOutputList.Count);
-                }
-                while (randomStart == randomEnd);
-
-                if (alreadyTampered.Contains(randomStart) || alreadyTampered.Contains(randomEnd))
-                {
-                    continue;
-                }
-
-                tempOutputList[randomStart] += tempOutputList[randomEnd];
-                tempOutputList[randomEnd] = tempOutputList[randomStart] - tempOutputList[randomEnd];
-                tempOutputList[randomStart] = tempOutputList[randomStart] - tempOutputList[randomEnd];
-            }
+//            int randomIteration = (int)Random.Range(0, (tempOutputList.Count + 1));
+//
+//            List<int> alreadyTampered = new List<int>();
+//
+//            for (int i = 0; i < randomIteration; i++)
+//            {
+//                int randomStart = 0;
+//                int randomEnd = 0;
+//
+//                do
+//                {
+//                    randomStart = Random.Range(0, tempOutputList.Count);
+//                    randomEnd = Random.Range(0, tempOutputList.Count);
+//                }
+//                while (randomStart == randomEnd);
+//
+//                if (alreadyTampered.Contains(randomStart) || alreadyTampered.Contains(randomEnd))
+//                {
+//                    continue;
+//                }
+//
+//                tempOutputList[randomStart] += tempOutputList[randomEnd];
+//                tempOutputList[randomEnd] = tempOutputList[randomStart] - tempOutputList[randomEnd];
+//                tempOutputList[randomStart] = tempOutputList[randomStart] - tempOutputList[randomEnd];
+//            }
 
             OutputList = tempOutputList;
         }
