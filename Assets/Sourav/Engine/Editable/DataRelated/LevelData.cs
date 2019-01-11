@@ -3,7 +3,7 @@
 namespace Sourav.Engine.Editable.DataRelated
 {
 	//Serialize this class and store in the disk for savegames
-	public class LevelData : GameElement 
+	public class LevelData : Data 
 	{
 		//FIXME enter data items
 	}

@@ -1,6 +1,7 @@
 ﻿using System;
 using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
 
@@ -18,16 +19,23 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 		private bool zoom;
 		private bool runScript;
 
+		private CameraData cameraData;
+
 		private void Awake()
 		{
 			_camera = GetComponent<UnityEngine.Camera>();
 		}
-		
+
+		private void Start()
+		{
+			cameraData = App.GetData().GetComponent<CameraData>();
+		}
+
 		private void Update()
 		{
 			if (zoom)
 			{
-				_camera.orthographicSize -= App.GetCameraData().cameraZoomInMaxValue * Time.unscaledDeltaTime;
+				_camera.orthographicSize -= cameraData.cameraZoomInMaxValue * Time.unscaledDeltaTime;
 			}
 		}
 		
@@ -52,7 +60,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 			switch (notification)
 			{
 				case Notification.StartCameraScript:
-					_target = App.player.transform;
+					_target = App.GetData().GetComponent<GameData>().player;
 					runScript = true;
 					break;
 				

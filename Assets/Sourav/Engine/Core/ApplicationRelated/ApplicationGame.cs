@@ -1,4 +1,6 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.ControllerRelated;
@@ -8,26 +10,35 @@ using UnityEngine;
 
 namespace Sourav.Engine.Core.ApplicationRelated
 {
-	public abstract class ApplicationGame : MonoBehaviour
+	public class ApplicationGame : MonoBehaviour
 	{
 		[SerializeField] private NotificationCenter notificationCenter;
-		[SerializeField] private Controller[] controllers;
-		[SerializeField] private GameObject controllerObject;
+		[SerializeField] private List<Controller> controllers;
+		[SerializeField] private Transform controllerObject;
 
-		[SerializeField] private LevelData levelData;
-		[SerializeField] private CameraData cameraData;
-
-		public Transform player;
-
+		[SerializeField] private Data data;
+		
 		private void Awake()
 		{
-			controllers = controllerObject.GetComponents<Controller>();
+			if (controllers.Count == 0) //No controllers registered to listen
+			{
+				controllers = new List<Controller>();
+				for (int i = 0; i < controllerObject.childCount; i++)
+				{
+					Controller controller = controllerObject.GetChild(i).GetComponent<Controller>();
+					if (controller != null)
+					{
+						controllers.Add(controller);
+					}
+				}
+			}
 		}
 		
+		#region Controller Related
 		public Controller GetController(ControllerType type)
 		{
 			Controller c = null;
-			for (int i = 0; i < controllers.Length; i++)
+			for (int i = 0; i < controllers.Count; i++)
 			{
 				if (controllers[i].type == type)
 				{
@@ -44,11 +55,13 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return notificationCenter;
 		}
 
-		public Controller[] GetAllControllers()
+		public List<Controller> GetAllControllers()
 		{
 			return controllers;
 		}
+		#endregion
 
+		#region Pause - Resume Related
 		public bool IsGamePaused()
 		{
 			bool isPaused = false;
@@ -63,7 +76,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 
 			return isPaused;
 		}
+		#endregion
 
+		#region Notification Related
 		public void LockNotification()
 		{
 			notificationCenter.LockNotification();
@@ -73,15 +88,13 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		{
 			notificationCenter.UnlockNotificationStatus();
 		}
+		#endregion
 		
-		//Data Related
-		public LevelData GetLevelData()
+		#region Data Related
+		public Data GetData()
 		{
-			return levelData;
+			return data;
 		}
-		public CameraData GetCameraData()
-		{
-			return cameraData;	
-		}
+		#endregion
 	}
 }

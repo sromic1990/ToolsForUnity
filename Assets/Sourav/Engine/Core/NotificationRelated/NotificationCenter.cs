@@ -9,7 +9,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 	[System.Serializable]
 	public class NotificationCenter : GameElement
 	{
-		private Controller[] controllers;
+		private List<Controller> controllers;
 
 		private Queue<NotificationQueue> notificationQueue = new Queue<NotificationQueue>();
 
@@ -67,7 +67,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 				for (int i = 0; i < notificationQueue.Count; i++)
 				{
 					NotificationQueue nq = notificationQueue.Dequeue();
-					NotifyAllControllers(nq.notifyingController, nq.canListenToOwnNotification, nq.notification, nq.param);
+					NotifyAllControllers(nq.notifyingController, nq.canListenToOwnNotification, nq.Notification, nq.param);
 				}
 			}
 		}
@@ -77,7 +77,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 			if (controllers == null)
 				return;
 			
-			for (int i = 0; i < controllers.Length; i++)
+			for (int i = 0; i < controllers.Count; i++)
 			{
 				if(controllers[i].type == notifyingController && !canListenToOwnNotification) continue;
 				controllers[i].OnNotificationReceived(notification, param);
@@ -88,14 +88,14 @@ namespace Sourav.Engine.Core.NotificationRelated
 		{
 			public ControllerType notifyingController;
 			public bool canListenToOwnNotification;
-			public Notification notification;
+			public Notification Notification;
 			public NotificationParam param;
 
 			public NotificationQueue(ControllerType notifyingController, bool canListenToOwnNotification, Notification notification, NotificationParam param)
 			{
 				this.notifyingController = notifyingController;
 				this.canListenToOwnNotification = canListenToOwnNotification;
-				this.notification = notification;
+				this.Notification = notification;
 				this.param = param;
 			}
 		}

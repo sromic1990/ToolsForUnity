@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
+using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace Sourav.Engine.Core.NotificationRelated
-{
+{	
 	public class NotificationParam
-	{
+	{		
 		public List<int> intData;
 		public List<float> floatData;
 		public List<double> doubleData;
@@ -18,16 +20,16 @@ namespace Sourav.Engine.Core.NotificationRelated
 
 		public NotificationParam()
 		{
-			intData = new List<int>();
-			floatData = new List<float>();
-			doubleData = new List<double>();
-			stringData = new List<string>();
-			gameObjectData = new List<GameObject>();
-			boolData = new List<bool>();
-			unityObjectData = new List<Object>();
-			objectData = new List<object>();
+			this.intData = new List<int>();
+			this.floatData = new List<float>();
+			this.doubleData = new List<double>();
+			this.stringData = new List<string>();
+			this.gameObjectData = new List<GameObject>();
+			this.boolData = new List<bool>();
+			this.unityObjectData = new List<Object>();
+			this.objectData = new List<object>();
 
-			shouldQueue = false;
+			this.shouldQueue = false;
 		}
 	}
 }
