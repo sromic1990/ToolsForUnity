@@ -3,10 +3,17 @@
     //Fill this up with game Notifications
     public enum Notification
     {
+        //Pause Related
         PauseGame,
         ResumeGame,
         GamePaused,
         GameResumed,
-        PauseResumeToggle
+        PauseResumeToggle,
+        
+        //CameraRelated
+        StartCameraScript,
+        StartZoomingCamera,
+        StopZoomingCamera,
+        StopCameraScript
     }
 }

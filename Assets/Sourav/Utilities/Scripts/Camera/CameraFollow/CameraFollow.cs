@@ -1,6 +1,7 @@
 ﻿using System;
-using SwingKing._Scripts.ControllerRelated;
-using SwingKing._Scripts.Element;
+using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.Camera.CameraFollow
@@ -11,7 +12,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 		private UnityEngine.Camera _camera;
 		[SerializeField] private Transform _target;
 		[Tooltip("Put between 0 and 1")]
-		[SerializeField] private float _cameraSmoothSpeed = 0.125f;
+		[SerializeField][Range(0, 1)] private float _cameraSmoothSpeed = 0.125f;
 		[SerializeField] private Vector3 _offset;
 
 		private bool zoom;
@@ -26,7 +27,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 		{
 			if (zoom)
 			{
-				_camera.orthographicSize -= App.levelData.CameraZoomInMaxValue * Time.unscaledDeltaTime;
+				_camera.orthographicSize -= App.GetCameraData().cameraZoomInMaxValue * Time.unscaledDeltaTime;
 			}
 		}
 		
@@ -50,20 +51,20 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 		{
 			switch (notification)
 			{
-				case Notification.LevelReadyToStart:
+				case Notification.StartCameraScript:
 					_target = App.player.transform;
 					runScript = true;
 					break;
 				
-				case Notification.GlassShatterJuice:
+				case Notification.StartZoomingCamera:
 					zoom = true;
 					break;
 				
-				case Notification.LevelOver:
+				case Notification.StopZoomingCamera:
 					zoom = false;
 					break;
 				
-				case Notification.PlayerHitDeadObstacle:
+				case Notification.StopCameraScript:
 					runScript = false;
 					break;
 			}

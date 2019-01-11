@@ -2,6 +2,7 @@
 using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.ControllerRelated;
+using Sourav.Engine.Editable.DataRelated;
 using UnityEditor;
 using UnityEngine;
 
@@ -12,6 +13,11 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private NotificationCenter notificationCenter;
 		[SerializeField] private Controller[] controllers;
 		[SerializeField] private GameObject controllerObject;
+
+		[SerializeField] private LevelData levelData;
+		[SerializeField] private CameraData cameraData;
+
+		public Transform player;
 
 		private void Awake()
 		{
@@ -66,6 +72,16 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public void UnlockNotification()
 		{
 			notificationCenter.UnlockNotificationStatus();
+		}
+		
+		//Data Related
+		public LevelData GetLevelData()
+		{
+			return levelData;
+		}
+		public CameraData GetCameraData()
+		{
+			return cameraData;	
 		}
 	}
 }
