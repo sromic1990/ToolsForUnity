@@ -17,7 +17,8 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private Transform controllerObject;
 
 		[SerializeField] private Data data;
-		
+
+		#region Mono Methods
 		private void Awake()
 		{
 			if (controllers.Count == 0) //No controllers registered to listen
@@ -33,6 +34,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 				}
 			}
 		}
+		#endregion
 		
 		#region Controller Related
 		public Controller GetController(ControllerType type)
