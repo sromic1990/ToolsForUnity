@@ -7,6 +7,9 @@ namespace Sourav.Engine.Editable.ButtonRelated
     {
         Play = 0,
         Pause = 1,
-        Settings = 2
+        Settings = 2,
+        SoundButtonToggle = 3,
+        SFXButtonToggle = 4,
+        RestorePurchase = 5,
     }
 }

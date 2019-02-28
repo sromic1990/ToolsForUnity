@@ -1,19 +1,19 @@
 ﻿using System.Collections.Generic;
 using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.GameElementRelated;
-using Sourav.Engine.Editable.ControllerRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using UnityEngine;
 
 namespace Sourav.Engine.Core.NotificationRelated
 {
 	[System.Serializable]
 	public class NotificationCenter : GameElement
 	{
-		private List<Controller> controllers;
+		private List<Core.ControllerRelated.Controller> controllers;
 
 		private Queue<NotificationQueue> notificationQueue = new Queue<NotificationQueue>();
 
-		private NotificationStatus status;
+		[SerializeField] private NotificationStatus status;
 		private bool isNotificationsQueued
 		{
 			get
@@ -22,7 +22,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 			}
 		}
 
-		public override void Init()
+		public void Awake()
 		{
 			UnlockNotificationStatus();
 			notificationQueue.Clear();
@@ -33,7 +33,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 			}
 		}
 		
-		public void Notify(ControllerType notifyingController, bool canListenToOwnNotification, Notification notification, NotificationParam param = null)
+		public void Notify(Notification notification, NotificationParam param = null)
 		{
 			switch (status)
 			{
@@ -42,14 +42,14 @@ namespace Sourav.Engine.Core.NotificationRelated
 					{
 						if (param.shouldQueue)
 						{
-							NotificationQueue nq = new NotificationQueue(notifyingController, canListenToOwnNotification, notification, param);
+							NotificationQueue nq = new NotificationQueue(notification, param);
 							notificationQueue.Enqueue(nq);
 						}
 					}
 					break;
 				
 				case NotificationStatus.Unlocked:
-					NotifyAllControllers(notifyingController, canListenToOwnNotification, notification, param);
+					NotifyAllControllers(notification, param);
 					break;
 			}
 		}
@@ -67,34 +67,29 @@ namespace Sourav.Engine.Core.NotificationRelated
 				for (int i = 0; i < notificationQueue.Count; i++)
 				{
 					NotificationQueue nq = notificationQueue.Dequeue();
-					NotifyAllControllers(nq.notifyingController, nq.canListenToOwnNotification, nq.Notification, nq.param);
+					NotifyAllControllers(nq.Notification, nq.param);
 				}
 			}
 		}
 
-		private void NotifyAllControllers(ControllerType notifyingController, bool canListenToOwnNotification, Notification notification, NotificationParam param)
+		private void NotifyAllControllers(Notification notification, NotificationParam param)
 		{
 			if (controllers == null)
 				return;
-			
+//			Debug.Log("Notification = "+notification);
 			for (int i = 0; i < controllers.Count; i++)
 			{
-				if(controllers[i].type == notifyingController && !canListenToOwnNotification) continue;
 				controllers[i].OnNotificationReceived(notification, param);
 			}
 		}
 
 		private struct NotificationQueue
 		{
-			public ControllerType notifyingController;
-			public bool canListenToOwnNotification;
 			public Notification Notification;
 			public NotificationParam param;
 
-			public NotificationQueue(ControllerType notifyingController, bool canListenToOwnNotification, Notification notification, NotificationParam param)
+			public NotificationQueue(Notification notification, NotificationParam param)
 			{
-				this.notifyingController = notifyingController;
-				this.canListenToOwnNotification = canListenToOwnNotification;
 				this.Notification = notification;
 				this.param = param;
 			}

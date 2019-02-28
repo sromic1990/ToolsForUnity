@@ -7,6 +7,12 @@
 		GameController,
 		UiController,
 		PauseResumeController,
-		ButtonController
+		ButtonController,
+		SaveLoadController,
+		PositionRegistryController,
+		AdMobController,
+		FacebookController,
+		PurchaseController,
+		HapticFeedbackController,
 	}
 }

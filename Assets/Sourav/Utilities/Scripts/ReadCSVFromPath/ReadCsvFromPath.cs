@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.ReadCSVFromPath
@@ -9,7 +8,7 @@ namespace Sourav.Utilities.Scripts.ReadCSVFromPath
 		[SerializeField] private string Path;
 		[SerializeField] private List<Line> lines;
 		
-		[Sirenix.OdinInspector.Button()]
+		[Sourav.Utilities.Scripts.Attributes.Button()]
 		public void PopulateData()
 		{
 			string path = Application.dataPath + "/" + Path;
@@ -17,6 +16,11 @@ namespace Sourav.Utilities.Scripts.ReadCSVFromPath
 			ReadCsv rcsv = new ReadCsv();
 			rcsv.ReadFromCsv(path);
 			lines = rcsv.GetLines();
+		}
+
+		public List<Line> GetLines()
+		{
+			return lines;
 		}
 	}
 }

@@ -21,7 +21,7 @@ namespace Sourav.Engine.Core.ButtonRelated
 		{
 			button.onClick.AddListener(() =>
 			{
-				Controller c = App.GetController(ControllerType.ButtonController);
+				Core.ControllerRelated.Controller c = App.GetController(ControllerType.ButtonController);
 				if(c is ButtonController)
 				{
 					ButtonController bc = (ButtonController) c;

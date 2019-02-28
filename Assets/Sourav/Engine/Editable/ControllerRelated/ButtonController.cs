@@ -1,13 +1,13 @@
-﻿using Sourav.Engine.Core;
-using Sourav.Engine.Core.ControllerRelated;
+﻿using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.ButtonRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
+using Controller = Sourav.Engine.Core.ControllerRelated.Controller;
 
 namespace Sourav.Engine.Editable.ControllerRelated
 {
-	public class ButtonController : Controller 
+	public class ButtonController : Core.ControllerRelated.Controller 
 	{
 		public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
 		{
@@ -16,7 +16,15 @@ namespace Sourav.Engine.Editable.ControllerRelated
 
 		public void OnButtonPressed(ButtonType button)
 		{
-			Debug.Log(string.Format("button Pressed = {0}", button.ToString()));
+			if (App.IsGamePaused())
+			{
+				Debug.Log("App is paused");
+				return;
+			}
+			switch (button)
+			{
+				
+			}
 		}
 	}
 }

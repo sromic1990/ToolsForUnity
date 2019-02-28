@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 {
 	[RequireComponent(typeof(UnityEngine.Camera))]
-	public class CameraFollow : Controller
+	public class CameraFollow : Sourav.Engine.Core.ControllerRelated.Controller
 	{
 		private UnityEngine.Camera _camera;
 		[SerializeField] private Transform _target;

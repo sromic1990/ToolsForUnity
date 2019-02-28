@@ -4,6 +4,7 @@
     
     public enum Notification
     {
+        None,
         //Pause Related
         PauseGame,
         ResumeGame,
@@ -11,10 +12,24 @@
         GameResumed,
         PauseResumeToggle,
         
-        //CameraRelated
+        //Camera Related
         StartCameraScript,
         StartZoomingCamera,
         StopZoomingCamera,
-        StopCameraScript
+        StopCameraScript,
+        
+        //Data Related
+        RecordPositionData,
+        FetchPositionData,
+        PositionData,
+        
+        //Save Load Related
+        LoadData,
+        SaveData,
+        DataLoaded,
+        DataChanged,
     }
 }
+
+
+

@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using FillWords._Scripts.Test;
-using FillWords._Scripts.WordGame.Models;
 
 namespace Sourav.Utilities.Scripts.ReadCSVFromPath
 {

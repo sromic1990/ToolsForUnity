@@ -6,6 +6,7 @@ namespace Sourav.Utilities.Scripts.Utilities
     {
         None,
         ExportHelper,
-        CoreEngine
+        CoreEngine,
+        OrientationManager,
     }
 }
