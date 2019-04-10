@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Sourav.Engine.Editable.DataRelated
 {
-	public class GameData : Data 
+	public class GameCommonData : CommonData 
 	{
 		public Transform player;
 		//FIXME Enter data items

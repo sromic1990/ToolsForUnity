@@ -7,19 +7,17 @@ using UnityEngine;
 namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 {
 	public class SaveLoadController : Controller
-	{
-		[SerializeField] private string saveGameName;
-		
+	{	
 		public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
 		{
 			switch (notification)
 			{
-				case Notification.LoadData:
+				case Notification.LoadGame:
 					LoadData();
-					App.GetNotificationCenter().Notify(Notification.DataLoaded);
+					App.GetNotificationCenter().Notify(Notification.GameLoaded);
 					break;
 				
-				case Notification.SaveData:
+				case Notification.SaveGame:
 					SaveData();
 					break;
 			}
@@ -29,10 +27,10 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 		{
 			if (isPaused)
 			{
-				if (App.GetData().GetComponent<LevelData>().isDataChanged)
+				if (App.GetData().GetComponent<LevelCommonData>().isDataChanged)
 				{
 					SaveData();
-					App.GetData().GetComponent<LevelData>().isDataChanged = false;
+					App.GetData().GetComponent<LevelCommonData>().isDataChanged = false;
 				}
 			}
 //			else
@@ -41,9 +39,14 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 //			}
 		}
 
+#if ODIN
+		[Sirenix.OdinInspector.Button()]
+#else
+		[Sourav.Utilities.Scripts.Attributes.Button()]
+		#endif
 		private void SaveData()
 		{
-			SaveGame data = App.GetData().GetComponent<LevelData>().GetCurrentData();
+			SaveGame data = App.GetData().GetComponent<LevelCommonData>().GetCurrentData();
 			string dataString = JsonUtility.ToJson(data);
 			FileIO.WriteData(dataString);
 		}
@@ -54,11 +57,11 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 			{
 				string stringData = FileIO.ReadData();
 				SaveGame data = JsonUtility.FromJson<SaveGame>(stringData);
-				App.GetData().GetComponent<LevelData>().LoadData(data);
+				App.GetData().GetComponent<LevelCommonData>().LoadData(data);
 			}
 			else
 			{
-				App.GetData().GetComponent<LevelData>().SetDefault();
+				App.GetLevelData().SetDefault();
 				SaveData();
 			}
 		}

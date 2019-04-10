@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Sourav.Engine.Editable.DataRelated
 {
-	public abstract class Data : GameElement
+	public abstract class CommonData : GameElement
 	{
 		[SerializeField] private DataType type;
 

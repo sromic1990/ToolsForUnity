@@ -520,20 +520,33 @@
                 <e p="ButtonType.cs" t="Include" />
               </e>
               <e p="ControllerRelated" t="Include">
+                <e p="AdMobController.cs" t="Include" />
+                <e p="AppsFlyerController.cs" t="Include" />
+                <e p="AudioController.cs" t="Include" />
                 <e p="ButtonController.cs" t="Include" />
                 <e p="ControllerType.cs" t="Include" />
+                <e p="FacebookController.cs" t="Include" />
               </e>
               <e p="DataRelated" t="Include">
-                <e p="CameraData.cs" t="Include" />
-                <e p="Data.cs" t="Include" />
-                <e p="GameData.cs" t="Include" />
-                <e p="LevelData.cs" t="Include" />
+                <e p="CameraCommonData.cs" t="Include" />
+                <e p="CommonData.cs" t="Include" />
+                <e p="GameCommonData.cs" t="Include" />
+                <e p="LevelCommonData.cs" t="Include" />
                 <e p="LevelDataHandler.cs" t="Include" />
               </e>
               <e p="NotificationRelated" t="Include">
                 <e p="NotificationList.cs" t="Include" />
               </e>
+              <e p="ToggleRelated" t="Include">
+                <e p="ToggleType.cs" t="Include" />
+              </e>
             </e>
+          </e>
+          <e p="Experimental" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SpriteAnimatorEditor.cs" t="Include" />
+            </e>
+            <e p="SpriteAnimator.cs" t="Include" />
           </e>
           <e p="Test" t="Include">
             <e p="_Scripts" t="Include">
@@ -596,6 +609,12 @@
                 <e p="SearchWindow.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="UIPresets" t="Include">
+            <e p="MoveAndScaleHandler.cs" t="Include" />
+            <e p="MoveAndScaleToPosition.cs" t="Include" />
+            <e p="PopUpController.cs" t="Include" />
+            <e p="ToggleSwitch.cs" t="Include" />
           </e>
           <e p="Utilities" t="Include">
             <e p="Definitions" t="Include">
@@ -716,6 +735,7 @@
               <e p="CheckGameObjectsPresentInScene.cs" t="Include" />
               <e p="CircularRandomAccessList.cs" t="Include" />
               <e p="Components" t="Include">
+                <e p="Blinker.cs" t="Include" />
                 <e p="Spinner.cs" t="Include" />
               </e>
               <e p="CreatePrefabInstance.cs" t="Include" />
@@ -739,6 +759,7 @@
               </e>
               <e p="Singleton.cs" t="Include" />
               <e p="Utilities" t="Include">
+                <e p="GetRandomAlphabets.cs" t="Include" />
                 <e p="SingletonObject.cs" t="Include" />
                 <e p="SingletonTypes.cs" t="Include" />
               </e>

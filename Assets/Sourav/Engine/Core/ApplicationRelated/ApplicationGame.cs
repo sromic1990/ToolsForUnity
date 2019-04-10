@@ -14,11 +14,11 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private List<Core.ControllerRelated.Controller> controllers;
 		[SerializeField] private Transform controllerObject;
 
-		[SerializeField] private Data data;
+		[SerializeField] private CommonData commonData;
 
 		[SerializeField] private LevelDataHandler dataHandler;
 
-		[SerializeField] private LevelData levelData;
+		[SerializeField] private LevelCommonData levelCommonData;
 
 		#region Mono Methods
 		private void Awake()
@@ -95,9 +95,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		#endregion
 		
 		#region Data Related
-		public Data GetData()
+		public CommonData GetData()
 		{
-			return data;
+			return commonData;
 		}
 
 		public LevelDataHandler GetLevelDataHandler()
@@ -105,9 +105,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return dataHandler;
 		}
 
-		public LevelData GetLevelData()
+		public LevelCommonData GetLevelData()
 		{
-			return levelData;
+			return levelCommonData;
 		}
 		#endregion
 	}

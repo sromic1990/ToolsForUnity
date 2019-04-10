@@ -2,426 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/GameData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/GameData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/Data.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TagRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TagRelated/TagDefinition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TagRelated/TagDefinition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs/ShuffleTest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs/ShuffleTest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs/ShuffleTest.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Prefabs/ShuffleTest.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPointTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPointTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPointTester.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ColorPoint/ColorPointTester.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/DecimalToBinary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/DecimalToBinary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/DecimalToBinary.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/DecimalToBinary.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/Optimised_ArraySearchFunction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/Optimised_ArraySearchFunction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/Optimised_ArraySearchFunction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/Optimised_ArraySearchFunction.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ReadonlyTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ReadonlyTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ReadonlyTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ReadonlyTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ShuffleTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ShuffleTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ShuffleTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/ShuffleTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SortTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SortTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SortTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SortTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/IntegrationCommon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/IntegrationCommon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/MeshCombinerIntegration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/MeshCombinerIntegration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/MeshDeformerIntegration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/MeshDeformerIntegration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/WiresIntegration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Integration/WiresIntegration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/PivotEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/PivotEditor/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/PivotEditor/Scripts/MeshUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/PivotEditor/Scripts/MeshUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/SavedMeshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/SavedMeshes/Mesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/SavedMeshes/Mesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Cheese.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Cheese.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Body2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Body2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Cheese.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Cheese.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Ear.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Ear.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Eye1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Eye1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Eye2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Eye2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Nose.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Nose.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Tooth.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Materials/Tooth.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Mouse.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/Mouse.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/MouseController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/MouseController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/MouseController2.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/MouseController2.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/WireframeProjectorDemo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Models/WireframeProjectorDemo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Scripts/Rotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Scripts/Rotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Wireframe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Demo/Wireframe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/WireframeDefault.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/WireframeDefault.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/WireframeProjector.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/WireframeProjector.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Materials/Resources/mask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Prefabs/WireframeProjector.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Prefabs/WireframeProjector.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts/Barycentric.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts/Barycentric.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts/Editor/WireframeMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Scripts/Editor/WireframeMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/Editor/WireframeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/Editor/WireframeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/Wireframe.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/Wireframe.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/WireframeProjector.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/WireFrame/Wireframe/Shaders/WireframeProjector.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions/Definitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions/Definitions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions/Definitions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Definitions/Definitions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated/GetBuildTargetGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated/GetBuildTargetGroup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated/GetBuildTargetGroup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/BuildTargetGroupRelated/GetBuildTargetGroup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated/ClearConsole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated/ClearConsole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated/ClearConsole.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ConsoleRelated/ClearConsole.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders/ProjectFolders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders/ProjectFolders.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders/ProjectFolders.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CreateOrRemoveProjectFolders/ProjectFolders.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer/ReadOnlyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer/ReadOnlyDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer/ReadOnlyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomDrawer/ReadOnlyDrawer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer/MyCustomInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer/MyCustomInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer/MyCustomInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/CustomExplorer/MyCustomInspector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/DeletePlayerFiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/DeletePlayerFiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/DeletePlayerFiles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/DeletePlayerFiles.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/RemoveAllGeneratedCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/RemoveAllGeneratedCode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/RemoveAllGeneratedCode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DeleteUtilities/RemoveAllGeneratedCode.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated/ShowInExplorer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated/ShowInExplorer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated/ShowInExplorer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExplorerRelated/ShowInExplorer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage/ExportAssetPackage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage/ExportAssetPackage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage/ExportAssetPackage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ExportUnityPackage/ExportAssetPackage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CheckIfScriptIsExcluded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CheckIfScriptIsExcluded.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CheckIfScriptIsExcluded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CheckIfScriptIsExcluded.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CreateExcludedFolderEnumObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CreateExcludedFolderEnumObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CreateExcludedFolderEnumObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/CreateExcludedFolderEnumObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/ExtractFileNameFromPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/ExtractFileNameFromPath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/ExtractFileNameFromPath.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/ExtractFileNameFromPath.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FileMatching.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FileMatching.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FileMatching.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FileMatching.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindFiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindFiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindFiles.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindFiles.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/GenerateEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/GenerateEnums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/GenerateEnums.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/GenerateEnums.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated/SwitchOnOffMacro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated/SwitchOnOffMacro.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated/SwitchOnOffMacro.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/MacroRelated/SwitchOnOffMacro.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated/SortScripts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated/SortScripts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated/SortScripts.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ScriptsRelated/SortScripts.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts/OpenScriptsShortcut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts/OpenScriptsShortcut.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts/OpenScriptsShortcut.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/Shortcuts/OpenScriptsShortcut.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/ExportHelper.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/ExportHelper.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Grid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Grid.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Grid.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Node.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Node.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathRequestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathRequestManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathRequestManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathRequestManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Unit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/Unit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomFairCoinToss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomFairCoinToss.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomFairCoinToss.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomFairCoinToss.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomizationDither.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomizationDither.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomizationDither.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Randomization/RandomizationDither.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle/FisherYatesShuffle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle/FisherYatesShuffle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle/FisherYatesShuffle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Shuffle/FisherYatesShuffle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/CountingSort_Integer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/CountingSort_Integer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/CountingSort_Integer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/CountingSort_Integer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/QuickSort_Integer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/QuickSort_Integer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/QuickSort_Integer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/Sorting/QuickSort_Integer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ReadOnlyAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ReadOnlyAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ReadOnlyAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ReadOnlyAttribute.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom/CameraPanZoomEdge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom/CameraPanZoomEdge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom/CameraPanZoomEdge.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/EdgePanZoom/CameraPanZoomEdge.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CircularRandomAccessList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CircularRandomAccessList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CircularRandomAccessList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CircularRandomAccessList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Heap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Heap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Heap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Heap.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Stack_Sourav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Stack_Sourav.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Stack_Sourav.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DataStructures/Stack_Sourav.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DetectPressedKeyOrButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DetectPressedKeyOrButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DetectPressedKeyOrButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DetectPressedKeyOrButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums/EnumUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums/EnumUtil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums/EnumUtil.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Enums/EnumUtil.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ExportHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ExportHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ExportHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ExportHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FPSDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FPSDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FPSDisplay.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FPSDisplay.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomAlphaNumeric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomAlphaNumeric.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomAlphaNumeric.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomAlphaNumeric.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCSV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCSV.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Singleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Singleton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/PlaymakerIntegration.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
@@ -434,152 +42,81 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="123" selection-start-line="16" selection-start-column="123" selection-end-line="16" selection-end-column="123" />
+            <state relative-caret-position="608">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
               <folding>
-                <marker date="1551340021582" expanded="true" signature="6:108" ph="..." />
-                <marker date="1551340021582" expanded="true" signature="169:1162" ph="{...}" />
-                <marker date="1551340021582" expanded="true" signature="232:1160" ph="{...}" />
-                <marker date="1551340021582" expanded="true" signature="343:1157" ph="{...}" />
-                <marker date="1551340021582" expanded="true" signature="521:1153" ph="{...}" />
-                <marker date="1551340021582" expanded="true" signature="741:900" ph="{...}" />
-                <marker date="1551340021582" expanded="true" signature="909:1148" ph="{...}" />
+                <marker date="1554895092848" expanded="false" signature="6:188" ph="..." />
+                <marker date="1554895092848" expanded="true" signature="252:1574" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="300:1572" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="409:645" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="438:641" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="695:944" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="716:898" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="790:893" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="899:940" ph="/* else ... */" />
+                <marker date="1554895092848" expanded="true" signature="1079:1252" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="1279:1569" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="1311:1494" ph="{...}" />
+                <marker date="1554895092848" expanded="true" signature="1502:1565" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <marker date="1554895120519" expanded="false" signature="6:53" ph="..." />
+                <marker date="1554895120519" expanded="true" signature="100:1088" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="140:1086" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="357:390" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="544:608" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="654:801" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="731:760" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="768:797" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="831:1083" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="854:1079" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="932:984" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="1001:1033" ph="{...}" />
+                <marker date="1554895120519" expanded="true" signature="1042:1074" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <marker date="1554895146948" expanded="false" signature="6:52" ph="..." />
+                <marker date="1554895146948" expanded="true" signature="104:592" ph="{...}" />
+                <marker date="1554895146948" expanded="true" signature="152:590" ph="{...}" />
+                <marker date="1554895146948" expanded="true" signature="378:530" ph="{...}" />
+                <marker date="1554895146948" expanded="true" signature="562:587" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="16">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding>
-                <marker date="1551340061291" expanded="false" signature="6:44" ph="..." />
-                <marker date="1551340061291" expanded="true" signature="87:4535" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="235:4533" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="656:794" ph="/// Prints to Debug.Log all the relevant functionality informations needed for debug purposes ... " />
-                <marker date="1551340061291" expanded="true" signature="839:904" ph="/// Orientation type ... " />
-                <marker date="1551340061291" expanded="true" signature="936:1301" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="959:1030" ph="/// Landscape mode ... " />
-                <marker date="1551340061291" expanded="true" signature="1066:1136" ph="/// Portrait mode ... " />
-                <marker date="1551340061291" expanded="true" signature="1171:1271" ph="/// Unknown mode. Used for calibration purposes ... " />
-                <marker date="1551340061291" expanded="true" signature="1410:1562" ph="/// UnityEvent that sends an OrientaionManager.Orientation parameter when the device's orientation changes. ... " />
-                <marker date="1551340061291" expanded="true" signature="1722:1817" ph="/// Retruns the current orientation of the device. ... " />
-                <marker date="1551340061291" expanded="true" signature="1935:1993" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2041:2099" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2109:2363" ph="/// Checks the current orientation and updates it if it changed since the last check. You do not need to call thi ... " />
-                <marker date="1551340061291" expanded="true" signature="2408:4063" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2504:2727" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2616:2713" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2769:2995" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="2883:2981" ph="{...}" />
-                <marker date="1551340061291" expanded="true" signature="4073:4221" ph="/// Updates the currentOrientation to the specified value and sends an UnityEvent to signal the change. ... " />
-                <marker date="1551340061291" expanded="true" signature="4287:4527" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <marker date="1551339770538" expanded="true" signature="6:79" ph="..." />
-                <marker date="1551339770538" expanded="true" signature="111:342" ph="{...}" />
-                <marker date="1551339770538" expanded="true" signature="166:340" ph="{...}" />
-                <marker date="1551339770538" expanded="true" signature="288:337" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <marker date="1549605363476" expanded="false" signature="6:113" ph="..." />
-                <marker date="1549605363476" expanded="true" signature="149:1775" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="217:1485" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="282:1479" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="504:1441" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="633:1427" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="716:879" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="904:1409" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="1012:1387" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="1133:1361" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="1526:1773" ph="{...}" />
-                <marker date="1549605363476" expanded="true" signature="1659:1767" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding>
-                <marker date="1546517791169" expanded="false" signature="6:109" ph="..." />
-                <marker date="1546517791169" expanded="true" signature="158:1124" ph="{...}" />
-                <marker date="1546517791169" expanded="true" signature="213:1122" ph="{...}" />
-                <marker date="1546517791169" expanded="true" signature="356:1119" ph="{...}" />
-                <marker date="1546517791169" expanded="true" signature="519:1115" ph="{...}" />
-                <marker date="1546517791169" expanded="true" signature="731:882" ph="{...}" />
-                <marker date="1546517791169" expanded="true" signature="891:1110" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1546517445236" expanded="true" signature="62:112" ph="{...}" />
-                <marker date="1546517445236" expanded="true" signature="104:110" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1551337022986" expanded="false" signature="6:295" ph="..." />
-                <marker date="1551337022986" expanded="true" signature="344:2585" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="392:2583" ph="{...}" />
-                <marker date="1551337022986" expanded="false" signature="746:1189" ph="Mono Methods" />
-                <marker date="1551337022986" expanded="true" signature="789:1176" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="794:1172" ph="/* if (controllers.Count == 0) //No controllers registered to listen ... */" />
-                <marker date="1551337022986" expanded="false" signature="1195:1716" ph="Controller Related" />
-                <marker date="1551337022986" expanded="true" signature="1299:1511" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="1397:1493" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="1439:1488" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="1564:1602" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="1672:1703" ph="{...}" />
-                <marker date="1551337022986" expanded="false" signature="1720:2127" ph="Pause - Resume Related" />
-                <marker date="1551337022986" expanded="true" signature="1779:2114" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="1949:2089" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="2004:2084" ph="{...}" />
-                <marker date="1551337022986" expanded="false" signature="2131:2349" ph="Notification Related" />
-                <marker date="1551337022986" expanded="true" signature="2192:2242" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="2278:2336" ph="{...}" />
-                <marker date="1551337022986" expanded="false" signature="2355:2580" ph="Data Related" />
-                <marker date="1551337022986" expanded="true" signature="2399:2423" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="2472:2503" ph="{...}" />
-                <marker date="1551337022986" expanded="true" signature="2538:2567" ph="{...}" />
+                <marker date="1554895160584" expanded="true" signature="6:123" ph="..." />
+                <marker date="1554895160584" expanded="true" signature="169:1226" ph="{...}" />
+                <marker date="1554895160584" expanded="true" signature="216:778" ph="{...}" />
+                <marker date="1554895160584" expanded="true" signature="825:991" ph="{...}" />
+                <marker date="1554895160584" expanded="true" signature="1048:1110" ph="{...}" />
+                <marker date="1554895160584" expanded="true" signature="1162:1224" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -591,38 +128,48 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/DoozyUI/Scripts/UI/UIAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/OrientationManager.cs" />
@@ -632,6 +179,16 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" />
       </list>
     </option>
   </component>
@@ -647,144 +204,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-              <item name="ApplicationRelated" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-              <item name="ButtonRelated" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-              <item name="DataRelated" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-              <item name="NotificationRelated" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editable" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Engine" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editable" type="1045f7f1:UnityExplorerNode" />
-              <item name="ControllerRelated" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Test" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Test" type="1045f7f1:UnityExplorerNode" />
-              <item name="_Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Utilities" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Utilities" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Utilities" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Camera" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Utilities" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Camera" type="1045f7f1:UnityExplorerNode" />
-              <item name="CameraFollow" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Sourav" type="1045f7f1:UnityExplorerNode" />
-              <item name="Utilities" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="ReadCSVFromPath" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -831,11 +254,13 @@
       <option name="presentableId" value="Default" />
       <updated>1551336314413</updated>
       <workItem from="1551336356190" duration="3285000" />
+      <workItem from="1554894297669" duration="730000" />
+      <workItem from="1554895079026" duration="214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3285000" />
+    <option name="totallyTimeSpent" value="4229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,16 +279,6 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -871,8 +286,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="11" show_stripe_button="false" weight="0.3291536" />
+      <window_info anchor="bottom" id="Logcat" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Unity" order="16" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="1" visible="true" weight="0.24975075" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="1" weight="0.25224328" />
       <window_info anchor="right" id="Errors In Solution" order="2" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Database" order="4" />
@@ -898,43 +323,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/UI/UIAnimator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1644">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <marker date="1544691364000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1544691364000" expanded="true" signature="86:3273" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="575:623" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="642:820" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="783:817" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="837:911" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="930:1011" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1034:1723" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1094:1141" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1170:1218" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1279:1325" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1353:1613" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1526:1553" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1677:1720" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1756:2743" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2055:2570" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2173:2257" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2643:2740" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2769:3131" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="3008:3126" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="3154:3271" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/UI/UIAnimator.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -980,20 +369,6 @@
             <marker date="1551337109159" expanded="true" signature="119:429" ph="{...}" />
             <marker date="1551337109159" expanded="true" signature="164:427" ph="{...}" />
             <marker date="1551337109159" expanded="true" signature="370:424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <marker date="1551337118005" expanded="false" signature="6:52" ph="..." />
-            <marker date="1551337118005" expanded="true" signature="104:535" ph="{...}" />
-            <marker date="1551337118005" expanded="true" signature="152:533" ph="{...}" />
-            <marker date="1551337118005" expanded="true" signature="321:473" ph="{...}" />
-            <marker date="1551337118005" expanded="true" signature="505:530" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1047,9 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/Helpers/DoozyUI_Data.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/Helpers/DoozyUI_Data.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1066,37 +439,6 @@
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="e#0#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1551337022986" expanded="false" signature="6:295" ph="..." />
-            <marker date="1551337022986" expanded="true" signature="344:2585" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="392:2583" ph="{...}" />
-            <marker date="1551337022986" expanded="false" signature="746:1189" ph="Mono Methods" />
-            <marker date="1551337022986" expanded="true" signature="789:1176" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="794:1172" ph="/* if (controllers.Count == 0) //No controllers registered to listen ... */" />
-            <marker date="1551337022986" expanded="false" signature="1195:1716" ph="Controller Related" />
-            <marker date="1551337022986" expanded="true" signature="1299:1511" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="1397:1493" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="1439:1488" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="1564:1602" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="1672:1703" ph="{...}" />
-            <marker date="1551337022986" expanded="false" signature="1720:2127" ph="Pause - Resume Related" />
-            <marker date="1551337022986" expanded="true" signature="1779:2114" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="1949:2089" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="2004:2084" ph="{...}" />
-            <marker date="1551337022986" expanded="false" signature="2131:2349" ph="Notification Related" />
-            <marker date="1551337022986" expanded="true" signature="2192:2242" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="2278:2336" ph="{...}" />
-            <marker date="1551337022986" expanded="false" signature="2355:2580" ph="Data Related" />
-            <marker date="1551337022986" expanded="true" signature="2399:2423" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="2472:2503" ph="{...}" />
-            <marker date="1551337022986" expanded="true" signature="2538:2567" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1183,75 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/Editor/OrientationManagerEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/OrientationManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1549605363476" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549605363476" expanded="true" signature="149:1775" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="217:1485" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="282:1479" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="504:1441" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="633:1427" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="716:879" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="904:1409" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1012:1387" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1133:1361" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1526:1773" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1659:1767" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <marker date="1546517791169" expanded="false" signature="6:109" ph="..." />
-            <marker date="1546517791169" expanded="true" signature="158:1124" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="213:1122" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="356:1119" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="519:1115" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="731:882" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="891:1110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1546517445236" expanded="true" signature="62:112" ph="{...}" />
-            <marker date="1546517445236" expanded="true" signature="104:110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationId.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/Editor/OrientationManagerEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/OrientationManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationId.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1274,25 +550,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1551339770538" expanded="true" signature="6:79" ph="..." />
-            <marker date="1551339770538" expanded="true" signature="111:342" ph="{...}" />
-            <marker date="1551339770538" expanded="true" signature="166:340" ph="{...}" />
-            <marker date="1551339770538" expanded="true" signature="288:337" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="176">
           <caret line="16" column="123" selection-start-line="16" selection-start-column="123" selection-end-line="16" selection-end-column="123" />
           <folding>
-            <marker date="1551340021582" expanded="true" signature="6:108" ph="..." />
+            <marker date="1551340021582" expanded="false" signature="6:108" ph="..." />
             <marker date="1551340021582" expanded="true" signature="169:1162" ph="{...}" />
             <marker date="1551340021582" expanded="true" signature="232:1160" ph="{...}" />
             <marker date="1551340021582" expanded="true" signature="343:1157" ph="{...}" />
@@ -1303,12 +566,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1551339770538" expanded="false" signature="6:79" ph="..." />
+            <marker date="1551339770538" expanded="true" signature="111:342" ph="{...}" />
+            <marker date="1551339770538" expanded="true" signature="166:340" ph="{...}" />
+            <marker date="1551339770538" expanded="true" signature="288:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1549605363476" expanded="false" signature="6:113" ph="..." />
+            <marker date="1549605363476" expanded="true" signature="149:1775" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="217:1485" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="282:1479" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="504:1441" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="633:1427" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="716:879" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="904:1409" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="1012:1387" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="1133:1361" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="1526:1773" ph="{...}" />
+            <marker date="1549605363476" expanded="true" signature="1659:1767" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <marker date="1546517791169" expanded="false" signature="6:109" ph="..." />
+            <marker date="1546517791169" expanded="true" signature="158:1124" ph="{...}" />
+            <marker date="1546517791169" expanded="true" signature="213:1122" ph="{...}" />
+            <marker date="1546517791169" expanded="true" signature="356:1119" ph="{...}" />
+            <marker date="1546517791169" expanded="true" signature="519:1115" ph="{...}" />
+            <marker date="1546517791169" expanded="true" signature="731:882" ph="{...}" />
+            <marker date="1546517791169" expanded="true" signature="891:1110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1546517445236" expanded="true" signature="62:112" ph="{...}" />
+            <marker date="1546517445236" expanded="true" signature="104:110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
-            <marker date="1551340061291" expanded="false" signature="6:44" ph="..." />
             <marker date="1551340061291" expanded="true" signature="87:4535" ph="{...}" />
             <marker date="1551340061291" expanded="true" signature="235:4533" ph="{...}" />
             <marker date="1551340061291" expanded="true" signature="656:794" ph="/// Prints to Debug.Log all the relevant functionality informations needed for debug purposes ... " />
@@ -1329,6 +652,354 @@
             <marker date="1551340061291" expanded="true" signature="2883:2981" ph="{...}" />
             <marker date="1551340061291" expanded="true" signature="4073:4221" ph="/// Updates the currentOrientation to the specified value and sends an UnityEvent to signal the change. ... " />
             <marker date="1551340061291" expanded="true" signature="4287:4527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <marker date="1554894463605" expanded="false" signature="6:295" ph="..." />
+            <marker date="1554894463605" expanded="true" signature="344:2633" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="392:2631" ph="{...}" />
+            <marker date="1554894463605" expanded="false" signature="770:1213" ph="Mono Methods" />
+            <marker date="1554894463605" expanded="true" signature="813:1200" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="818:1196" ph="/* if (controllers.Count == 0) //No controllers registered to listen ... */" />
+            <marker date="1554894463605" expanded="false" signature="1219:1740" ph="Controller Related" />
+            <marker date="1554894463605" expanded="true" signature="1323:1535" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="1421:1517" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="1463:1512" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="1588:1626" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="1696:1727" ph="{...}" />
+            <marker date="1554894463605" expanded="false" signature="1744:2151" ph="Pause - Resume Related" />
+            <marker date="1554894463605" expanded="true" signature="1803:2138" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="1973:2113" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="2028:2108" ph="{...}" />
+            <marker date="1554894463605" expanded="false" signature="2155:2373" ph="Notification Related" />
+            <marker date="1554894463605" expanded="true" signature="2216:2266" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="2302:2360" ph="{...}" />
+            <marker date="1554894463605" expanded="false" signature="2379:2628" ph="Data Related" />
+            <marker date="1554894463605" expanded="true" signature="2429:2459" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="2508:2539" ph="{...}" />
+            <marker date="1554894463605" expanded="true" signature="2580:2615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7088">
+          <caret line="443" column="6" selection-start-line="443" selection-start-column="6" selection-end-line="443" selection-end-column="6" />
+          <folding>
+            <marker date="1554894508773" expanded="true" signature="1110:1142" ph="/* Banner ... */" />
+            <marker date="1554894508773" expanded="true" signature="1442:1600" ph="/* Called when an ad request failed to load. ... */" />
+            <marker date="1554894508773" expanded="true" signature="4951:5108" ph="/* Called when an ad request failed to load. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1544691364000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1544691364000" expanded="true" signature="575:623" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="642:820" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="783:817" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="837:911" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="930:1011" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1034:1723" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1094:1141" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1170:1218" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1279:1325" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1353:1613" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1526:1553" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1677:1720" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="1756:2743" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="2055:2570" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="2173:2257" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="2643:2740" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="2769:3131" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="3008:3126" ph="{...}" />
+            <marker date="1544691364000" expanded="true" signature="3154:3271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding>
+            <marker date="1554894557353" expanded="false" signature="6:200" ph="..." />
+            <marker date="1554894557353" expanded="true" signature="252:3003" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="320:2755" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="559:2223" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="588:2219" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="665:701" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="711:748" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="794:859" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="869:908" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1032:1068" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1078:1115" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1161:1226" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1236:1275" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1382:1457" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1530:1612" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1681:1763" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1831:1904" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="1979:2053" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2126:2202" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2282:2456" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2356:2434" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2393:2429" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2500:2752" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2522:2600" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2608:2748" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2635:2743" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2803:2863" ph="{...}" />
+            <marker date="1554894557353" expanded="true" signature="2887:3001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1554894668036" expanded="true" signature="6:102" ph="..." />
+            <marker date="1554894668036" expanded="true" signature="148:8695" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="253:7579" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="259:4717" ph="ALMOST FIXED FOR EACH GAME" />
+            <marker date="1554894668036" expanded="true" signature="362:474" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="410:470" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="507:631" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="561:627" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="665:789" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="719:785" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="819:1023" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="875:1019" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="955:995" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1045:1143" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1086:1139" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1180:1300" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1232:1296" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1332:1449" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1382:1445" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1476:1586" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1523:1582" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1611:1717" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1656:1713" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1740:1842" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1783:1838" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1871:1985" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="1920:1981" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2011:2121" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2058:2117" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2146:2254" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2192:2250" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2281:2393" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2329:2389" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2420:2518" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2461:2514" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2545:2655" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2592:2651" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2683:2797" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2732:2793" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2833:2963" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2890:2959" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="2992:3106" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="3041:3102" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="3613:3803" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="3838:3882" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="3926:3990" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="4026:4050" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="4089:4118" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="4146:4704" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="7626:8226" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="8280:8365" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="8410:8437" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="8481:8621" ph="{...}" />
+            <marker date="1554894668036" expanded="true" signature="8643:8693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1554209973053" expanded="true" signature="678:766" ph="/* Check the pauseStatus to see if we are in the foreground ... */" />
+            <marker date="1554209973053" expanded="true" signature="1861:2155" ph="/* levelParams[AppEventParameterName.ContentID] = App.GetLevelData().currentLevelShow; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <marker date="1554894876079" expanded="true" signature="6:134" ph="..." />
+            <marker date="1554894876079" expanded="true" signature="162:992" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="212:990" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="596:756" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="621:693" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="701:752" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="794:851" ph="{...}" />
+            <marker date="1554894876079" expanded="true" signature="903:987" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1552984572736" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552984572736" expanded="true" signature="124:919" ph="{...}" />
+            <marker date="1552984572736" expanded="true" signature="178:917" ph="{...}" />
+            <marker date="1552984572736" expanded="true" signature="460:763" ph="{...}" />
+            <marker date="1552984572736" expanded="true" signature="491:612" ph="{...}" />
+            <marker date="1552984572736" expanded="true" signature="620:706" ph="{...}" />
+            <marker date="1552984572736" expanded="true" signature="805:914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <marker date="1554894958113" expanded="false" signature="6:212" ph="..." />
+            <marker date="1554894958113" expanded="true" signature="240:1673" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="315:1519" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="569:1090" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="598:1086" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="756:869" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="951:1048" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1122:1257" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1169:1253" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1207:1248" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1313:1510" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1392:1488" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1429:1483" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1543:1569" ph="{...}" />
+            <marker date="1554894958113" expanded="true" signature="1613:1671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1554097325986" expanded="false" signature="6:293" ph="..." />
+            <marker date="1554097325986" expanded="true" signature="321:2348" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="400:2183" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="578:611" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="634:1182" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="792:838" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="953:999" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1206:1749" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1365:1411" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1523:1569" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1809:2046" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1901:2014" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="1947:2009" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="2083:2180" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="2121:2145" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="2153:2176" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="2210:2228" ph="{...}" />
+            <marker date="1554097325986" expanded="true" signature="2279:2346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <marker date="1554895092848" expanded="false" signature="6:188" ph="..." />
+            <marker date="1554895092848" expanded="true" signature="252:1574" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="300:1572" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="409:645" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="438:641" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="695:944" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="716:898" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="790:893" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="899:940" ph="/* else ... */" />
+            <marker date="1554895092848" expanded="true" signature="1079:1252" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="1279:1569" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="1311:1494" ph="{...}" />
+            <marker date="1554895092848" expanded="true" signature="1502:1565" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <marker date="1554895120519" expanded="false" signature="6:53" ph="..." />
+            <marker date="1554895120519" expanded="true" signature="100:1088" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="140:1086" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="357:390" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="544:608" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="654:801" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="731:760" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="768:797" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="831:1083" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="854:1079" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="932:984" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="1001:1033" ph="{...}" />
+            <marker date="1554895120519" expanded="true" signature="1042:1074" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <marker date="1554895146948" expanded="false" signature="6:52" ph="..." />
+            <marker date="1554895146948" expanded="true" signature="104:592" ph="{...}" />
+            <marker date="1554895146948" expanded="true" signature="152:590" ph="{...}" />
+            <marker date="1554895146948" expanded="true" signature="378:530" ph="{...}" />
+            <marker date="1554895146948" expanded="true" signature="562:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <marker date="1554895160584" expanded="true" signature="6:123" ph="..." />
+            <marker date="1554895160584" expanded="true" signature="169:1226" ph="{...}" />
+            <marker date="1554895160584" expanded="true" signature="216:778" ph="{...}" />
+            <marker date="1554895160584" expanded="true" signature="825:991" ph="{...}" />
+            <marker date="1554895160584" expanded="true" signature="1048:1110" ph="{...}" />
+            <marker date="1554895160584" expanded="true" signature="1162:1224" ph="{...}" />
           </folding>
         </state>
       </provider>

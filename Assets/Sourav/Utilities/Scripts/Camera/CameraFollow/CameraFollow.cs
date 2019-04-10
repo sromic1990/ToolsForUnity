@@ -19,7 +19,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 		private bool zoom;
 		private bool runScript;
 
-		private CameraData cameraData;
+		private CameraCommonData cameraCommonData;
 
 		private void Awake()
 		{
@@ -28,14 +28,14 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 
 		private void Start()
 		{
-			cameraData = App.GetData().GetComponent<CameraData>();
+			cameraCommonData = App.GetData().GetComponent<CameraCommonData>();
 		}
 
 		private void Update()
 		{
 			if (zoom)
 			{
-				_camera.orthographicSize -= cameraData.cameraZoomInMaxValue * Time.unscaledDeltaTime;
+				_camera.orthographicSize -= cameraCommonData.cameraZoomInMaxValue * Time.unscaledDeltaTime;
 			}
 		}
 		
@@ -60,7 +60,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 			switch (notification)
 			{
 				case Notification.StartCameraScript:
-					_target = App.GetData().GetComponent<GameData>().player;
+					_target = App.GetData().GetComponent<GameCommonData>().player;
 					runScript = true;
 					break;
 				
