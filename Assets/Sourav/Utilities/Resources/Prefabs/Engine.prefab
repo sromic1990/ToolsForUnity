@@ -209,11 +209,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notificationCenter: {fileID: 114255776116175238}
   controllers:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 114596224344190636}
+  - {fileID: 114638801649054624}
   controllerObject: {fileID: 4277493391240832}
   commonData: {fileID: 114637837421062374}
-  dataHandler: {fileID: 7453085381061266573}
+  dataHandler: {fileID: 0}
   levelCommonData: {fileID: 114637837421062374}
 --- !u!1 &1922192695968008
 GameObject:
@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 114637837421062374}
   - component: {fileID: 114184211334407804}
   - component: {fileID: 7984771071444367433}
-  - component: {fileID: 7453085381061266573}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -450,35 +449,6 @@ MonoBehaviour:
   type: 3
   cameraZoomInMaxValue: 0
 --- !u!114 &7984771071444367433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998358473039236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32c026c2967d7494c9ee2f86ec90172d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lineData: []
-  levelImage: {fileID: 0}
-  numberOfLines: 0
-  lettersOfAnswer: []
-  lengthOfAnswer: 0
-  answerTileOrder: 
-  blankSpaceIndex: 
-  levelAnswer: 
-  currentAnswer: 
-  answerIndices: 
-  answeredIndex: 
-  answeredLetters: []
-  nextAnswerPos: 0
-  nextAnswerIndex: 0
-  levelReward: 0
-  isNormalSafeShow: 0
-  nextPosition: {x: 0, y: 0, z: 0}
---- !u!114 &7453085381061266573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
