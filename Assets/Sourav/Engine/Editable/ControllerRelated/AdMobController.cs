@@ -269,10 +269,10 @@ namespace Sourav.Engine.Editable.ControllerRelated
 				App.GetLevelData().IsMusicOn = true;
 			}
 			
-			if (App.GetLevelData().turnOnSFX)
+			if (App.GetLevelData().turnOnSfx)
 			{
-				App.GetLevelData().turnOnSFX = false;
-				App.GetLevelData().IsSFXOn = true;
+				App.GetLevelData().turnOnSfx = false;
+				App.GetLevelData().IsSfxOn = true;
 			}
 		}
 
@@ -323,10 +323,10 @@ namespace Sourav.Engine.Editable.ControllerRelated
 					App.GetLevelData().IsMusicOn = false;
 				}
 				
-				if (App.GetLevelData().IsSFXOn)
+				if (App.GetLevelData().IsSfxOn)
 				{
-					App.GetLevelData().turnOnSFX = true;
-					App.GetLevelData().IsSFXOn = false;
+					App.GetLevelData().turnOnSfx = true;
+					App.GetLevelData().IsSfxOn = false;
 				}
 				
 				rewardBasedVideo.Show();

@@ -1,9 +1,8 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
-using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
 
-namespace _Ransom._Scripts.ControllerRelated
+namespace Sourav.Engine.Core.ControllerRelated
 {
 	public class HapticFeedbackController : Controller
 	{
@@ -18,11 +17,11 @@ namespace _Ransom._Scripts.ControllerRelated
 			
 			switch (notification)
 			{
-				case Notification.ShowCorrectAnswer:
+				case Notification.HapticSuccess:
 					HapticForSubmitButtonSuccess();
 					break;
 				
-				case Notification.ShowWrongAnswer:
+				case Notification.HapticFailure:
 					HapticForSubmitButtonFailure();
 					break;
 			}

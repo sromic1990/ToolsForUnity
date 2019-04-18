@@ -6,8 +6,10 @@
 		None,
 		GameController,
 		UiController,
+		UiScreenController,
 		PauseResumeController,
 		ButtonController,
+		CameraController,
 		SaveLoadController,
 		PositionRegistryController,
 		AudioController,
@@ -22,16 +24,9 @@
 		HapticFeedbackController,
 		AppsFlyerController,
 		
-		//View Controller
-		LevelAnswerView,
-		InputView,
-		InitialHeading,
-		InteriorDecorator,
-		AnswerView,
-		AnswerButtonGrid,
-		SafeView,
-		
 		//Gameplay Related
 		GameplayController,
+		BallController,
+		HookController,
 	}
 }

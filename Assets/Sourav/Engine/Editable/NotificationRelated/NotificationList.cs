@@ -23,63 +23,41 @@
         FetchPositionData,
         PositionData,
         
-        //Transition Related
-        TransitionBegan,
-        TransitionMidWay,
-        TransitionEnded,
-        
         //Save Load Related
         LoadGame,
         SaveGame,
         GameLoaded,
         DataChanged,
         
-        //Video Related
-        StartVideo,
-        VideoPrepared,
-        PausedAtVideoFrame,
-        ResumeVideo,
-        VideoFinished,
-        VideoTapped,
-        
-        //Safe related
-        NormalSafeClicked,
-        NormalSafeClosed,
-        
         //Gameplay related
         PlayGame,
-        AnswerButtonPressed,
-        LevelDataSet,
-        AnswerPlaceClicked,
-        EraseButtonPressed,
-        GameplaySafeHidden,
-        ShowTutorialOver,
-        ShowCorrectAnswer,
-        ShowWrongAnswer,
+        StartLevel,
+        LevelReadyToStart,
         LevelComplete,
-        CollectReward,
-        ShowRewardCollected,
-        RewardReachedBar,
-        RewardCollected,
+        VanishBase,
         
-        //Tutorial Related
-        SafeShowingStatusChanged,
-        RequestStashLetterPosition,
-        LetterPositionStashed,
-        RequestStashHintPosition,
-        RequestStashOfCollectButton,
+        //Player Related
+        PlayerDead,
+        PlayerHitDeadObstacle,
         
-        //Power-Up Related
-        HintUsedTutorial,
-        HintUsed,
-        CheckHintButton,
-        BombUsed,
-        BombedButtons,
-        CheckBombButton,
+        //Hook Related
+        HookMovedOutOfCamera,
+        InitializeHookController,
+        SetNextHook,
+        AttachedHook,
+        DetachedHook,
+        
+        
+        //Haptic Related
+        HapticSuccess,
+        HapticFailure,
+        
+        //Audio Related
+        DeathSound,
+        SwingSound,
         
         //UI Related
         ButtonPressed,
-        CoinAdded,
         HomeButtonPressed,
         
         //Toggle Related
@@ -113,6 +91,14 @@
         ShowInterstitial,
         ShowRewardVideo,
         VideoCoinsRewarded,
+        
+        //Input related
+        TapPress,
+        TapRelease,
+        
+        //UI Screen Transition related
+        ShowScreen,
+        TransitionComplete,
     }
 }
 

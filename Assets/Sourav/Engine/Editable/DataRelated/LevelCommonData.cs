@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
+using Break._Scripts.BallRelated;
+using Break._Scripts.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Utilities.Scripts.DrawLineRelated;
 using UnityEngine;
 
 namespace Sourav.Engine.Editable.DataRelated
@@ -104,7 +107,7 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
-		public bool IsSFXOn
+		public bool IsSfxOn
 		{
 			get { return game.isSfxOn; }
 			set
@@ -154,46 +157,6 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
-		public List<Tile> Tiles
-		{
-			get { return game.tiles; }
-			set
-			{
-				game.tiles = value;
-				DataChanged();
-			}
-		}
-
-		public bool AreTilesSet
-		{
-			get { return game.areTilesSet; }
-			set
-			{
-				game.areTilesSet = value;
-				DataChanged();
-			}
-		}
-
-		public int LastHintIndex
-		{
-			get { return game.hintLastIndex; }
-			set
-			{
-				game.hintLastIndex = value;
-				DataChanged();
-			}
-		}
-
-		public int NonAnswerLettersCount
-		{
-			get { return game.nonAnswerLettersCount; }
-			set
-			{
-				game.nonAnswerLettersCount = value;
-				DataChanged();
-			}
-		}
-
 		public bool IsPromptShown
 		{
 			get { return game.isPromptShown; }
@@ -206,8 +169,8 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isDataChanged;
 
 		[Space(10)] [Header("Defaults")] 
-		public int currentlevelDefault;
-		public bool isSFXOnDefault;
+		public int currentLevelDefault;
+		public bool isSfxOnDefault;
 		public bool isMusicOnDefault;
 		public bool isVibrationOnDefault;
 		public int coinsDefault;
@@ -216,8 +179,6 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isTutorialOverDefault;
 		public bool isIntroVideoOverDefault;
 		public bool isAdsInactiveDefault;
-		public int lastHintIndexDefault;
-		public int currentTutorialDefault;
 		
 		private void DataChanged()
 		{
@@ -243,41 +204,30 @@ namespace Sourav.Engine.Editable.DataRelated
 			return game;
 		}
 
-		public void LoadData(SaveGame game)
+		public void LoadData(SaveGame saveGame)
 		{
-			this.game = game;
+			this.game = saveGame;
 		}
 
 		public void SetDefault()
 		{
 			game = new SaveGame();
-			CurrentLevel = currentlevelDefault;
-			CurrentLevelActual = currentlevelDefault;
+			CurrentLevel = currentLevelDefault;
+			CurrentLevelActual = currentLevelDefault;
 			IsTutorialOver = isTutorialOverDefault;
 			IsIntroIntroVideoOver = isIntroVideoOverDefault;
-			IsSFXOn = isSFXOnDefault;
+			IsSfxOn = isSfxOnDefault;
 			IsMusicOn = isMusicOnDefault;
 			IsVibrationOn = isVibrationOnDefault;
 			Coins = coinsDefault;
 			CurrentMoney = currentMoneyDefault;
 			TotalMoney = totalMoneyDefault;
 			AdsInactive = isAdsInactiveDefault;
-			LastHintIndex = lastHintIndexDefault;
 			AreLevelsExhausted = false;
 			AdLastLevel = firstAdLevel;
 
 		}
 		#endregion
-		
-		[Space(10)]
-		[Header("Main Menu Video Related")]
-		public bool isVideoPlaying;
-		public int[] pauseAtFrames;
-		public int introNumbers;
-		public int videoTap;
-
-		[Space(10)] [Header("GridPreset")] 
-		public LevelGridPreset[] levelGridPresets;
 
 		
 		[Space(10)] [Header("Timer Related")] 
@@ -295,6 +245,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		public float waitAfterTutorialComplete;
 		public float waitAfterLevelComplete;
 		public float waitBeforeHidingBombedTiles;
+		public float playerDieDelay;
 
 		[Space(10)]
 		[Header("Tutorial Related")]
@@ -304,14 +255,13 @@ namespace Sourav.Engine.Editable.DataRelated
 		[Header("Level Complete Related")]
 		public int levelOverCoins;
 		public int multiplier;
-		public Reward[] rewards;
 
 		[Space(10)]
 		[Header("Ad Related")]
 		public int firstAdLevel;
 		public int adAfterEachLevel;
 		public bool turnOnMusic;
-		public bool turnOnSFX;
+		public bool turnOnSfx;
 		public bool isVideoRewarded;
 		public bool videoFromLevelOver;
 		public bool videoFromMainMenu;
@@ -333,23 +283,11 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isFromRestore;
 		[HideInInspector] public int coinAdd;
 
-		
-		[Space(10)]
-		[Header("Cost of In Game Items")]
-		public int hintCost;
-		public int bombCost;
-
 		[Space(10)]
 		[Header("Info PopUp Related")]
 		public string incorrectText;
 		public string correctText;
 		public string tutorialCompleteText;
-		
-		[Space(10)]
-		[Header("Forbidden letter related")]
-		public List<string> forbiddenLetters;
-		public List<string> answerLetters;
-		public List<string> alreadyGenerated;
 
 		[Space(10)] 
 		[Header("MAJOR FIXME NEXT TIME")]
@@ -362,20 +300,34 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool hasGameStarted;
 		public bool isPopUpOpenDuringBonusLevel;
 		public int removeTilesPerBomb;
-		public Screens transistionFromWhichScreen;
-		public Screens transistionToWhichScreen;
 		public bool hideTutorialHand;
 		public bool collectEnable;
 
-		[Space(10)] [Header("Texts For Man Taunt")]
-		public List<string> taunts;
-		public string currentAmountValue;
-		public string fullAmountValue;
-		public int lastSpeech;
+		[Space(10)] [Header("Gameplay related booleans")]
+		public bool isFirstTap;
+		
+		[Space(10)] [Header("Player related")] 
+		public Ball ball;
+		public bool hasPlayerDied;
+		public Transform ballHookPoint;
+		public float playerDropForceMultiplier;
+		
+		[Space(10)][Header("Gameplay specific values")]
+		public float distanceChangeQuantum;
+		
+		[Space(10)][Header("Hook related")]
+		public HookData hookData;
 
-		[Space(10)] [Header("Collect Button Pressing Related")]
-		public bool hasCollectButtonBeenPressed;
-		public bool isFromLevelOver;
+		[Space(10)] [Header("LineDraw related")]
+		public DrawLine drawLine;
+
+		[Space(10)] [Header("OnContinue Destroy these obstacles")]
+		public List<GameObject> obstaclesToDestroy;
+
+		[Space(10)] [Header("StartPosition Related")]
+		public Transform ballBaseStart;
+		public Transform ballStart;
+		public Transform cameraStart;
 	}
 
 	[System.Serializable]
@@ -402,48 +354,7 @@ namespace Sourav.Engine.Editable.DataRelated
 
 		public int totalMoney;
 		public int currentMoney;
-		
-		public List<Tile> tiles;
-		
-		public int nonAnswerLettersCount;
-		
-		//Reset after level complete
-		public bool areTilesSet;
-		public int hintLastIndex;
 
 		public bool isPromptShown;
-	}
-
-	[System.Serializable]
-	public class LevelGridPreset
-	{
-		public int minLetters;
-		public int maxLetters;
-
-		public int answerLetters;
-	}
-
-	[System.Serializable]
-	public class Reward
-	{
-		public int amount;
-	}
-	
-	[System.Serializable]
-	public class Tile
-	{
-		public int index;
-		public int indexAsPerAnswer;
-		public string letter;
-		public bool isAnswerTile;
-		public bool isTileDestroyed;
-	}
-
-	public enum Screens
-	{
-		MainMenu,
-		Store,
-		Settings,
-		Gameplay
 	}
 }

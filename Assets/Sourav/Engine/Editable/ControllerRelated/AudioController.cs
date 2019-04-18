@@ -20,7 +20,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 			switch (notification)
 			{
 				case Notification.GameLoaded:
-					if (!App.GetLevelData().IsSFXOn)
+					if (!App.GetLevelData().IsSfxOn)
 					{
 						sfxMute = true;
 					}
@@ -42,7 +42,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 					break;
 				
 				case Notification.DataChanged:
-					if (!App.GetLevelData().IsSFXOn)
+					if (!App.GetLevelData().IsSfxOn)
 					{
 						sfxMute = true;
 					}
@@ -61,48 +61,6 @@ namespace Sourav.Engine.Editable.ControllerRelated
 						musicMute = false;
 					}
 					PlayPauseBGAsPerSavedData();
-					break;
-				
-				case Notification.ButtonPressed:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.Button).source.Play();
-					}
-					break;
-				
-				case Notification.LevelComplete:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.LevelComplete).source.Play();
-					}
-					break;
-				
-				case Notification.CoinAdded:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.CoinCollected).source.Play();
-					}
-					break;
-				
-				case Notification.BombUsed:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.Bomb).source.Play();
-					}
-					break;
-				
-				case Notification.ShowWrongAnswer:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.Error).source.Play();
-					}
-					break;
-				
-				case Notification.CollectReward:
-					if (!sfxMute)
-					{
-						GetAudioInfoAsPerType(AudioType.GameWin).source.Play();
-					}
 					break;
 			}
 		}
