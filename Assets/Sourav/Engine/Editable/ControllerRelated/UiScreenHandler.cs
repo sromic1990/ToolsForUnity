@@ -13,6 +13,9 @@ namespace Sourav.Engine.Editable.ControllerRelated
         [SerializeField] private UiScreen[] screens;
         private ScreenType screenToClose;
         private ScreenType screenToShow;
+        private GameObject popUpPanel;
+        private bool isPopUpScreen;
+        private ScreenType currentOpenedPopUp;
 
         public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
         {
@@ -21,20 +24,49 @@ namespace Sourav.Engine.Editable.ControllerRelated
                 case Notification.ShowScreen:
                     App.GetNotificationCenter().Notify(Notification.PauseGame);
                     screenToShow = (ScreenType)param.intData[0];
-                    HideAllScreenExceptTheOneToShow(screenToShow);
+                    UiScreen screen = GetScreenAsPerScreenType(screenToShow);
+                    if (!screen.isPopUp)
+                    {
+                        HideAllScreenExceptTheOneToShow(screenToShow);
+                    }
+                    else
+                    {
+                        popUpPanel.gameObject.Show();
+                        currentOpenedPopUp = screen.screenType;
+                        ShowScreen(screenToShow);
+                    }
                     break;
                 
                 case Notification.TransitionComplete:
-                    if ((ScreenType) param.intData[0] == screenToShow)
+                    if (!isPopUpScreen)
                     {
-                        screenToShow = ScreenType.None;
-                        App.GetNotificationCenter().Notify(Notification.ResumeGame);
+                        if ((ScreenType) param.intData[0] == screenToShow)
+                        {
+                            screenToShow = ScreenType.None;
+                            App.GetNotificationCenter().Notify(Notification.ResumeGame);
+                        }
+                        else if ((ScreenType) param.intData[0] == screenToClose)
+                        {
+                            screenToClose = ScreenType.None;
+                            ShowScreen(screenToShow);
+                        }
                     }
-                    else if ((ScreenType) param.intData[0] == screenToClose)
+                    else //ScreenToShow == ScreenToClose == ScreenType.None, PopUp
                     {
-                        screenToClose = ScreenType.None;
-                        ShowScreen(screenToShow);
+                       GetScreenAsPerScreenType(screenToClose).gameObject.Hide();
+                       popUpPanel.gameObject.Hide();
+                       screenToClose = ScreenType.None;
+                       isPopUpScreen = false;
+                       currentOpenedPopUp = ScreenType.None;
+                       App.GetNotificationCenter().Notify(Notification.ResumeGame);
                     }
+                    break;
+                
+                case Notification.HidePopUpScreen:
+                    App.GetNotificationCenter().Notify(Notification.PauseGame);
+                    screenToClose = currentOpenedPopUp;
+                    isPopUpScreen = true;
+                    GetScreenAsPerScreenType(screenToClose).CloseScreen();
                     break;
             }
         }
