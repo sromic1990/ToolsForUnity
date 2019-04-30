@@ -17,6 +17,9 @@
 		PopUpController,
 		IntroController,
 		
+		//Toggles Related
+		ToggleHandler,
+		
 		//Plugins controller
 		AdMobController,
 		FacebookController,
@@ -28,5 +31,10 @@
 		GameplayController,
 		BallController,
 		HookController,
+		
+		//Spawner Related
+		HookSpawnerController,
+		LevelConstructor,
+		
 	}
 }
