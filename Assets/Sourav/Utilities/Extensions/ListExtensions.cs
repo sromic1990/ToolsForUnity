@@ -111,6 +111,18 @@ namespace Sourav.Utilities.Extensions
                 }
             }
         }
+
+        public static List<T> ReverseList<T>(this List<T> list)
+        {
+            List<T> tempList = new List<T>();
+
+            for (int i = list.Count - 1; i >= 0; i--)
+            {
+                tempList.Add(list[i]);
+            }
+            
+            return tempList;
+        }
     }
     
 }

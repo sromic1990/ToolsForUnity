@@ -94,6 +94,18 @@ namespace Sourav.Utilities.Extensions
 			
 			return indices;
 		}
+
+		public static string Reverse(this string word)
+		{
+			string revWord = "";
+
+			for (int i = word.Length - 1; i >= 0; i--)
+			{
+				revWord += "" + word[i];
+			}
+			
+			return revWord;
+		}
 	}
 	
 	//out
