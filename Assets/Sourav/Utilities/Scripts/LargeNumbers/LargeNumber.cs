@@ -37,6 +37,10 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
         {
             SetUpNumberFromList(numberList);
         }
+        public LargeNumber(LargeNumber l1)
+        {
+            SetUpNumberFromList(l1.numberInString);
+        }
         #endregion
         
         #region UTILITY TO ENTER A NUMBER FROM INSPECTOR AND SETUP
@@ -61,8 +65,9 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 
             for (int i = 0; i < numberInput.Length; i++)
             {
+                int someNumber = 0;
                 string numberInputString = "" + numberInput[i];
-                bool isNumberParsable = int.TryParse(numberInputString, out _);
+                bool isNumberParsable = int.TryParse(numberInputString, out someNumber);
 
                 if (!isNumberParsable)
                 {
@@ -137,20 +142,66 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             {
                 finalNumberWithFormat = ""+numberBreakDown[0];
             }
+            else if (numberBreakDown.Count > (int) Denomination.V)
+            {
+                string numberString = "";
+                int difference = numberBreakDown.Count - (int) Denomination.V;
+
+                for (int i = 0; i < difference; i++)
+                {
+                    numberString += numberInString[i];
+                    if (i < difference - 1)
+                    {
+                        numberString += ",";
+                    }
+
+                    else if (i == difference - 1)
+                    {
+                        if (numberBreakDown[difference] > 0)
+                        {
+                            numberString += ".";
+                            string numberAfterDecimal = numberInString[difference];
+                            for (int j = 0; j < 2; j++)
+                            {
+                                numberString += "" + numberAfterDecimal[j];
+                            }
+                        }
+                    }
+                }
+
+                numberString += Denomination.V;
+                finalNumberWithFormat = numberString;
+
+            }
             else
             {
                 string tempFinalNumber = numberInString[0];
 
                 if (numberBreakDown[0] < 100)
                 {
-                    if (numberBreakDown[1] < 10)
+                    if (numberBreakDown[0] < 10)
                     {
-                        tempFinalNumber += " " + denomination;
+                        if (numberBreakDown[1] < 10)
+                        {
+                            tempFinalNumber += " " + denomination;
+                        }
+                        else
+                        {
+                            string tempSecondNumber = numberInString[1];
+                            tempFinalNumber += "." + tempSecondNumber[0] + tempSecondNumber[1] + tempSecondNumber[2] + " " + denomination;
+                        }
                     }
                     else
                     {
-                        string tempSecondNumber = numberInString[1];
-                        tempFinalNumber += "." + tempSecondNumber[0] + tempSecondNumber[1] + " " + denomination;
+                        if (numberBreakDown[1] < 10)
+                        {
+                            tempFinalNumber += " " + denomination;
+                        }
+                        else
+                        {
+                            string tempSecondNumber = numberInString[1];
+                            tempFinalNumber += "." + tempSecondNumber[0] + tempSecondNumber[1] + " " + denomination;
+                        }
                     }
                 }
                 else
@@ -497,30 +548,198 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             return l;
         }
 
-        public static LargeNumber operator *(LargeNumber l1, LargeNumber l2)
+//        public static LargeNumber operator *(LargeNumber l1, LargeNumber l2)
+//        {
+//            LargeNumber resultNumber = new LargeNumber();
+//            resultNumber.SetUpNumberFromList(l1.numberInString);
+//
+//            LargeNumber comparisonNumber = new LargeNumber(0);
+//
+//            if (l2.Compare(comparisonNumber) == Comparision.Equal || l1.Compare(comparisonNumber) == Comparision.Equal)
+//            {
+//                resultNumber.SetUpNumber("0");
+//            }
+//            else
+//            {
+//                while (comparisonNumber.Compare(l2) != Comparision.Equal)
+//                {
+//                    l2--;
+//                    resultNumber = resultNumber + l1;
+////                    Debug.Log("answer = "+resultNumber.finalNumberWithFormat);
+//                }
+//
+//                resultNumber = resultNumber - l1;
+//            }
+//            return resultNumber;
+//        }
+//
+//        public static LargeNumber operator *(LargeNumber l1, float l2)
+//        {
+////            Debug.Log("CALLED");
+//            LargeNumber l = new LargeNumber(l1);
+//
+//            if (l2 % 1 == 0)
+//            {
+//                LargeNumber multiplier = new LargeNumber((int)l2);
+//                l = l * multiplier;
+//            }
+//            else
+//            {
+//                int beforeDecimal = (int) l2;
+//                float afterDecimal = (l2 % 1);
+//                string numberDecimal = l2.ToString(CultureInfo.InvariantCulture);
+//                int length = numberDecimal.Substring(numberDecimal.IndexOf(".", StringComparison.Ordinal)+1).Length;
+//                afterDecimal = afterDecimal * Mathf.Pow(10, length);
+//                int afterDecimalInt = (int) afterDecimal;
+//
+//                int numberOfDecimalPlaces = (int)Mathf.Pow(10, length);
+//
+//                LargeNumber resultAfterDecimal = l1 * new LargeNumber(afterDecimalInt);
+//                LargeNumber powerOfTen = new LargeNumber(numberOfDecimalPlaces);
+//                resultAfterDecimal = resultAfterDecimal / powerOfTen;
+////                Debug.Log("resultAfterDecimal = "+resultAfterDecimal.finalNumberWithFormat);
+//
+//                LargeNumber result = new LargeNumber();
+//                result = l1 * new LargeNumber(beforeDecimal);
+//                LargeNumber decimalResult = new LargeNumber(resultAfterDecimal);
+//                l = result + decimalResult;
+//            }
+//            
+//            return l;
+//        }
+
+        public static LargeNumber operator*(LargeNumber l1, LargeNumber l2)
         {
-            LargeNumber resultNumber = new LargeNumber();
-            resultNumber.SetUpNumberFromList(l1.numberInString);
+            LargeNumber result = new LargeNumber();
+            
+            LargeNumber number1 = new LargeNumber();
+            LargeNumber number2 = new LargeNumber();
 
-            LargeNumber comparisonNumber = new LargeNumber(0);
-
-            if (l2.Compare(comparisonNumber) == Comparision.Equal || l1.Compare(comparisonNumber) == Comparision.Equal)
+            if (l1.Compare(l2) == Comparision.Greater)
             {
-                resultNumber.SetUpNumber("0");
+                number1.SetUpNumberFromList(l1.numberInString);
+                number2.SetUpNumberFromList(l2.numberInString);
             }
             else
             {
-                while (comparisonNumber.Compare(l2) != Comparision.Equal)
+                number1.SetUpNumberFromList(l2.numberInString);
+                number2.SetUpNumberFromList(l1.numberInString);
+            }
+
+            int count = number2.numberInString.Count - 1;
+            List<string> resultNumbers = new List<string>();
+            string insertZero = "";
+            while (count >= 0)
+            {
+                string multiplier = number2.numberInString[count];
+                int multiplierLength = multiplier.Length - 1;
+                int multiplierInt = 0;
+                while (multiplierLength >= 0)
                 {
-                    l2--;
-                    resultNumber = resultNumber + l1;
-//                    Debug.Log("answer = "+resultNumber.finalNumberWithFormat);
+                    int resultInt = 0;
+                    int carryForward = 0;
+                    string resultString = "";
+                    
+                    int.TryParse("" + multiplier[multiplierLength], out multiplierInt);
+                    for (int i = number1.numberInString.Count - 1; i >= 0; i--)
+                    {
+                        string multiplicand = number1.numberInString[i];
+                        int l1Count = multiplicand.Length - 1;
+                        int multiplicandInt = 0;
+
+                        while (l1Count >= 0)
+                        {
+                            int.TryParse(""+multiplicand[l1Count], out multiplicandInt);
+                            resultInt = (multiplicandInt * multiplierInt) + carryForward;
+                            carryForward = resultInt / 10;
+                            resultInt = resultInt % 10;
+                            resultString += resultInt.ToString();
+                            l1Count--;
+                        }
+
+                        if (i == 0)
+                        {
+                            if (carryForward > 0)
+                            {
+                                resultString += carryForward;
+                            }
+                        }
+                    }
+
+//                    Debug.Log("resultString = "+resultString);
+                    resultString = resultString.Reverse();
+//                    Debug.Log("resultString = "+resultString);
+                    resultString += insertZero;
+                    insertZero += "0";
+                    resultNumbers.Add(resultString);
+                    
+                    multiplierLength--;
+                }
+                count--;
+            }
+
+            result = new LargeNumber(resultNumbers[0]);
+            for (int i = 1; i < resultNumbers.Count; i++)
+            {
+                result += new LargeNumber(resultNumbers[i]);
+            }
+            
+            return result;
+        }
+        
+        public static LargeNumber operator *(LargeNumber l1, float l2)
+        {
+            LargeNumber l = new LargeNumber(l1);
+
+            if (l2 % 1 == 0)
+            {
+                LargeNumber multiplier = new LargeNumber((int)l2);
+                l = l * multiplier;
+            }
+            else
+            {
+                int beforeDecimal = (int) l2;
+//                Debug.Log("BEFORE DECIMAL = "+beforeDecimal);
+                float afterDecimal = (l2 % 1);
+//                Debug.Log("AFTER DECIMAL = "+afterDecimal);
+                string numberDecimal = l2.ToString(CultureInfo.InvariantCulture);
+                int lengthOfDecimalNumbers = numberDecimal.Substring(numberDecimal.IndexOf(".", StringComparison.Ordinal)+1).Length;
+                afterDecimal = afterDecimal * Mathf.Pow(10, lengthOfDecimalNumbers);
+                int afterDecimalInt = (int) afterDecimal;
+                string number = "" + beforeDecimal + afterDecimalInt;
+//                Debug.Log("Number without decimal = "+number);
+
+                l = l * new LargeNumber(number);
+                string numberAfterMultipliaction = "";
+
+                for (int i = l.numberInString.Count - 1; i >= 0; i--)
+                {
+                    string currentNumber = l.numberInString[i];
+                    int index = currentNumber.Length - 1;
+                    while (index >= 0)
+                    {
+                        numberAfterMultipliaction += "" + currentNumber[index];
+                        index--;
+                    }
                 }
 
-                resultNumber = resultNumber - l1;
+                if (numberAfterMultipliaction.Length > lengthOfDecimalNumbers)
+                {
+//                    Debug.Log("numberAfterMultipliaction = "+numberAfterMultipliaction);
+                    string numberAfterTruncation = numberAfterMultipliaction.Substring(lengthOfDecimalNumbers);
+                    numberAfterTruncation = numberAfterTruncation.Reverse();
+//                    Debug.Log("Number after truncation = "+numberAfterTruncation);
+                    l.SetUpNumber(numberAfterTruncation);
+                }
+                else
+                {
+                    l = new LargeNumber();
+                }
             }
-            return resultNumber;
+            
+            return l;
         }
+        
         public static LargeNumber operator /(LargeNumber l1, LargeNumber l2)
         {
             LargeNumber resultNumber = new LargeNumber();
@@ -570,20 +789,19 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                     }
                     else
                     {
-                        while (l1.Compare(zeroNumber) != Comparision.Equal)
+//                        Debug.Log("l1 = "+l1.finalNumberWithFormat+" , l2 = "+l2.finalNumberWithFormat);
+                        while (l1.Compare(zeroNumber) != Comparision.Equal && (l1.Compare(l2) == Comparision.Greater || l1.Compare(l2) == Comparision.Equal))
                         {
                             l1 = l1 - l2;
                             resultNumber++;
                         }
-
-                        resultNumber--;
                     }
                     
                 }
             }
-
             return resultNumber;
         }
+
         #endregion
         
         #region PERCENTAGE OPERATION
@@ -630,6 +848,32 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                 percentNumber = part1 + part2;
             }
             return percentNumber;
+        }
+        #endregion
+        
+        #region UTILITY OPERATIONS
+
+        public void Concatenate(LargeNumber l2)
+        {
+            string l2InString = "";
+
+            for (int i = 0; i < l2.numberInString.Count; i++)
+            {
+                l2InString += l2.numberInString[i];
+            }
+//            Debug.Log("l2InString = "+l2InString);
+
+            string currentNumber = "";
+            for (int i = 0; i < numberInString.Count; i++)
+            {
+                currentNumber += numberInString[i];
+            }
+
+//            Debug.Log("Current number = "+currentNumber);
+
+            currentNumber += l2InString;
+//            Debug.Log("Current number = "+currentNumber);
+            SetUpNumber(currentNumber);
         }
         #endregion
         
