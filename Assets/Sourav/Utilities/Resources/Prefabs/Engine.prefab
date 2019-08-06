@@ -213,8 +213,8 @@ MonoBehaviour:
   - {fileID: 114638801649054624}
   controllerObject: {fileID: 4277493391240832}
   commonData: {fileID: 114637837421062374}
-  dataHandler: {fileID: 0}
   levelCommonData: {fileID: 114637837421062374}
+  timerData: {fileID: 683620988}
 --- !u!1 &1922192695968008
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 4216898611698232}
   - component: {fileID: 114637837421062374}
   - component: {fileID: 114184211334407804}
-  - component: {fileID: 7984771071444367433}
+  - component: {fileID: 683620988}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -350,14 +350,10 @@ MonoBehaviour:
     lastAdLevel: 0
     totalMoney: 0
     currentMoney: 0
-    tiles: []
-    nonAnswerLettersCount: 0
-    areTilesSet: 0
-    hintLastIndex: 0
     isPromptShown: 0
   isDataChanged: 0
-  currentlevelDefault: 0
-  isSFXOnDefault: 0
+  currentLevelDefault: 0
+  isSfxOnDefault: 0
   isMusicOnDefault: 0
   isVibrationOnDefault: 0
   coinsDefault: 0
@@ -366,34 +362,13 @@ MonoBehaviour:
   isTutorialOverDefault: 0
   isIntroVideoOverDefault: 0
   isAdsInactiveDefault: 0
-  lastHintIndexDefault: 0
-  currentTutorialDefault: 0
-  isVideoPlaying: 0
-  pauseAtFrames: 
-  introNumbers: 0
-  videoTap: 0
-  levelGridPresets: []
-  waitTimerAfterLevelCompleteToRotateWheel: 0
-  waitTimerBeforeDoorAnimation: 0
-  timerValue: 0
-  isTimerStarted: 0
-  pauseTimer: 0
-  waitAfterTimesUp: 0
-  waitAfterEffectCollect: 0
-  waitBeforeShowingTutorialHand: 0
-  waitBeforeShowingPuzzle: 0
-  waitTimeAtLevelStart: 0
-  waitAfterTutorialComplete: 0
-  waitAfterLevelComplete: 0
-  waitBeforeHidingBombedTiles: 0
   isTutorialOn: 0
   levelOverCoins: 0
   multiplier: 0
-  rewards: []
   firstAdLevel: 0
   adAfterEachLevel: 0
   turnOnMusic: 0
-  turnOnSFX: 0
+  turnOnSfx: 0
   isVideoRewarded: 0
   videoFromLevelOver: 0
   videoFromMainMenu: 0
@@ -410,30 +385,17 @@ MonoBehaviour:
   removeAds: 0
   isFromRestore: 0
   coinAdd: 0
-  hintCost: 0
-  bombCost: 0
   incorrectText: 
   correctText: 
   tutorialCompleteText: 
-  forbiddenLetters: []
-  answerLetters: []
-  alreadyGenerated: []
   isHintPressed: 0
   hintTutorialLevel: 0
   maxTutorialLevels: 0
   hasGameStarted: 0
   isPopUpOpenDuringBonusLevel: 0
   removeTilesPerBomb: 0
-  transistionFromWhichScreen: 0
-  transistionToWhichScreen: 0
   hideTutorialHand: 0
   collectEnable: 0
-  taunts: []
-  currentAmountValue: 
-  fullAmountValue: 
-  lastSpeech: 0
-  hasCollectButtonBeenPressed: 0
-  isFromLevelOver: 0
 --- !u!114 &114184211334407804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   cameraZoomInMaxValue: 0
---- !u!114 &7984771071444367433
+--- !u!114 &683620988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,23 +419,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1998358473039236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32c026c2967d7494c9ee2f86ec90172d, type: 3}
+  m_Script: {fileID: 11500000, guid: e67127b861a8644629f50ef34fc53ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineData: []
-  levelImage: {fileID: 0}
-  numberOfLines: 0
-  lettersOfAnswer: []
-  lengthOfAnswer: 0
-  answerTileOrder: 
-  blankSpaceIndex: 
-  levelAnswer: 
-  currentAnswer: 
-  answerIndices: 
-  answeredIndex: 
-  answeredLetters: []
-  nextAnswerPos: 0
-  nextAnswerIndex: 0
-  levelReward: 0
-  isNormalSafeShow: 0
-  nextPosition: {x: 0, y: 0, z: 0}
+  type: 4
+  waitTimerAfterLevelCompleteToRotateWheel: 0
+  waitTimerBeforeDoorAnimation: 0
+  timerValue: 0
+  isTimerStarted: 0
+  pauseTimer: 0
+  waitAfterTimesUp: 0
+  waitAfterEffectCollect: 0
+  waitBeforeShowingTutorialHand: 0
+  waitBeforeShowingPuzzle: 0
+  waitTimeAtLevelStart: 0
+  waitAfterTutorialComplete: 0
+  waitAfterLevelComplete: 0
+  waitBeforeHidingBombedTiles: 0
+  playerDieDelay: 0

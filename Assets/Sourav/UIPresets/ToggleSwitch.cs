@@ -4,7 +4,6 @@ using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.ToggleRelated;
 using Sourav.Utilities.Extensions;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Sourav.UIPresets
@@ -64,6 +63,23 @@ namespace Sourav.UIPresets
 			NotificationParam toggle = new NotificationParam(Mode.intData);
 			toggle.intData.Add((int)type);
 			App.GetNotificationCenter().Notify(Notification.ToggleOff, toggle);
+		}
+
+		public ToggleType GetToggleType()
+		{
+			return type;
+		}
+
+		public void SetToggle(bool toggle)
+		{
+			if (toggle)
+			{
+				SetOn();
+			}
+			else
+			{
+				SetOff();
+			}
 		}
 
 		private ToggleHolder GetCorrectToggle(ToggleStatus type)

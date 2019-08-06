@@ -19,6 +19,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		None,
 		GameData,
 		LevelData,
-		CameraData
+		CameraData,
+		TimerData,
 	}
 }

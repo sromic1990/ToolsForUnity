@@ -16,9 +16,8 @@ namespace Sourav.Engine.Core.ApplicationRelated
 
 		[SerializeField] private CommonData commonData;
 
-		[SerializeField] private LevelDataHandler dataHandler;
-
 		[SerializeField] private LevelCommonData levelCommonData;
+		[SerializeField] private TimerData timerData;
 
 		#region Mono Methods
 		private void Awake()
@@ -100,14 +99,14 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return commonData;
 		}
 
-		public LevelDataHandler GetLevelDataHandler()
-		{
-			return dataHandler;
-		}
-
 		public LevelCommonData GetLevelData()
 		{
 			return levelCommonData;
+		}
+
+		public TimerData GetTimerData()
+		{
+			return timerData;
 		}
 		#endregion
 	}

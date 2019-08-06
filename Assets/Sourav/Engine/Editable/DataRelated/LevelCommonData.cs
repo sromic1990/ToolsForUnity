@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using Break._Scripts.BallRelated;
-using Break._Scripts.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Utilities.Scripts.DrawLineRelated;
 using UnityEngine;
@@ -229,24 +227,6 @@ namespace Sourav.Engine.Editable.DataRelated
 		}
 		#endregion
 
-		
-		[Space(10)] [Header("Timer Related")] 
-		public float waitTimerAfterLevelCompleteToRotateWheel;
-		public float waitTimerBeforeDoorAnimation;
-		[Range(0, 60)]
-		public int timerValue;
-		public bool isTimerStarted;
-		public bool pauseTimer;
-		public float waitAfterTimesUp;
-		public float waitAfterEffectCollect;
-		public float waitBeforeShowingTutorialHand;
-		public float waitBeforeShowingPuzzle;
-		public float waitTimeAtLevelStart;
-		public float waitAfterTutorialComplete;
-		public float waitAfterLevelComplete;
-		public float waitBeforeHidingBombedTiles;
-		public float playerDieDelay;
-
 		[Space(10)]
 		[Header("Tutorial Related")]
 		public bool isTutorialOn;
@@ -302,32 +282,6 @@ namespace Sourav.Engine.Editable.DataRelated
 		public int removeTilesPerBomb;
 		public bool hideTutorialHand;
 		public bool collectEnable;
-
-		[Space(10)] [Header("Gameplay related booleans")]
-		public bool isFirstTap;
-		
-		[Space(10)] [Header("Player related")] 
-		public Ball ball;
-		public bool hasPlayerDied;
-		public Transform ballHookPoint;
-		public float playerDropForceMultiplier;
-		
-		[Space(10)][Header("Gameplay specific values")]
-		public float distanceChangeQuantum;
-		
-		[Space(10)][Header("Hook related")]
-		public HookData hookData;
-
-		[Space(10)] [Header("LineDraw related")]
-		public DrawLine drawLine;
-
-		[Space(10)] [Header("OnContinue Destroy these obstacles")]
-		public List<GameObject> obstaclesToDestroy;
-
-		[Space(10)] [Header("StartPosition Related")]
-		public Transform ballBaseStart;
-		public Transform ballStart;
-		public Transform cameraStart;
 	}
 
 	[System.Serializable]

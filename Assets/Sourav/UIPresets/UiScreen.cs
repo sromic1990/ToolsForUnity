@@ -14,7 +14,8 @@ namespace Sourav.UIPresets
         public ScreenType screenType;
         [SerializeField] private UiScreenElements[] showOrderElements;
         [SerializeField] private UiScreenElements[] hideOrderElements;
-        
+        public bool isPopUp;
+
         public void CloseScreen()
         {
             ShowHideElements(hideOrderElements, ShowHideAction.Hide);

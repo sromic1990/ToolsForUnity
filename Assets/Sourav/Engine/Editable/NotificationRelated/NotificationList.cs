@@ -28,34 +28,11 @@
         SaveGame,
         GameLoaded,
         DataChanged,
-        
-        //Gameplay related
-        PlayGame,
-        StartLevel,
-        LevelReadyToStart,
-        LevelComplete,
-        VanishBase,
-        
-        //Player Related
-        PlayerDead,
-        PlayerHitDeadObstacle,
-        
-        //Hook Related
-        HookMovedOutOfCamera,
-        InitializeHookController,
-        SetNextHook,
-        AttachedHook,
-        DetachedHook,
-        
-        
+
         //Haptic Related
         HapticSuccess,
         HapticFailure,
-        
-        //Audio Related
-        DeathSound,
-        SwingSound,
-        
+
         //UI Related
         ButtonPressed,
         HomeButtonPressed,
@@ -91,14 +68,15 @@
         ShowInterstitial,
         ShowRewardVideo,
         VideoCoinsRewarded,
-        
-        //Input related
-        TapPress,
-        TapRelease,
-        
+
         //UI Screen Transition related
         ShowScreen,
         TransitionComplete,
+        HidePopUpScreen,
+        
+        //Gameplay Related
+        PlayGame,
+        LevelComplete,
     }
 }
 
