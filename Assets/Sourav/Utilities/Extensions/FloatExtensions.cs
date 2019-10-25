@@ -12,5 +12,11 @@ namespace Sourav.Utilities.Extensions
                 return true;
             else return false;
         }
+        
+        public static float Round(this float f, int roundValue)
+        {
+            f = (float)System.Math.Round((double) f, roundValue);
+            return f;
+        }
     }
 }
