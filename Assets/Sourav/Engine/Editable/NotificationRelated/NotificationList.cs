@@ -32,6 +32,9 @@
         //Haptic Related
         HapticSuccess,
         HapticFailure,
+        HapticHeavy,
+        HapticMild,
+        HapticAndroid,
 
         //UI Related
         ButtonPressed,

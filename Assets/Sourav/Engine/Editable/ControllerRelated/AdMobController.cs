@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if ADMOB
+using System;
 using System.Collections.Generic;
 using GoogleMobileAds.Api;
 using MEC;
@@ -440,3 +441,4 @@ namespace Sourav.Engine.Editable.ControllerRelated
 		Reward
 	}
 }
+#endif

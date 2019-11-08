@@ -13,6 +13,7 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 			switch (notification)
 			{
 				case Notification.LoadGame:
+//					Debug.Log("Notification.LoadGame");
 					LoadData();
 					App.GetNotificationCenter().Notify(Notification.GameLoaded);
 					break;

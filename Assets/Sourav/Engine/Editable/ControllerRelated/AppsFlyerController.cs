@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
+﻿#if APPSFLYER
+using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -52,3 +53,4 @@ namespace Sourav.Engine.Editable.ControllerRelated
 		}
 	}
 }
+#endif
