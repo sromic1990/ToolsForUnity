@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 namespace Sourav.UIPresets
 {
-	[RequireComponent(typeof(Button))]
 	public class ToggleSwitch : GameElement
 	{
 		[SerializeField] private ToggleType type;
@@ -20,7 +19,7 @@ namespace Sourav.UIPresets
 			ChangeToggleStatus();
 		}
 
-		public void SetOn()
+		public void SetOn(bool isNotNotification = false)
 		{
 			status = ToggleStatus.On;
 			ToggleHolder toggleHolder = GetCorrectToggle(ToggleStatus.Off);
@@ -39,11 +38,13 @@ namespace Sourav.UIPresets
 			
 			NotificationParam toggle = new NotificationParam(Mode.intData);
 			toggle.intData.Add((int)type);
-			App.GetNotificationCenter().Notify(Notification.ToggleOn, toggle);
-			
+			if (!isNotNotification)
+			{
+				App.GetNotificationCenter().Notify(Notification.ToggleOn, toggle);
+			}
 		}
 
-		public void SetOff()
+		public void SetOff(bool isNotNotification = false)
 		{
 			status = ToggleStatus.Off;
 			ToggleHolder toggleHolder = GetCorrectToggle(ToggleStatus.Off);
@@ -62,7 +63,10 @@ namespace Sourav.UIPresets
 			
 			NotificationParam toggle = new NotificationParam(Mode.intData);
 			toggle.intData.Add((int)type);
-			App.GetNotificationCenter().Notify(Notification.ToggleOff, toggle);
+			if (!isNotNotification)
+			{
+				App.GetNotificationCenter().Notify(Notification.ToggleOff, toggle);
+			}
 		}
 
 		public ToggleType GetToggleType()
