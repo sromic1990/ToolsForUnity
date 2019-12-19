@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 
 namespace Sourav.Engine.Core.NotificationRelated
 {	
+	[System.Serializable]
 	public class NotificationParam
 	{		
 		public List<int> intData;
