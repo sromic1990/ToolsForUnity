@@ -2,163 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NaughtyAttributes/TestAssets/icon-github.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/TestAssets/icon-github.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/Data.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/CommonPopUpView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/CommonPopUpView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/PopUpView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/PopUpView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model/PopUpType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model/PopUpType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
-              <folding>
-                <marker date="1554895092848" expanded="false" signature="6:188" ph="..." />
-                <marker date="1554895092848" expanded="true" signature="252:1574" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="300:1572" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="409:645" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="438:641" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="695:944" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="716:898" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="790:893" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="899:940" ph="/* else ... */" />
-                <marker date="1554895092848" expanded="true" signature="1079:1252" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="1279:1569" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="1311:1494" ph="{...}" />
-                <marker date="1554895092848" expanded="true" signature="1502:1565" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-              <folding>
-                <marker date="1554895120519" expanded="false" signature="6:53" ph="..." />
-                <marker date="1554895120519" expanded="true" signature="100:1088" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="140:1086" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="357:390" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="544:608" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="654:801" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="731:760" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="768:797" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="831:1083" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="854:1079" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="932:984" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="1001:1033" ph="{...}" />
-                <marker date="1554895120519" expanded="true" signature="1042:1074" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding>
-                <marker date="1554895146948" expanded="false" signature="6:52" ph="..." />
-                <marker date="1554895146948" expanded="true" signature="104:592" ph="{...}" />
-                <marker date="1554895146948" expanded="true" signature="152:590" ph="{...}" />
-                <marker date="1554895146948" expanded="true" signature="378:530" ph="{...}" />
-                <marker date="1554895146948" expanded="true" signature="562:587" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding>
-                <marker date="1554895160584" expanded="true" signature="6:123" ph="..." />
-                <marker date="1554895160584" expanded="true" signature="169:1226" ph="{...}" />
-                <marker date="1554895160584" expanded="true" signature="216:778" ph="{...}" />
-                <marker date="1554895160584" expanded="true" signature="825:991" ph="{...}" />
-                <marker date="1554895160584" expanded="true" signature="1048:1110" ph="{...}" />
-                <marker date="1554895160584" expanded="true" signature="1162:1224" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -179,7 +133,6 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" />
@@ -189,6 +142,12 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" />
       </list>
     </option>
   </component>
@@ -197,37 +156,22 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2048" />
-    <option name="height" value="1049" />
-  </component>
+  <component name="ProjectId" id="1VCsdan6r0J7rT4h1UJgCqLiNoR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -243,6 +187,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,62 +212,15 @@
       <workItem from="1551336356190" duration="3285000" />
       <workItem from="1554894297669" duration="730000" />
       <workItem from="1554895079026" duration="214000" />
+      <workItem from="1576768509670" duration="482000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4229000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" order="11" show_stripe_button="false" weight="0.3291536" />
-      <window_info anchor="bottom" id="Logcat" order="12" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Unity" order="16" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="1" weight="0.25224328" />
-      <window_info anchor="right" id="Errors In Solution" order="2" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Captures" order="8" weight="0.32951146" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -321,688 +230,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/UI/UIAnimator.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <marker date="1551337039266" expanded="false" signature="6:199" ph="..." />
-            <marker date="1551337039266" expanded="true" signature="243:875" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="337:873" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="448:507" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="527:870" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="567:864" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="696:788" ph="{...}" />
-            <marker date="1551337039266" expanded="true" signature="797:859" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1551337054395" expanded="false" signature="6:52" ph="..." />
-            <marker date="1551337054395" expanded="true" signature="94:1222" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="155:1220" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="317:451" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="519:998" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="556:695" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="745:870" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="878:994" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="1047:1217" ph="{...}" />
-            <marker date="1551337054395" expanded="true" signature="1137:1192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1551337109159" expanded="false" signature="6:87" ph="..." />
-            <marker date="1551337109159" expanded="true" signature="119:429" ph="{...}" />
-            <marker date="1551337109159" expanded="true" signature="164:427" ph="{...}" />
-            <marker date="1551337109159" expanded="true" signature="370:424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-          <folding>
-            <marker date="1551337158907" expanded="false" signature="6:214" ph="..." />
-            <marker date="1551337158907" expanded="true" signature="270:2007" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="397:2005" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="744:801" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="825:891" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="916:1037" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="933:1033" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="1068:1393" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="1424:1471" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="1586:2002" ph="{...}" />
-            <marker date="1551337158907" expanded="true" signature="1615:1998" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1549605363471" expanded="true" signature="60:568" ph="{...}" />
-            <marker date="1549605363471" expanded="true" signature="154:447" ph="{...}" />
-            <marker date="1549605363471" expanded="true" signature="328:398" ph="{...}" />
-            <marker date="1549605363471" expanded="true" signature="439:444" ph="{...}" />
-            <marker date="1549605363471" expanded="true" signature="489:566" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <marker date="1551336944829" expanded="true" signature="6:270" ph="..." />
-            <marker date="1551336944829" expanded="true" signature="322:690" ph="{...}" />
-            <marker date="1551336944829" expanded="true" signature="392:688" ph="{...}" />
-            <marker date="1551336944829" expanded="true" signature="500:512" ph="{...}" />
-            <marker date="1551336944829" expanded="true" signature="562:685" ph="{...}" />
-            <marker date="1551336944829" expanded="true" signature="593:647" ph="{...}" />
-            <marker date="1551336944829" expanded="true" signature="666:681" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/Helpers/DoozyUI_Data.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <marker date="1551338465422" expanded="true" signature="0:83" ph="/* Author: Daniele Giardini - http://www.demigiant.com ... */" />
-            <marker date="1551338465422" expanded="true" signature="91:406" ph="..." />
-            <marker date="1551338465422" expanded="true" signature="441:34639" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="555:34637" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="589:652" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="683:760" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="902:3630" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="951:1210" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="1262:1453" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="1733:1960" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="2010:2258" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="2413:2530" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="2748:2865" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="4369:4677" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="4743:5368" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="6998:28181" ph="MonoBehaviour Methods" />
-            <marker date="1551338465422" expanded="true" signature="7052:8053" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="7894:8043" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="8079:8152" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="8199:28161" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="9076:10154" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="9116:9156" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="9364:9578" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="9749:9821" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="10345:11476" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="10908:11184" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="11040:11162" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="11602:11890" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="11771:11872" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="12913:13026" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="13117:13744" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="13259:13412" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="14016:14307" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="14152:14293" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="15237:18187" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="15461:18169" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="18257:18413" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="18514:19794" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="18875:19578" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="19205:19556" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="19831:20268" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="20524:21492" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="20974:21474" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="21101:21452" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="22340:22457" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="23023:27796" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="23658:23895" ph="{...}" />
-            <marker date="1551338465422" expanded="false" signature="28191:31051" ph="Methods" />
-            <marker date="1551338465422" expanded="true" signature="28353:28586" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="28736:30529" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="29543:29956" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="29630:29942" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="29733:29924" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="30083:30493" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="30167:30479" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="30270:30461" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="30609:30856" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="30930:31031" ph="{...}" />
-            <marker date="1551338465422" expanded="false" signature="31061:34631" ph="GUI Draw Methods" />
-            <marker date="1551338465422" expanded="true" signature="31118:31330" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="31363:31575" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="31656:33602" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="31775:32909" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="32054:32895" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="32256:32597" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="32348:32575" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="32669:32870" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="33073:33258" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="33422:33585" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="33632:33866" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="33900:34145" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="34177:34386" ph="{...}" />
-            <marker date="1551338465422" expanded="true" signature="34418:34611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/Editor/OrientationManagerEditor.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/OrientationManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationId.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1551339338944" expanded="true" signature="64:195" ph="{...}" />
-            <marker date="1551339338944" expanded="true" signature="97:193" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <marker date="1546521989678" expanded="true" signature="64:197" ph="{...}" />
-            <marker date="1546521989678" expanded="true" signature="159:195" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="123" selection-start-line="16" selection-start-column="123" selection-end-line="16" selection-end-column="123" />
-          <folding>
-            <marker date="1551340021582" expanded="false" signature="6:108" ph="..." />
-            <marker date="1551340021582" expanded="true" signature="169:1162" ph="{...}" />
-            <marker date="1551340021582" expanded="true" signature="232:1160" ph="{...}" />
-            <marker date="1551340021582" expanded="true" signature="343:1157" ph="{...}" />
-            <marker date="1551340021582" expanded="true" signature="521:1153" ph="{...}" />
-            <marker date="1551340021582" expanded="true" signature="741:900" ph="{...}" />
-            <marker date="1551340021582" expanded="true" signature="909:1148" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1551339770538" expanded="false" signature="6:79" ph="..." />
-            <marker date="1551339770538" expanded="true" signature="111:342" ph="{...}" />
-            <marker date="1551339770538" expanded="true" signature="166:340" ph="{...}" />
-            <marker date="1551339770538" expanded="true" signature="288:337" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1549605363476" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549605363476" expanded="true" signature="149:1775" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="217:1485" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="282:1479" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="504:1441" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="633:1427" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="716:879" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="904:1409" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1012:1387" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1133:1361" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1526:1773" ph="{...}" />
-            <marker date="1549605363476" expanded="true" signature="1659:1767" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <marker date="1546517791169" expanded="false" signature="6:109" ph="..." />
-            <marker date="1546517791169" expanded="true" signature="158:1124" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="213:1122" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="356:1119" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="519:1115" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="731:882" ph="{...}" />
-            <marker date="1546517791169" expanded="true" signature="891:1110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1546517445236" expanded="true" signature="62:112" ph="{...}" />
-            <marker date="1546517445236" expanded="true" signature="104:110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <marker date="1551340061291" expanded="true" signature="87:4535" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="235:4533" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="656:794" ph="/// Prints to Debug.Log all the relevant functionality informations needed for debug purposes ... " />
-            <marker date="1551340061291" expanded="true" signature="839:904" ph="/// Orientation type ... " />
-            <marker date="1551340061291" expanded="true" signature="936:1301" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="959:1030" ph="/// Landscape mode ... " />
-            <marker date="1551340061291" expanded="true" signature="1066:1136" ph="/// Portrait mode ... " />
-            <marker date="1551340061291" expanded="true" signature="1171:1271" ph="/// Unknown mode. Used for calibration purposes ... " />
-            <marker date="1551340061291" expanded="true" signature="1410:1562" ph="/// UnityEvent that sends an OrientaionManager.Orientation parameter when the device's orientation changes. ... " />
-            <marker date="1551340061291" expanded="true" signature="1722:1817" ph="/// Retruns the current orientation of the device. ... " />
-            <marker date="1551340061291" expanded="true" signature="1935:1993" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2041:2099" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2109:2363" ph="/// Checks the current orientation and updates it if it changed since the last check. You do not need to call thi ... " />
-            <marker date="1551340061291" expanded="true" signature="2408:4063" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2504:2727" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2616:2713" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2769:2995" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="2883:2981" ph="{...}" />
-            <marker date="1551340061291" expanded="true" signature="4073:4221" ph="/// Updates the currentOrientation to the specified value and sends an UnityEvent to signal the change. ... " />
-            <marker date="1551340061291" expanded="true" signature="4287:4527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <marker date="1554894463605" expanded="false" signature="6:295" ph="..." />
-            <marker date="1554894463605" expanded="true" signature="344:2633" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="392:2631" ph="{...}" />
-            <marker date="1554894463605" expanded="false" signature="770:1213" ph="Mono Methods" />
-            <marker date="1554894463605" expanded="true" signature="813:1200" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="818:1196" ph="/* if (controllers.Count == 0) //No controllers registered to listen ... */" />
-            <marker date="1554894463605" expanded="false" signature="1219:1740" ph="Controller Related" />
-            <marker date="1554894463605" expanded="true" signature="1323:1535" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="1421:1517" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="1463:1512" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="1588:1626" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="1696:1727" ph="{...}" />
-            <marker date="1554894463605" expanded="false" signature="1744:2151" ph="Pause - Resume Related" />
-            <marker date="1554894463605" expanded="true" signature="1803:2138" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="1973:2113" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="2028:2108" ph="{...}" />
-            <marker date="1554894463605" expanded="false" signature="2155:2373" ph="Notification Related" />
-            <marker date="1554894463605" expanded="true" signature="2216:2266" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="2302:2360" ph="{...}" />
-            <marker date="1554894463605" expanded="false" signature="2379:2628" ph="Data Related" />
-            <marker date="1554894463605" expanded="true" signature="2429:2459" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="2508:2539" ph="{...}" />
-            <marker date="1554894463605" expanded="true" signature="2580:2615" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7088">
-          <caret line="443" column="6" selection-start-line="443" selection-start-column="6" selection-end-line="443" selection-end-column="6" />
-          <folding>
-            <marker date="1554894508773" expanded="true" signature="1110:1142" ph="/* Banner ... */" />
-            <marker date="1554894508773" expanded="true" signature="1442:1600" ph="/* Called when an ad request failed to load. ... */" />
-            <marker date="1554894508773" expanded="true" signature="4951:5108" ph="/* Called when an ad request failed to load. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <marker date="1544691364000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1544691364000" expanded="true" signature="575:623" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="642:820" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="783:817" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="837:911" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="930:1011" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1034:1723" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1094:1141" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1170:1218" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1279:1325" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1353:1613" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1526:1553" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1677:1720" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="1756:2743" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2055:2570" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2173:2257" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2643:2740" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="2769:3131" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="3008:3126" ph="{...}" />
-            <marker date="1544691364000" expanded="true" signature="3154:3271" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-          <folding>
-            <marker date="1554894557353" expanded="false" signature="6:200" ph="..." />
-            <marker date="1554894557353" expanded="true" signature="252:3003" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="320:2755" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="559:2223" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="588:2219" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="665:701" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="711:748" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="794:859" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="869:908" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1032:1068" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1078:1115" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1161:1226" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1236:1275" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1382:1457" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1530:1612" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1681:1763" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1831:1904" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="1979:2053" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2126:2202" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2282:2456" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2356:2434" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2393:2429" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2500:2752" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2522:2600" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2608:2748" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2635:2743" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2803:2863" ph="{...}" />
-            <marker date="1554894557353" expanded="true" signature="2887:3001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1554894668036" expanded="true" signature="6:102" ph="..." />
-            <marker date="1554894668036" expanded="true" signature="148:8695" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="253:7579" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="259:4717" ph="ALMOST FIXED FOR EACH GAME" />
-            <marker date="1554894668036" expanded="true" signature="362:474" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="410:470" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="507:631" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="561:627" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="665:789" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="719:785" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="819:1023" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="875:1019" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="955:995" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1045:1143" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1086:1139" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1180:1300" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1232:1296" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1332:1449" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1382:1445" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1476:1586" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1523:1582" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1611:1717" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1656:1713" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1740:1842" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1783:1838" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1871:1985" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="1920:1981" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2011:2121" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2058:2117" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2146:2254" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2192:2250" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2281:2393" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2329:2389" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2420:2518" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2461:2514" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2545:2655" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2592:2651" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2683:2797" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2732:2793" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2833:2963" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2890:2959" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="2992:3106" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="3041:3102" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="3613:3803" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="3838:3882" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="3926:3990" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="4026:4050" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="4089:4118" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="4146:4704" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="7626:8226" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="8280:8365" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="8410:8437" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="8481:8621" ph="{...}" />
-            <marker date="1554894668036" expanded="true" signature="8643:8693" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1554209973053" expanded="true" signature="678:766" ph="/* Check the pauseStatus to see if we are in the foreground ... */" />
-            <marker date="1554209973053" expanded="true" signature="1861:2155" ph="/* levelParams[AppEventParameterName.ContentID] = App.GetLevelData().currentLevelShow; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <marker date="1554894876079" expanded="true" signature="6:134" ph="..." />
-            <marker date="1554894876079" expanded="true" signature="162:992" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="212:990" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="596:756" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="621:693" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="701:752" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="794:851" ph="{...}" />
-            <marker date="1554894876079" expanded="true" signature="903:987" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1552984572736" expanded="false" signature="6:96" ph="..." />
-            <marker date="1552984572736" expanded="true" signature="124:919" ph="{...}" />
-            <marker date="1552984572736" expanded="true" signature="178:917" ph="{...}" />
-            <marker date="1552984572736" expanded="true" signature="460:763" ph="{...}" />
-            <marker date="1552984572736" expanded="true" signature="491:612" ph="{...}" />
-            <marker date="1552984572736" expanded="true" signature="620:706" ph="{...}" />
-            <marker date="1552984572736" expanded="true" signature="805:914" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
-          <folding>
-            <marker date="1554894958113" expanded="false" signature="6:212" ph="..." />
-            <marker date="1554894958113" expanded="true" signature="240:1673" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="315:1519" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="569:1090" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="598:1086" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="756:869" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="951:1048" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1122:1257" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1169:1253" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1207:1248" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1313:1510" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1392:1488" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1429:1483" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1543:1569" ph="{...}" />
-            <marker date="1554894958113" expanded="true" signature="1613:1671" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1554097325986" expanded="false" signature="6:293" ph="..." />
-            <marker date="1554097325986" expanded="true" signature="321:2348" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="400:2183" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="578:611" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="634:1182" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="792:838" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="953:999" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1206:1749" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1365:1411" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1523:1569" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1809:2046" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1901:2014" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="1947:2009" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="2083:2180" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="2121:2145" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="2153:2176" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="2210:2228" ph="{...}" />
-            <marker date="1554097325986" expanded="true" signature="2279:2346" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <marker date="1554895092848" expanded="false" signature="6:188" ph="..." />
-            <marker date="1554895092848" expanded="true" signature="252:1574" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="300:1572" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="409:645" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="438:641" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="695:944" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="716:898" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="790:893" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="899:940" ph="/* else ... */" />
-            <marker date="1554895092848" expanded="true" signature="1079:1252" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="1279:1569" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="1311:1494" ph="{...}" />
-            <marker date="1554895092848" expanded="true" signature="1502:1565" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <marker date="1554895120519" expanded="false" signature="6:53" ph="..." />
-            <marker date="1554895120519" expanded="true" signature="100:1088" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="140:1086" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="357:390" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="544:608" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="654:801" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="731:760" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="768:797" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="831:1083" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="854:1079" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="932:984" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="1001:1033" ph="{...}" />
-            <marker date="1554895120519" expanded="true" signature="1042:1074" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <marker date="1554895146948" expanded="false" signature="6:52" ph="..." />
-            <marker date="1554895146948" expanded="true" signature="104:592" ph="{...}" />
-            <marker date="1554895146948" expanded="true" signature="152:590" ph="{...}" />
-            <marker date="1554895146948" expanded="true" signature="378:530" ph="{...}" />
-            <marker date="1554895146948" expanded="true" signature="562:587" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <marker date="1554895160584" expanded="true" signature="6:123" ph="..." />
-            <marker date="1554895160584" expanded="true" signature="169:1226" ph="{...}" />
-            <marker date="1554895160584" expanded="true" signature="216:778" ph="{...}" />
-            <marker date="1554895160584" expanded="true" signature="825:991" ph="{...}" />
-            <marker date="1554895160584" expanded="true" signature="1048:1110" ph="{...}" />
-            <marker date="1554895160584" expanded="true" signature="1162:1224" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Sourav.Engine.Editable.ControllerRelated
 {
-    public class UiScreenHandler : Controller
+    public class UiScreenHandler : Core.ControllerRelated.Controller
     {
         [SerializeField] private UiScreen[] screens;
         private ScreenType screenToClose;

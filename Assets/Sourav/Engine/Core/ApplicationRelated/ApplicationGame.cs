@@ -4,6 +4,8 @@ using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.ControllerRelated;
 using Sourav.Engine.Editable.DataRelated;
+using Sourav.Engine.Editable.Timer;
+using Sourav.Utilities.Scripts.Timer;
 using UnityEngine;
 
 namespace Sourav.Engine.Core.ApplicationRelated
@@ -13,6 +15,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private NotificationCenter notificationCenter;
 		[SerializeField] private List<Core.ControllerRelated.Controller> controllers;
 		[SerializeField] private Transform controllerObject;
+		[SerializeField] private CoroutineHandler coroutineHandler;
 
 		[SerializeField] private CommonData commonData;
 
@@ -61,6 +64,11 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public List<Core.ControllerRelated.Controller> GetAllControllers()
 		{
 			return controllers;
+		}
+
+		public CoroutineHandler GetCoroutineHandler()
+		{
+			return coroutineHandler;
 		}
 		#endregion
 

@@ -75,6 +75,13 @@
             <e p="PathMovement.cs" t="Include" />
           </e>
         </e>
+        <e p="iOSHapticFeedback" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="iOSHapticFeedback.cs" t="Include" />
+            <e p="iOSHapticFeedbackAdvanced.cs" t="Include" />
+            <e p="iOSHapticFeedbackExample.cs" t="Include" />
+          </e>
+        </e>
         <e p="iTweenExamples" t="Include">
           <e p="AccurateLob" t="Include">
             <e p="Scripts" t="Include">
@@ -417,6 +424,37 @@
               </e>
             </e>
           </e>
+          <e p="Sirenix" t="Include">
+            <e p="Assemblies" t="Include">
+              <e p="link.xml" t="Include" />
+              <e p="Sirenix.OdinInspector.Attributes.xml" t="Include" />
+              <e p="Sirenix.OdinInspector.Editor.xml" t="Include" />
+              <e p="Sirenix.Serialization.Config.xml" t="Include" />
+              <e p="Sirenix.Utilities.Editor.xml" t="Include" />
+              <e p="Sirenix.Utilities.xml" t="Include" />
+            </e>
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="OdinUpgrader.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
         </e>
         <e p="QHierarchy" t="Include">
           <e p="Attribute" t="Include">
@@ -487,7 +525,9 @@
                 <e p="ButtonScript.cs" t="Include" />
               </e>
               <e p="ControllerRelated" t="Include">
+                <e p="AndroidHapticManager.cs" t="Include" />
                 <e p="Controller.cs" t="Include" />
+                <e p="HapticFeedbackController.cs" t="Include" />
                 <e p="PauseResumeRelated" t="Include">
                   <e p="PauseResumeController.cs" t="Include" />
                 </e>
@@ -526,6 +566,8 @@
                 <e p="ButtonController.cs" t="Include" />
                 <e p="ControllerType.cs" t="Include" />
                 <e p="FacebookController.cs" t="Include" />
+                <e p="ToggleHandler.cs" t="Include" />
+                <e p="UiScreenHandler.cs" t="Include" />
               </e>
               <e p="DataRelated" t="Include">
                 <e p="CameraCommonData.cs" t="Include" />
@@ -533,9 +575,17 @@
                 <e p="GameCommonData.cs" t="Include" />
                 <e p="LevelCommonData.cs" t="Include" />
                 <e p="LevelDataHandler.cs" t="Include" />
+                <e p="TimerData.cs" t="Include" />
               </e>
               <e p="NotificationRelated" t="Include">
                 <e p="NotificationList.cs" t="Include" />
+              </e>
+              <e p="TestingRelated" t="Include">
+                <e p="FireAnyNotification.cs" t="Include" />
+              </e>
+              <e p="Timer" t="Include">
+                <e p="CoroutineHandler.cs" t="Include" />
+                <e p="TimerWatch.cs" t="Include" />
               </e>
               <e p="ToggleRelated" t="Include">
                 <e p="ToggleType.cs" t="Include" />
@@ -614,7 +664,14 @@
             <e p="MoveAndScaleHandler.cs" t="Include" />
             <e p="MoveAndScaleToPosition.cs" t="Include" />
             <e p="PopUpController.cs" t="Include" />
+            <e p="StageViewRelated" t="Include">
+              <e p="StageHolderView.cs" t="Include" />
+              <e p="StageView.cs" t="Include" />
+              <e p="TestStageHolderView.cs" t="Include" />
+            </e>
+            <e p="Timer.cs" t="Include" />
             <e p="ToggleSwitch.cs" t="Include" />
+            <e p="UiScreen.cs" t="Include" />
           </e>
           <e p="Utilities" t="Include">
             <e p="Definitions" t="Include">
@@ -666,6 +723,9 @@
               </e>
               <e p="OrientationManagerRelated" t="Include">
                 <e p="CreateOrientationManager.cs" t="Include" />
+              </e>
+              <e p="PostProcessorBuild" t="Include">
+                <e p="BuildProcessor.cs" t="Include" />
               </e>
               <e p="ReadCSVFromPath" t="Include">
                 <e p="ReadCsvFromPath.cs" t="Include" />
@@ -721,6 +781,9 @@
                 <e p="EdgePanZoom" t="Include">
                   <e p="CameraPanZoomEdge.cs" t="Include" />
                 </e>
+                <e p="OrthographicPanZoom" t="Include">
+                  <e p="CameraPanZoom.cs" t="Include" />
+                </e>
                 <e p="Util" t="Include">
                   <e p="OrthographicUtilities.cs" t="Include" />
                 </e>
@@ -733,6 +796,10 @@
                 </e>
               </e>
               <e p="CheckGameObjectsPresentInScene.cs" t="Include" />
+              <e p="Circle" t="Include">
+                <e p="ConstructCircle.cs" t="Include" />
+                <e p="Create3DCircles.cs" t="Include" />
+              </e>
               <e p="CircularRandomAccessList.cs" t="Include" />
               <e p="Components" t="Include">
                 <e p="Blinker.cs" t="Include" />
@@ -745,19 +812,34 @@
               </e>
               <e p="DetectPressedKeyOrButton.cs" t="Include" />
               <e p="DontDestroyOnLoad.cs" t="Include" />
+              <e p="DrawLineRelated" t="Include">
+                <e p="DrawLine.cs" t="Include" />
+              </e>
               <e p="Enums" t="Include">
                 <e p="EnumUtil.cs" t="Include" />
               </e>
               <e p="ExportHelper.cs" t="Include" />
               <e p="FileIO.cs" t="Include" />
               <e p="FPSDisplay.cs" t="Include" />
+              <e p="LargeNumbers" t="Include">
+                <e p="LargeNumber.cs" t="Include" />
+              </e>
+              <e p="MoveToDestination" t="Include">
+                <e p="MoveToPosition.cs" t="Include" />
+              </e>
               <e p="ObjectPool.cs" t="Include" />
               <e p="RandomAlphaNumeric.cs" t="Include" />
+              <e p="RandomColors" t="Include">
+                <e p="RandomizeColor.cs" t="Include" />
+              </e>
               <e p="ReadCSVFromPath" t="Include">
                 <e p="ReadCSV.cs" t="Include" />
                 <e p="ReadCsvFromPath.cs" t="Include" />
               </e>
               <e p="Singleton.cs" t="Include" />
+              <e p="Timer" t="Include">
+                <e p="Timer.cs" t="Include" />
+              </e>
               <e p="Utilities" t="Include">
                 <e p="GetRandomAlphabets.cs" t="Include" />
                 <e p="SingletonObject.cs" t="Include" />
@@ -994,18 +1076,17 @@
           </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="QHierarchyEditor.csproj" t="IncludeRecursive" />
       <e p="QHierarchyNullable.csproj" t="IncludeRecursive" />
       <e p="QHierarchyRuntime.csproj" t="IncludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="ToolsForUnity.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
   </component>
 </project>

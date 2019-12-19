@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Sourav.Engine.Editable.ControllerRelated
 {
-    public class ToggleHandler : Controller
+    public class ToggleHandler : Core.ControllerRelated.Controller
     {
         [SerializeField] private ToggleSwitch[] toggles;
         public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
