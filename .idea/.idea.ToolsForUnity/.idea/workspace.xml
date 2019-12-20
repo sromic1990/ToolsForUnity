@@ -5,67 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NaughtyAttributes/TestAssets/icon-github.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/TestAssets/icon-github.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/CommonPopUpView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/CommonPopUpView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/PopUpView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Element/PopUpView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model/PopUpType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpRelated/Model/PopUpType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AB3290B-C98D-43FA-BCDC-9791AA64B73F/2a/a3a18184/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -143,11 +87,12 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +114,12 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
@@ -213,6 +164,7 @@
       <workItem from="1554894297669" duration="730000" />
       <workItem from="1554895079026" duration="214000" />
       <workItem from="1576768509670" duration="482000" />
+      <workItem from="1576822270446" duration="6792000" />
     </task>
     <servers />
   </component>

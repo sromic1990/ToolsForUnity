@@ -440,7 +440,6 @@
                   <e p="BuildAOTAutomation.cs" t="Include" />
                   <e p="EnsureOdinInspectorDefine.cs" t="Include" />
                   <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
-                  <e p="OdinUpgrader.cs" t="Include" />
                   <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
                   <e p="SyncListDrawer.cs" t="Include" />
                   <e p="SyncVarAttributeDrawer.cs" t="Include" />
@@ -611,6 +610,7 @@
               <e p="ShuffleTest.cs" t="Include" />
               <e p="SortTest.cs" t="Include" />
               <e p="SubIndexTest.cs" t="Include" />
+              <e p="TestOfTimer.cs" t="Include" />
             </e>
             <e p="Editor" t="Include">
               <e p="CreateGameObject.cs" t="Include" />

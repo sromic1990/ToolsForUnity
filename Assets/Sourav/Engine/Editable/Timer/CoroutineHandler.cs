@@ -25,7 +25,10 @@ namespace Sourav.Engine.Editable.Timer
             
             CoroutineData data = new CoroutineData();
             data.id = currentIndex;
+            data.info = info;
+            data.watch = watch;
             data.coroutine = StartCoroutine(watch.StartTimer(info, currentIndex, this));
+            currentIndex++;
             coroutines.Add(data);
         }
 
@@ -45,6 +48,19 @@ namespace Sourav.Engine.Editable.Timer
                 coroutines.RemoveAt(index);
             }
         }
+
+        public CoroutineData GetTimer(string id)
+        {
+            for (int i = 0; i < coroutines.Count; i++)
+            {
+                if (coroutines[i].info.id == id)
+                {
+                    return coroutines[i];
+                }
+            }
+
+            return null;
+        }
     }
 
     [System.Serializable]
@@ -52,5 +68,22 @@ namespace Sourav.Engine.Editable.Timer
     {
         public Coroutine coroutine;
         public int id;
+        public TimerInfo info;
+        public TimerWatch watch;
+        
+        public void PauseTimer()
+        {
+            watch.PauseTimer();
+        }
+
+        public void ResumeTimer()
+        {
+            watch.ResumeTimer();
+        }
+
+        public void StopTimer(bool invokeEndActions)
+        {
+            watch.StopCoroutine(invokeEndActions);
+        }
     }
 }
