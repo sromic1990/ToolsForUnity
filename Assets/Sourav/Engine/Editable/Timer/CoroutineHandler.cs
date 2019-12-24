@@ -49,6 +49,17 @@ namespace Sourav.Engine.Editable.Timer
             }
         }
 
+        public void StopCoroutine(string id, bool oncompleteActionFire)
+        {
+            for (int i = 0; i < coroutines.Count; i++)
+            {
+                if (coroutines[i].info.id == id)
+                {
+                    coroutines[i].StopTimer(oncompleteActionFire);
+                }
+            }
+        }
+
         public CoroutineData GetTimer(string id)
         {
             for (int i = 0; i < coroutines.Count; i++)
