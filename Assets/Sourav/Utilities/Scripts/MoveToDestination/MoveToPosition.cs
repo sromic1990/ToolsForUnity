@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,13 +14,17 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
         private float steps;
         private float currentStep;
         private Vector3 startPosition;
-        private bool canMove;
+        [SerializeField]private bool canMove;
         private bool isPaused;
 
         public UnityEvent onDestinationReached;
+        public Action onMovementComplete;
+        private float currentStepOnStop;
+        private bool isManual;
 
-        public void StartMovingToPosition(Vector3 positionToMoveTo, float durationOfMovement)
+        public void StartMovingToPosition(GameObject bodyToMove, Vector3 positionToMoveTo, float durationOfMovement, Action OnMovementComplete = null)
         {
+            this.bodyToMove = bodyToMove;
             destinationPosition = positionToMoveTo;
             steps = 0.0f;
             currentStep = 0.0f;
@@ -30,6 +35,12 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
             steps = Time.unscaledDeltaTime / durationOfMovement;
             canMove = true;
             isPaused = false;
+
+            if (OnMovementComplete != null)
+            {
+                onMovementComplete = OnMovementComplete;
+            }
+            
             cameraMovingCoroutine = StartCoroutine(StartMoving());
         }
 
@@ -43,15 +54,16 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
             isPaused = false;
         }
 
-        public void StopMovement()
+        public void StopMovement(bool isManual = false)
         {
+            this.isManual = isManual;
             canMove = false;
+            currentStepOnStop = currentStep;
         }
 
         private IEnumerator StartMoving()
         {
             startPosition = bodyToMove.transform.position;
-            yield return null;
             while (Vector3.Distance(bodyToMove.transform.position, destinationPosition) > 0.01f && canMove)
             {
                 if (isPaused)
@@ -66,6 +78,18 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
             }
 
             onDestinationReached?.Invoke();
+            onMovementComplete?.Invoke();
+
+            if (isManual)
+            {
+                MoveToLastKnownPosition();
+            }
+        }
+
+        private void MoveToLastKnownPosition()
+        {
+            bodyToMove.transform.position = Vector3.Lerp(startPosition, destinationPosition, currentStepOnStop);
+            isManual = false;
         }
     }
 }
