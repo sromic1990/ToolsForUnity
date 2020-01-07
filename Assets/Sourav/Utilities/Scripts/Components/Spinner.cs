@@ -8,8 +8,35 @@ namespace Sourav.Utilities.Scripts.Components
 		[SerializeField] private SpinningDirection direction;
 		[SerializeField] private Axis axis;
 
+		[SerializeField] private bool spinOnAwake;
+		
+		private bool canSpin;
+
+		private void Start()
+		{
+			if (spinOnAwake)
+			{
+				canSpin = true;
+			}
+		}
+
+		public void StartSpinning()
+		{
+			canSpin = true;
+		}
+
+		public void StopSpin()
+		{
+			canSpin = true;
+		}
+		
 		private void FixedUpdate()
 		{
+			if (!canSpin)
+			{
+				return;
+			}
+			
 			Vector3 vectorAxis = Vector3.zero;
 			switch (axis)
 			{
@@ -34,12 +61,5 @@ namespace Sourav.Utilities.Scripts.Components
 	{
 		Clockwise = -1,
 		Anticlockwise = 1
-	}
-
-	public enum Axis
-	{
-		X,
-		Y,
-		Z
 	}
 }
