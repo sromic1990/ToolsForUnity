@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,24 +16,29 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
         private float currentStep;
         private Vector3 startPosition;
         [SerializeField]private bool canMove;
+        [SerializeField] [ReadOnly] private float durationOfMovement;
         private bool isPaused;
 
         public UnityEvent onDestinationReached;
         public Action onMovementComplete;
         private float currentStepOnStop;
         private bool isManual;
+        private bool doNotRunEndEvents;
 
         public void StartMovingToPosition(GameObject bodyToMove, Vector3 positionToMoveTo, float durationOfMovement, Action OnMovementComplete = null)
         {
             this.bodyToMove = bodyToMove;
             destinationPosition = positionToMoveTo;
+            this.durationOfMovement = durationOfMovement;
             steps = 0.0f;
             currentStep = 0.0f;
+            doNotRunEndEvents = false;
             if (cameraMovingCoroutine != null)
             {
                 StopCoroutine(cameraMovingCoroutine);
             }
             steps = Time.unscaledDeltaTime / durationOfMovement;
+            // Debug.Log($"steps = {steps}");
             canMove = true;
             isPaused = false;
 
@@ -54,9 +60,10 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
             isPaused = false;
         }
 
-        public void StopMovement(bool isManual = false)
+        public void StopMovement(bool doNotRunEndEvents = false, bool isManual = false)
         {
             this.isManual = isManual;
+            this.doNotRunEndEvents = doNotRunEndEvents;
             canMove = false;
             currentStepOnStop = currentStep;
         }
@@ -77,8 +84,11 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
                 yield return null;
             }
 
-            onDestinationReached?.Invoke();
-            onMovementComplete?.Invoke();
+            if (!doNotRunEndEvents)
+            {
+                onDestinationReached?.Invoke();
+                onMovementComplete?.Invoke();
+            }
 
             if (isManual)
             {
