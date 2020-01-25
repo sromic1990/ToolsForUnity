@@ -540,6 +540,9 @@
               <e p="DataRelated" t="Include">
                 <e p="LocalPositionRegistry.cs" t="Include" />
               </e>
+              <e p="DebugRelated" t="Include">
+                <e p="D.cs" t="Include" />
+              </e>
               <e p="EngineRelated" t="Include">
                 <e p="EngineId.cs" t="Include" />
               </e>
@@ -661,6 +664,14 @@
             </e>
           </e>
           <e p="UIPresets" t="Include">
+            <e p="BarFillPreset" t="Include">
+              <e p="BarFill.cs" t="Include" />
+            </e>
+            <e p="CommonSettings" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="SettingsView.cs" t="Include" />
+              </e>
+            </e>
             <e p="MoveAndScaleHandler.cs" t="Include" />
             <e p="MoveAndScaleToPosition.cs" t="Include" />
             <e p="PopUpController.cs" t="Include" />
@@ -695,6 +706,9 @@
               </e>
               <e p="DateTimeRelated" t="Include">
                 <e p="ConvertDateTimeToString.cs" t="Include" />
+              </e>
+              <e p="DebugRelated" t="Include">
+                <e p="AddRemoveDebugFromBuild.cs" t="Include" />
               </e>
               <e p="DeleteUtilities" t="Include">
                 <e p="DeletePlayerFiles.cs" t="Include" />
@@ -802,7 +816,9 @@
               </e>
               <e p="CircularRandomAccessList.cs" t="Include" />
               <e p="Components" t="Include">
+                <e p="Axis.cs" t="Include" />
                 <e p="Blinker.cs" t="Include" />
+                <e p="ElementRotation.cs" t="Include" />
                 <e p="Spinner.cs" t="Include" />
               </e>
               <e p="CreatePrefabInstance.cs" t="Include" />
