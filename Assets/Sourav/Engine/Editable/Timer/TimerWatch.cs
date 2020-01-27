@@ -29,10 +29,14 @@ namespace Sourav.Engine.Editable.Timer
         {
             float timer = 0.0f;
             float fractionTimer = 0.0f;
+
+            float continousTimer = 0.0f;
+            
             int addSubtractMultiplier = 1;
             if (info.isCountingDown)
             {
                 timer = info.duration;
+                continousTimer = info.duration;
                 addSubtractMultiplier = -1;
             }
             bool canRunTimer = true;
@@ -62,12 +66,30 @@ namespace Sourav.Engine.Editable.Timer
                 {
                     timerFraction += Time.unscaledDeltaTime;
                     fractionTimer += Time.unscaledDeltaTime;
+                    continousTimer += (Time.unscaledDeltaTime * addSubtractMultiplier);
+                    if (addSubtractMultiplier == -1 && continousTimer >= 0)
+                    {
+                        info.OnTickContinous?.Invoke(continousTimer);
+                    }
+                    else if (addSubtractMultiplier == 1 && continousTimer <= info.duration)
+                    {
+                        info.OnTickContinous?.Invoke(continousTimer);
+                    }
 
                 }
                 else
                 {
                     timerFraction += Time.deltaTime;
                     fractionTimer += Time.deltaTime;
+                    continousTimer += (Time.deltaTime * addSubtractMultiplier);
+                    if (addSubtractMultiplier == -1 && continousTimer >= 0)
+                    {
+                        info.OnTickContinous?.Invoke(continousTimer);
+                    }
+                    else if (addSubtractMultiplier == 1 && continousTimer <= info.duration)
+                    {
+                        info.OnTickContinous?.Invoke(continousTimer);
+                    }
                 }
 
                 info.currentDuration = fractionTimer;
@@ -82,6 +104,14 @@ namespace Sourav.Engine.Editable.Timer
                 if (fractionTimer >= info.duration)
                 {
                     canRunTimer = false;
+                    if (addSubtractMultiplier == -1)
+                    {
+                        info.OnTickContinous?.Invoke(0);
+                    }
+                    else if (addSubtractMultiplier == 1)
+                    {
+                        info.OnTickContinous?.Invoke(info.duration);
+                    }
                 }
 
                 yield return null;
@@ -102,6 +132,7 @@ namespace Sourav.Engine.Editable.Timer
         public float duration;
         public bool isUnScaled;
         public System.Action<int> OnTickInt;
+        public System.Action<float> OnTickContinous;
         public bool isCountingDown;
         public System.Action OnTimerFinished;
         public string id;
@@ -112,10 +143,14 @@ namespace Sourav.Engine.Editable.Timer
             duration = info.duration;
             isUnScaled = info.isUnScaled;
             OnTickInt = info.OnTickInt;
+            OnTickContinous = info.OnTickContinous;
             isCountingDown = info.isCountingDown;
             OnTimerFinished = info.OnTimerFinished;
             id = info.id;
             currentDuration = 0;
         }
+
+        public TimerInfo()
+        { }
     }
 }
