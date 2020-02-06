@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Utilities.Extensions;
 using UnityEngine;
 
@@ -59,7 +60,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
         
         public void SetUpNumber(string numberInput)
         {
-//            Debug.Log("number input = "+numberInput);
+            D.Log("number input = "+numberInput);
             InitializeAllLists();
             #region VERIFY THAT THE INPUT IS A PARSABLE NUMBER
 
@@ -71,7 +72,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 
                 if (!isNumberParsable)
                 {
-                    Debug.LogError("NUMBER IS NOT PARSABLE. FOUND "+numberInputString+" , which is NOT A NUMBER");
+                    D.LogError("NUMBER IS NOT PARSABLE. FOUND "+numberInputString+" , which is NOT A NUMBER");
                     return;
                 }
             }
@@ -93,7 +94,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
         
         private void ParseNumberIntoFinalNumber(string numberInput)
         {
-//            Debug.Log("numberInput = "+numberInput);
+//            D.Log("numberInput = "+numberInput);
             
             InitializeAllLists();
             int currentNumberCount = 0;
@@ -314,7 +315,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             LargeNumber smallerNumber = new LargeNumber();
             int counter = 0;
             
-//            Debug.Log("l1 compare l2 = "+l1.Compare(l2));
+//            D.Log("l1 compare l2 = "+l1.Compare(l2));
             
             if (l1.Compare(l2) == Comparision.Lesser)
             {
@@ -431,7 +432,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                 for (int i = 0; i < smallerNumber.numberBreakDown.Count; i++)
                 {
                     resultOfSubtraction = largerNumber.numberBreakDown[i] - smallerNumber.numberBreakDown[i] - carryForwardSubtraction;
-//                    Debug.Log("l1 = "+largerNumber.numberBreakDown[i]+" , l2 = "+smallerNumber.numberBreakDown[i]+" , carryforward = "+carryForwardSubtraction);
+//                    D.Log("l1 = "+largerNumber.numberBreakDown[i]+" , l2 = "+smallerNumber.numberBreakDown[i]+" , carryforward = "+carryForwardSubtraction);
                     if (resultOfSubtraction < 0)
                     {
                         resultOfSubtraction *= -1;
@@ -444,8 +445,8 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                     {
                         carryForwardSubtraction = 0;
                     }
-//                    Debug.Log("Carry forward = "+carryForwardSubtraction);
-//                    Debug.Log("result of subtraction = "+resultOfSubtraction);
+//                    D.Log("Carry forward = "+carryForwardSubtraction);
+//                    D.Log("result of subtraction = "+resultOfSubtraction);
 
                     string resultString = "" + resultOfSubtraction;
                     if (resultOfSubtraction < 10)
@@ -500,7 +501,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                         break;
                     }
                 }
-//                Debug.Log("indexAfter0 = "+indexAfter0);
+//                D.Log("indexAfter0 = "+indexAfter0);
                 List<string> rectifiedResultOfSubtractionString = new List<string>();
                 for (int i = indexAfter0; i < resultOfSubtractionString.Count; i++)
                 {
@@ -522,7 +523,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                         break;
                     }
                 }
-//                Debug.Log("index = "+index);
+//                D.Log("index = "+index);
 
                 if (index >= 0)
                 {
@@ -565,7 +566,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 //                {
 //                    l2--;
 //                    resultNumber = resultNumber + l1;
-////                    Debug.Log("answer = "+resultNumber.finalNumberWithFormat);
+////                    D.Log("answer = "+resultNumber.finalNumberWithFormat);
 //                }
 //
 //                resultNumber = resultNumber - l1;
@@ -575,7 +576,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 //
 //        public static LargeNumber operator *(LargeNumber l1, float l2)
 //        {
-////            Debug.Log("CALLED");
+////            D.Log("CALLED");
 //            LargeNumber l = new LargeNumber(l1);
 //
 //            if (l2 % 1 == 0)
@@ -597,7 +598,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 //                LargeNumber resultAfterDecimal = l1 * new LargeNumber(afterDecimalInt);
 //                LargeNumber powerOfTen = new LargeNumber(numberOfDecimalPlaces);
 //                resultAfterDecimal = resultAfterDecimal / powerOfTen;
-////                Debug.Log("resultAfterDecimal = "+resultAfterDecimal.finalNumberWithFormat);
+////                D.Log("resultAfterDecimal = "+resultAfterDecimal.finalNumberWithFormat);
 //
 //                LargeNumber result = new LargeNumber();
 //                result = l1 * new LargeNumber(beforeDecimal);
@@ -666,9 +667,9 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                         }
                     }
 
-//                    Debug.Log("resultString = "+resultString);
+//                    D.Log("resultString = "+resultString);
                     resultString = resultString.Reverse();
-//                    Debug.Log("resultString = "+resultString);
+//                    D.Log("resultString = "+resultString);
                     resultString += insertZero;
                     insertZero += "0";
                     resultNumbers.Add(resultString);
@@ -699,15 +700,15 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             else
             {
                 int beforeDecimal = (int) l2;
-//                Debug.Log("BEFORE DECIMAL = "+beforeDecimal);
+//                D.Log("BEFORE DECIMAL = "+beforeDecimal);
                 float afterDecimal = (l2 % 1);
-//                Debug.Log("AFTER DECIMAL = "+afterDecimal);
+//                D.Log("AFTER DECIMAL = "+afterDecimal);
                 string numberDecimal = l2.ToString(CultureInfo.InvariantCulture);
                 int lengthOfDecimalNumbers = numberDecimal.Substring(numberDecimal.IndexOf(".", StringComparison.Ordinal)+1).Length;
                 afterDecimal = afterDecimal * Mathf.Pow(10, lengthOfDecimalNumbers);
                 int afterDecimalInt = (int) afterDecimal;
                 string number = "" + beforeDecimal + afterDecimalInt;
-//                Debug.Log("Number without decimal = "+number);
+//                D.Log("Number without decimal = "+number);
 
                 l = l * new LargeNumber(number);
                 string numberAfterMultipliaction = "";
@@ -725,10 +726,10 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 
                 if (numberAfterMultipliaction.Length > lengthOfDecimalNumbers)
                 {
-//                    Debug.Log("numberAfterMultipliaction = "+numberAfterMultipliaction);
+//                    D.Log("numberAfterMultipliaction = "+numberAfterMultipliaction);
                     string numberAfterTruncation = numberAfterMultipliaction.Substring(lengthOfDecimalNumbers);
                     numberAfterTruncation = numberAfterTruncation.Reverse();
-//                    Debug.Log("Number after truncation = "+numberAfterTruncation);
+//                    D.Log("Number after truncation = "+numberAfterTruncation);
                     l.SetUpNumber(numberAfterTruncation);
                 }
                 else
@@ -748,7 +749,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             
             if (l2.Compare(zeroNumber) == Comparision.Equal)
             {
-                Debug.LogError("Attempted division by zero");
+                D.LogError("Attempted division by zero");
                 throw new System.DivideByZeroException();
             }
             else
@@ -778,7 +779,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                         {
                             l1Abb = l1Abb - l2;
                             result++;
-                            //Debug.Log("result = "+result.finalNumberWithFormat);
+                            //D.Log("result = "+result.finalNumberWithFormat);
                         }
                         for (int i = l2.numberBreakDown.Count + 1; i < l1.numberBreakDown.Count; i++)
                         {
@@ -789,7 +790,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                     }
                     else
                     {
-//                        Debug.Log("l1 = "+l1.finalNumberWithFormat+" , l2 = "+l2.finalNumberWithFormat);
+//                        D.Log("l1 = "+l1.finalNumberWithFormat+" , l2 = "+l2.finalNumberWithFormat);
                         while (l1.Compare(zeroNumber) != Comparision.Equal && (l1.Compare(l2) == Comparision.Greater || l1.Compare(l2) == Comparision.Equal))
                         {
                             l1 = l1 - l2;
@@ -822,13 +823,13 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                 int integerPart = (int) percentage;
                 LargeNumber part1 = new LargeNumber();
                 part1 = number % integerPart;
-//                Debug.Log("part 1 = "+part1.finalNumberWithFormat);
+//                D.Log("part 1 = "+part1.finalNumberWithFormat);
                 
                 float value = percentage % 1;
                 string numberDecimal = value.ToString(CultureInfo.InvariantCulture);
                 int length = numberDecimal.Substring(numberDecimal.IndexOf(".", StringComparison.Ordinal)+1).Length;
-//                Debug.Log("percentage % 1 = "+percentage % 1);
-//                Debug.Log("Length = "+length);
+//                D.Log("percentage % 1 = "+percentage % 1);
+//                D.Log("Length = "+length);
 
                 int multiplier = 1;
                 for (int i = 0; i < length; i++)
@@ -838,10 +839,10 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
 
                 value *= multiplier;
                 int percentageValue = (int) value;
-//                Debug.Log("integer of decimal part = "+percentageValue);
+//                D.Log("integer of decimal part = "+percentageValue);
                 LargeNumber part2 = new LargeNumber();
                 part2 = number % percentageValue;
-//                Debug.Log("part 2 = "+part2.finalNumberWithFormat);
+//                D.Log("part 2 = "+part2.finalNumberWithFormat);
                 LargeNumber multiplierLargeNumber = new LargeNumber(multiplier);
                 part2 = part2 / multiplierLargeNumber;
 
@@ -861,7 +862,7 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
             {
                 l2InString += l2.numberInString[i];
             }
-//            Debug.Log("l2InString = "+l2InString);
+//            D.Log("l2InString = "+l2InString);
 
             string currentNumber = "";
             for (int i = 0; i < numberInString.Count; i++)
@@ -869,10 +870,10 @@ namespace Sourav.Utilities.Scripts.LargeNumbers
                 currentNumber += numberInString[i];
             }
 
-//            Debug.Log("Current number = "+currentNumber);
+//            D.Log("Current number = "+currentNumber);
 
             currentNumber += l2InString;
-//            Debug.Log("Current number = "+currentNumber);
+//            D.Log("Current number = "+currentNumber);
             SetUpNumber(currentNumber);
         }
         #endregion

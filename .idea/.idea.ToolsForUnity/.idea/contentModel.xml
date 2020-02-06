@@ -568,6 +568,7 @@
                 <e p="ButtonController.cs" t="Include" />
                 <e p="ControllerType.cs" t="Include" />
                 <e p="FacebookController.cs" t="Include" />
+                <e p="FirebaseController.cs" t="Include" />
                 <e p="ToggleHandler.cs" t="Include" />
                 <e p="UiScreenHandler.cs" t="Include" />
               </e>

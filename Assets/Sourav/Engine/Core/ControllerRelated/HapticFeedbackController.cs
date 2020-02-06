@@ -1,4 +1,6 @@
-﻿using Sourav.Engine.Core.NotificationRelated;
+﻿#if HAPTIC
+using Sourav.Engine.Core.DebugRelated;
+using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
 
@@ -71,7 +73,7 @@ namespace Sourav.Engine.Core.ControllerRelated
 
 		private void HapticForSubmitButtonFailure()
 		{
-			Debug.Log("Haptic FAILURE");
+			D.Log("Haptic FAILURE");
 			#if UNITY_IOS && !UNITY_EDITOR
 			if (iOSHapticFeedback.Instance.IsSupported())
 			{
@@ -84,7 +86,7 @@ namespace Sourav.Engine.Core.ControllerRelated
 
 		private void HapticForSubmitButtonSuccess()
 		{
-			Debug.Log("Haptic SUCCESS");
+			D.Log("Haptic SUCCESS");
 			#if UNITY_IOS && !UNITY_EDITOR
 			if (iOSHapticFeedback.Instance.IsSupported())
 			{
@@ -96,3 +98,4 @@ namespace Sourav.Engine.Core.ControllerRelated
 		}
 	}
 }
+#endif

@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.DebugRelated;
+using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Utilities.Scripts;
@@ -13,7 +14,7 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 			switch (notification)
 			{
 				case Notification.LoadGame:
-//					Debug.Log("Notification.LoadGame");
+					// D.Log("Notification.LoadGame");
 					LoadData();
 					App.GetNotificationCenter().Notify(Notification.GameLoaded);
 					break;

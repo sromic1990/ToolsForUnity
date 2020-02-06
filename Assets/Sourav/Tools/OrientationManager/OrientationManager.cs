@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Sourav.Engine.Core.DebugRelated;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Sourav.Tools.OrientationManager
@@ -122,7 +123,7 @@ namespace Sourav.Tools.OrientationManager
         {
             currentOrientation = newOrientation;
             onOrientationChange.Invoke(currentOrientation);
-            if (debug) Debug.Log("[OrientationManager] currentOrientation: " + currentOrientation.ToString());
+            if (debug) D.Log("[OrientationManager] currentOrientation: " + currentOrientation.ToString());
         }
     }
 }

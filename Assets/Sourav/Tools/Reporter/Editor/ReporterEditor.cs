@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using Sourav.Engine.Core.DebugRelated;
 using UnityEditor;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ namespace Sourav.Tools.Reporter.Editor
             if (MonoImporter.GetExecutionOrder(reporterScript) != ReporterExecOrder)
             {
                 MonoImporter.SetExecutionOrder(reporterScript, ReporterExecOrder);
-                //Debug.Log("Fixing exec order for " + reporterScript.name);
+                // D.Log("Fixing exec order for " + reporterScript.name);
             }
 
             reporter.images = new Images();
@@ -60,36 +61,36 @@ namespace Sourav.Tools.Reporter.Editor
         }
     }
 }
-/*
-public class ReporterModificationProcessor : UnityEditor.AssetModificationProcessor
-{
-    [InitializeOnLoad]
-    public class BuildInfo
-    {
-        static BuildInfo()
-        {
-            EditorApplication.update += Update;
-        }
-
-        static bool isCompiling = true;
-
-        static void Update()
-        {
-            if (!EditorApplication.isCompiling && isCompiling)
-            {
-                //Debug.Log("Finish Compile");
-                if (!Directory.Exists(Application.dataPath + "/StreamingAssets"))
-                {
-                    Directory.CreateDirectory(Application.dataPath + "/StreamingAssets");
-                }
-                string info_path = Application.dataPath + "/StreamingAssets/build_info.txt";
-                StreamWriter build_info = new StreamWriter(info_path);
-                build_info.Write("Build from " + SystemInfo.deviceName + " at " + System.DateTime.Now.ToString());
-                build_info.Close();
-            }
-
-            isCompiling = EditorApplication.isCompiling;
-        }
-    }
-}
-*/
+// /*
+// public class ReporterModificationProcessor : UnityEditor.AssetModificationProcessor
+// {
+//     [InitializeOnLoad]
+//     public class BuildInfo
+//     {
+//         static BuildInfo()
+//         {
+//             EditorApplication.update += Update;
+//         }
+//
+//         static bool isCompiling = true;
+//
+//         static void Update()
+//         {
+//             if (!EditorApplication.isCompiling && isCompiling)
+//             {
+//                 //D.Log("Finish Compile");
+//                 if (!Directory.Exists(Application.dataPath + "/StreamingAssets"))
+//                 {
+//                     Directory.CreateDirectory(Application.dataPath + "/StreamingAssets");
+//                 }
+//                 string info_path = Application.dataPath + "/StreamingAssets/build_info.txt";
+//                 StreamWriter build_info = new StreamWriter(info_path);
+//                 build_info.Write("Build from " + SystemInfo.deviceName + " at " + System.DateTime.Now.ToString());
+//                 build_info.Close();
+//             }
+//
+//             isCompiling = EditorApplication.isCompiling;
+//         }
+//     }
+// }
+// */

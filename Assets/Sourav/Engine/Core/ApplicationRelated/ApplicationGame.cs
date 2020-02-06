@@ -4,6 +4,7 @@ using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.ControllerRelated;
 using Sourav.Engine.Editable.DataRelated;
+using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.Timer;
 using Sourav.Utilities.Scripts.Timer;
 using UnityEngine;
@@ -69,6 +70,11 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public CoroutineHandler GetCoroutineHandler()
 		{
 			return coroutineHandler;
+		}
+
+		public void Notify(Notification notification, NotificationParam param = null)
+		{
+			notificationCenter.Notify(notification, param);
 		}
 		#endregion
 

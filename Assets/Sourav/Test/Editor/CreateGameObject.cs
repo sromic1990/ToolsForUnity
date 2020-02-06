@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using Sourav.Engine.Core.DebugRelated;
+using UnityEditor;
 using UnityEngine;
 
 namespace Sourav.Test.Editor
@@ -18,13 +19,13 @@ namespace Sourav.Test.Editor
             
             }
 
-            //string[] types = AssetDatabase.FindAssets("t:Script");
-
-            //foreach (string str in types)
-            //{
-            //    Debug.Log(str);
-            //}
-            //Debug.Log(System.Type.GetType(typeof(CreateGameObject).ToString()).ToString());
+            // string[] types = AssetDatabase.FindAssets("t:Script");
+            //
+            // foreach (string str in types)
+            // {
+            //     D.Log(str);
+            // }
+            // D.Log(System.Type.GetType(typeof(CreateGameObject).ToString()).ToString());
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.ButtonRelated;
 using Sourav.Engine.Editable.ControllerRelated;
@@ -29,7 +30,7 @@ namespace Sourav.Engine.Core.ButtonRelated
 				}
 				else
 				{
-					Debug.LogError("c is not ButtonController");
+					D.LogError("c is not ButtonController");
 				}
 			});
 		}

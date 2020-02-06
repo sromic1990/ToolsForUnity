@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
+﻿#if FIREBASE
+using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 
@@ -33,3 +34,4 @@ namespace Sourav.Engine.Editable.ControllerRelated
         }
     }
 }
+#endif

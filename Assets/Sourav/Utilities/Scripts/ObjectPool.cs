@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Sourav.Engine.Core.DebugRelated;
 
 namespace Sourav.Utilities.Scripts
 {
@@ -175,7 +176,7 @@ namespace Sourav.Utilities.Scripts
                 }
                 else
                 {
-                    Debug.LogError("Object does not contain component");
+                    D.LogError("Object does not contain component");
                 }
             }
         }

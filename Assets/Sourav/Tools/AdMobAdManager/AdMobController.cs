@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using GoogleMobileAds.Api;
 using MEC;
 using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -132,27 +133,27 @@ namespace Sourav.Tools.AdMobAdManager
 		}
 		private void HandleOnAdLeavingApplication(object sender, EventArgs e)
 		{
-			Debug.Log("Banner : Leaving Application");
+			D.Log("Banner : Leaving Application");
 		}
 
 		private void HandleOnAdClosed(object sender, EventArgs e)
 		{
-			Debug.Log("Banner : AdClosed");
+			D.Log("Banner : AdClosed");
 		}
 
 		private void HandleOnAdOpened(object sender, EventArgs e)
 		{
-			Debug.Log("Banner : AdOpened");
+			D.Log("Banner : AdOpened");
 		}
 
 		private void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs e)
 		{
-			Debug.Log("Banner : AdFailedToLoad");
+			D.Log("Banner : AdFailedToLoad");
 		}
 
 		private void HandleOnAdLoaded(object sender, EventArgs e)
 		{
-			Debug.Log("Banner : AdLoaded");
+			D.Log("Banner : AdLoaded");
 		}
 		
 		private void RemoveBannerView()
@@ -194,28 +195,28 @@ namespace Sourav.Tools.AdMobAdManager
 
 		private void HandleInterstitialOnAdLeavingApplication(object sender, EventArgs e)
 		{
-			Debug.Log("Interstital : OnAdLeavingApplicaton");
+			D.Log("Interstital : OnAdLeavingApplicaton");
 		}
 
 		private void HandleInterstitialOnAdClosed(object sender, EventArgs e)
 		{
-			Debug.Log("Interstital : OnAdClosed");
+			D.Log("Interstital : OnAdClosed");
 			this.RequestInterstitial();
 		}
 
 		private void HandleInterstitialOnAdOpened(object sender, EventArgs e)
 		{
-			Debug.Log("Interstital : OnAdOpened");
+			D.Log("Interstital : OnAdOpened");
 		}
 
 		private void HandleInterstitialOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs e)
 		{
-			Debug.Log("Interstital : OnAdFailedToLoad");
+			D.Log("Interstital : OnAdFailedToLoad");
 		}
 
 		private void HandleInterstitialOnAdLoaded(object sender, EventArgs e)
 		{
-			Debug.Log("Interstital : OnAdLoaded");
+			D.Log("Interstital : OnAdLoaded");
 		}
 
 		private void ShowInterstitial()
@@ -250,7 +251,7 @@ namespace Sourav.Tools.AdMobAdManager
 		
 		private void HandleRewardBasedVideoLeftApplication(object sender, EventArgs e)
 		{
-			Debug.Log("Reward : VideoLeftApplication");
+			D.Log("Reward : VideoLeftApplication");
 		}
 
 		private void HandleRewardBasedVideoClosed(object sender, EventArgs e)
@@ -278,29 +279,29 @@ namespace Sourav.Tools.AdMobAdManager
 
 		private void HandleRewardBasedVideoRewarded(object sender, Reward e)
 		{
-			Debug.Log("Reward : VideoRewarded");
+			D.Log("Reward : VideoRewarded");
 			App.GetNotificationCenter().Notify(Notification.AdRewarded);
 		}
 
 		private void HandleRewardBasedVideoStarted(object sender, EventArgs e)
 		{
-			Debug.Log("Reward : VideoStarted");
+			D.Log("Reward : VideoStarted");
 		}
 
 		private void HandleRewardBasedVideoOpened(object sender, EventArgs e)
 		{
-			Debug.Log("Reward : VideoOpened");
+			D.Log("Reward : VideoOpened");
 		}
 
 		private void HandleRewardBasedVideoFailedToLoad(object sender, AdFailedToLoadEventArgs e)
 		{
-			Debug.Log("----------------------------------------------------------------->Reward : VideoFailedToLoad");
+			D.Log("----------------------------------------------------------------->Reward : VideoFailedToLoad");
 			this.RequestRewardBasedVideo();
 		}
 
 		private void HandleRewardBasedVideoLoaded(object sender, EventArgs e)
 		{
-			Debug.Log("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>Reward : VideoLoaded");
+			D.Log("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>Reward : VideoLoaded");
 			for (int i = 0; i < rewardButton.Length; i++)
 			{
 				rewardButton[i].interactable = true;

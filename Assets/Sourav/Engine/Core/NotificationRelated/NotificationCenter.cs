@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -76,7 +77,7 @@ namespace Sourav.Engine.Core.NotificationRelated
 		{
 			if (controllers == null)
 				return;
-//			Debug.Log("Notification = "+notification);
+			// D.Log("Notification = "+notification);
 			for (int i = 0; i < controllers.Count; i++)
 			{
 				controllers[i].OnNotificationReceived(notification, param);
