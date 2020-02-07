@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Prefab/iOSHapticFeedback.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Prefab/iOSHapticFeedback.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Prefab/iOSHapticFeedbackAdvanced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Prefab/iOSHapticFeedbackAdvanced.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,6 +141,8 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" />
       </list>
     </option>
   </component>
@@ -211,6 +222,7 @@
       <workItem from="1580970430476" duration="657000" />
       <workItem from="1580971128213" duration="801000" />
       <workItem from="1580979094105" duration="53000" />
+      <workItem from="1581061553126" duration="120000" />
     </task>
     <servers />
   </component>

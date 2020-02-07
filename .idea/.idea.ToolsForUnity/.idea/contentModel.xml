@@ -838,6 +838,12 @@
               <e p="ExportHelper.cs" t="Include" />
               <e p="FileIO.cs" t="Include" />
               <e p="FPSDisplay.cs" t="Include" />
+              <e p="IdleCurrency" t="Include">
+                <e p="IdleCurrency" t="Include">
+                  <e p="IdleCurrency.cs" t="Include" />
+                </e>
+                <e p="SampleScript.cs" t="Include" />
+              </e>
               <e p="LargeNumbers" t="Include">
                 <e p="LargeNumber.cs" t="Include" />
               </e>
