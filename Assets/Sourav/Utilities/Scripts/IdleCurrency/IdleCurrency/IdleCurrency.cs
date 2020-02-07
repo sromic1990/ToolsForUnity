@@ -16,6 +16,15 @@ namespace Sourav.Utilities.Scripts.IdleCurrency.IdleCurrency
             ConvertFromDouble(d);
         }
 
+        public IdleCurrency(IdleCurrency value)
+        {
+            this.Value = value.Value;
+            this.Exp = value.Exp;
+            double currency = Math.Pow(10, value.Exp);
+            currency *= value.Value;
+            ConvertFromDouble(currency);
+        }
+        
         public IdleCurrency(byte value) : this((double)value)
         {
         }
