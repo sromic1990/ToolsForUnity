@@ -601,7 +601,43 @@
             </e>
             <e p="SpriteAnimator.cs" t="Include" />
           </e>
+          <e p="IdleGameEngine" t="Include">
+            <e p="IdleCurrency" t="Include">
+              <e p="_IdleCurrencyTest" t="Include">
+                <e p="_Scripts" t="Include">
+                  <e p="TestScript.cs" t="Include" />
+                </e>
+              </e>
+              <e p="IdleCurrency" t="Include">
+                <e p="IdleCurrency.cs" t="Include" />
+              </e>
+              <e p="SampleScript.cs" t="Include" />
+            </e>
+            <e p="LargeNumbers" t="Include">
+              <e p="LargeNumber.cs" t="Include" />
+            </e>
+            <e p="OfflineTimerRelated" t="Include">
+              <e p="ControllerRelated" t="Include">
+                <e p="OfflineTimer.cs" t="Include" />
+              </e>
+              <e p="Test" t="Include">
+                <e p="TimerTest.cs" t="Include" />
+                <e p="UiTest.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TickerRelated" t="Include">
+              <e p="Ticker.cs" t="Include" />
+            </e>
+            <e p="UpdateRelated" t="Include">
+              <e p="UpdateElement.cs" t="Include" />
+            </e>
+          </e>
           <e p="Test" t="Include">
+            <e p="_IdleCurrencyTest" t="Include">
+              <e p="_Scripts" t="Include">
+                <e p="TestScript.cs" t="Include" />
+              </e>
+            </e>
             <e p="_Scripts" t="Include">
               <e p="ColorPoint" t="Include">
                 <e p="ColorPoint.cs" t="Include" />

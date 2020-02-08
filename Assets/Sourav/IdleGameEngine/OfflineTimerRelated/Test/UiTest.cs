@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -7,7 +6,7 @@ using UnityEngine.UI;
 
 namespace Sourav.IdleGameEngine.OfflineTimerRelated.Test
 {
-    public class UiTest : Controller
+    public class UiTest : Sourav.Engine.Core.ControllerRelated.Controller
     {
         [SerializeField] private Text timerSeconds;
         

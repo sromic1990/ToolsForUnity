@@ -1,12 +1,11 @@
 ﻿using Sirenix.OdinInspector;
-using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
 
 namespace Sourav.IdleGameEngine.TickerRelated
 {
-    public class Ticker : Controller
+    public class Ticker : Sourav.Engine.Core.ControllerRelated.Controller
     {
         [ReadOnly][SerializeField]private float currentSecondFraction;
         

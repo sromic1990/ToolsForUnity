@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Globalization;
-using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
-using UnityEngine;
 
 namespace Sourav.IdleGameEngine.OfflineTimerRelated.ControllerRelated
 {
-    public class OfflineTimer : Controller
+    public class OfflineTimer : Sourav.Engine.Core.ControllerRelated.Controller
     {
         private bool _isTimerHandled;
         
