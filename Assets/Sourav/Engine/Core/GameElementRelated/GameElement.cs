@@ -7,7 +7,7 @@ namespace Sourav.Engine.Core.GameElementRelated
 	{
 		private static ApplicationGame _app;
 
-		[SerializeField] protected bool isActive;
+		[SerializeField] protected bool isInactive;
 		
 		protected ApplicationGame App
 		{
@@ -32,13 +32,13 @@ namespace Sourav.Engine.Core.GameElementRelated
 			//Init;
 		}
 
-		public void SetActive(bool value)
+		public void SetActivity(bool value)
 		{
-			isActive = value;
+			isInactive = value;
 		}
-		public bool GetIsActive()
+		public bool GetIsInactive()
 		{
-			return isActive;
+			return isInactive;
 		}
 	}
 }

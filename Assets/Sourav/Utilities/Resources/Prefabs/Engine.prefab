@@ -30,7 +30,7 @@ Transform:
   - {fileID: 4608310038483148}
   - {fileID: 4747211355251900}
   m_Father: {fileID: 4270641490330586}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278859366668550
 GameObject:
@@ -75,6 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe2ef0dd8d934e669ccceba641de856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 3
 --- !u!1 &1290296625421842
 GameObject:
@@ -119,6 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec152c56760e4bd69819618645a4a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   status: 0
 --- !u!1 &1607303784774146
 GameObject:
@@ -163,6 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91145d3ecb9e545829e70a3ef1a5520f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 4
 --- !u!1 &1648859036215412
 GameObject:
@@ -213,6 +216,7 @@ MonoBehaviour:
   - {fileID: 114638801649054624}
   controllerObject: {fileID: 4277493391240832}
   coroutineHandler: {fileID: 2393827966763261615}
+  updateElement: {fileID: 6805619555535778641}
   commonData: {fileID: 114637837421062374}
   levelCommonData: {fileID: 114637837421062374}
   timerData: {fileID: 683620988}
@@ -249,6 +253,7 @@ Transform:
   - {fileID: 4969208392953572}
   - {fileID: 4794986537601152}
   - {fileID: 4132033493266813568}
+  - {fileID: 4813244192168350232}
   - {fileID: 4277493391240832}
   - {fileID: 4216898611698232}
   m_Father: {fileID: 0}
@@ -322,7 +327,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4270641490330586}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114637837421062374
 MonoBehaviour:
@@ -336,12 +341,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822f499fecbe943de844c225cd253145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 2
   game:
     currentLevel: 0
     currentLevelActual: 0
     areLevelsExhausted: 0
-    isIntroVideoOver: 0
     currentTutorialValue: 0
     isTutorialOver: 0
     coins: 0
@@ -350,9 +355,19 @@ MonoBehaviour:
     isSfxOn: 0
     isVibrationOn: 0
     lastAdLevel: 0
-    totalMoney: 0
-    currentMoney: 0
-    isPromptShown: 0
+    lastDateTime: 
+    isOfflineTimerOn: 0
+    unit:
+      Value: 0
+      Exp: 0
+    unitIncrement:
+      Value: 0
+      Exp: 0
+  lastDateTimeSeconds: 0
+  isLoaded: 0
+  unitsFoundInTapThisSecond:
+    Value: 0
+    Exp: 0
   isDataChanged: 0
   currentLevelDefault: 0
   isSfxOnDefault: 0
@@ -387,17 +402,7 @@ MonoBehaviour:
   removeAds: 0
   isFromRestore: 0
   coinAdd: 0
-  incorrectText: 
-  correctText: 
-  tutorialCompleteText: 
-  isHintPressed: 0
-  hintTutorialLevel: 0
   maxTutorialLevels: 0
-  hasGameStarted: 0
-  isPopUpOpenDuringBonusLevel: 0
-  removeTilesPerBomb: 0
-  hideTutorialHand: 0
-  collectEnable: 0
 --- !u!114 &114184211334407804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,6 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79474ec90217846269ba912c2ae7044a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 3
   cameraZoomInMaxValue: 0
 --- !u!114 &683620988
@@ -424,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67127b861a8644629f50ef34fc53ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 4
   waitTimerAfterLevelCompleteToRotateWheel: 0
   waitTimerBeforeDoorAnimation: 0
@@ -439,6 +446,53 @@ MonoBehaviour:
   waitAfterLevelComplete: 0
   waitBeforeHidingBombedTiles: 0
   playerDieDelay: 0
+--- !u!1 &1235196591918208913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813244192168350232}
+  - component: {fileID: 6805619555535778641}
+  m_Layer: 0
+  m_Name: UpdaterElement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813244192168350232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235196591918208913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270641490330586}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6805619555535778641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235196591918208913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9f3f3f5ba0f44b3a32e0ab41a75ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInactive: 0
+  updateActions: []
+  lateUpdateActions: []
+  fixedUpdateActions: []
 --- !u!1 &8018415841937845808
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,5 +536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ce88e259fc44c3cb7b9c0830a910cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   coroutines: []
   currentIndex: 0

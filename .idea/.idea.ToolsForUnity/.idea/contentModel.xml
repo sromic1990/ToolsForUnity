@@ -629,6 +629,7 @@
               <e p="Ticker.cs" t="Include" />
             </e>
             <e p="UpdateRelated" t="Include">
+              <e p="TestScript.cs" t="Include" />
               <e p="UpdateElement.cs" t="Include" />
             </e>
           </e>

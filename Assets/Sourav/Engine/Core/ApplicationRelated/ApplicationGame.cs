@@ -6,6 +6,7 @@ using Sourav.Engine.Editable.ControllerRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.Timer;
+using Sourav.IdleGameEngine.UpdateRelated;
 using Sourav.Utilities.Scripts.Timer;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private List<Core.ControllerRelated.Controller> controllers;
 		[SerializeField] private Transform controllerObject;
 		[SerializeField] private CoroutineHandler coroutineHandler;
+		[SerializeField] private UpdateElement updateElement;
 
 		[SerializeField] private CommonData commonData;
 
@@ -75,6 +77,11 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public void Notify(Notification notification, NotificationParam param = null)
 		{
 			notificationCenter.Notify(notification, param);
+		}
+
+		public UpdateElement GetUpdater()
+		{
+			return updateElement;
 		}
 		#endregion
 

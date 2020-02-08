@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
 using Sourav.Utilities.Scripts.DrawLineRelated;
 using UnityEngine;
 
@@ -125,7 +126,7 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
-		#region TIMER RELATED
+		#region IDLE GAME RELATED
 
 		public bool IsOfflineTimerOn
 		{
@@ -145,8 +146,29 @@ namespace Sourav.Engine.Editable.DataRelated
 				DataChanged();
 			}
 		}
+
+		public IdleCurrency Unit
+		{
+			get { return game.unit; }
+			set
+			{
+				game.unit = value;
+				DataChanged();
+			}
+		}
+
+		public IdleCurrency UnitIncrement
+		{
+			get { return game.unitIncrement; }
+			set
+			{
+				game.unitIncrement = value;
+				DataChanged();
+			}
+		}
 		public int lastDateTimeSeconds;
 		public bool isLoaded;
+		public IdleCurrency unitsFoundInTapThisSecond;
 		#endregion
 		
 		public bool isDataChanged;
@@ -206,6 +228,7 @@ namespace Sourav.Engine.Editable.DataRelated
 			AreLevelsExhausted = false;
 			AdLastLevel = firstAdLevel;
 			LastDateTime = "";
+			unitsFoundInTapThisSecond = new IdleCurrency(0);
 		}
 		#endregion
 
@@ -269,7 +292,11 @@ namespace Sourav.Engine.Editable.DataRelated
 
 		public int lastAdLevel;
 
+		#region IDLE GAME RELATED
 		public string lastDateTime;
 		public bool isOfflineTimerOn;
+		public IdleCurrency unit;
+		public IdleCurrency unitIncrement;
+		#endregion
 	}
 }

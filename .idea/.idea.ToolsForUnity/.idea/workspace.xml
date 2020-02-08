@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/SampleScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/SampleScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/Scenes/TestScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/Scenes/TestScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +60,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/AdMobAdManager/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
@@ -110,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" />
@@ -137,8 +133,6 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/AdMobAdManager/AdMobController.cs" />
@@ -161,6 +155,10 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" />
       </list>
     </option>
   </component>
@@ -242,6 +240,7 @@
       <workItem from="1580979094105" duration="53000" />
       <workItem from="1581061553126" duration="120000" />
       <workItem from="1581150237665" duration="200000" />
+      <workItem from="1581166362905" duration="2367000" />
     </task>
     <servers />
   </component>
