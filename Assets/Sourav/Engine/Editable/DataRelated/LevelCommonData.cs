@@ -205,6 +205,7 @@ namespace Sourav.Engine.Editable.DataRelated
 			AdsInactive = isAdsInactiveDefault;
 			AreLevelsExhausted = false;
 			AdLastLevel = firstAdLevel;
+			LastDateTime = "";
 		}
 		#endregion
 

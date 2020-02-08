@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -38,10 +39,10 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.ControllerRelated
 
                         TimeSpan span = now - last;
 
-                        Debug.Log("span seconds = "+span.Seconds);
-                        Debug.Log("span minutes = "+span.Minutes);
-                        Debug.Log("span hours = "+span.Hours);
-                        Debug.Log("span days = "+span.Days);
+                        D.Log("span seconds = "+span.Seconds);
+                        D.Log("span minutes = "+span.Minutes);
+                        D.Log("span hours = "+span.Hours);
+                        D.Log("span days = "+span.Days);
 
                         App.GetLevelData().lastDateTimeSeconds = span.Seconds + (span.Minutes * 60) + (span.Hours * 60 * 60) + (span.Days * 24 * 60 * 60);
                     }
