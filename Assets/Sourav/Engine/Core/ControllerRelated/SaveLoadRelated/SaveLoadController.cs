@@ -66,6 +66,7 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 				App.GetLevelData().SetDefault();
 				SaveData();
 			}
+			App.GetLevelData().isLoaded = true;
 		}
 	}
 }

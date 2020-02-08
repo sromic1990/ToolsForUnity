@@ -28,6 +28,15 @@
         SaveGame,
         GameLoaded,
         DataChanged,
+        
+        //Timer Related
+        OfflineSecondsSet,
+        SecondTick,
+        
+        //Update Related
+        Update,
+        LateUpdate,
+        FixedUpdate,
 
         //Haptic Related
         HapticSuccess,

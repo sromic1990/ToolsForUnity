@@ -65,16 +65,6 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
-		public bool IsIntroIntroVideoOver
-		{
-			get { return game.isIntroVideoOver; }
-			set
-			{
-				game.isIntroVideoOver = value;
-				DataChanged();
-			}
-		}
-		
 		public bool IsTutorialOver
 		{
 			get { return game.isTutorialOver; }
@@ -135,35 +125,30 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
-		public int TotalMoney
-		{
-			get { return game.totalMoney; }
-			set
-			{
-				game.totalMoney = value;
-				DataChanged();
-			}
-		}
+		#region TIMER RELATED
 
-		public int CurrentMoney
+		public bool IsOfflineTimerOn
 		{
-			get { return game.currentMoney; }
+			get { return game.isOfflineTimerOn; }
 			set
 			{
-				game.currentMoney = value;
+				game.isOfflineTimerOn = value;
 				DataChanged();
 			}
 		}
-
-		public bool IsPromptShown
+		public string LastDateTime
 		{
-			get { return game.isPromptShown; }
+			get { return game.lastDateTime; }
 			set
 			{
-				game.isPromptShown = value;
+				game.lastDateTime = value;
 				DataChanged();
 			}
 		}
+		public int lastDateTimeSeconds;
+		public bool isLoaded;
+		#endregion
+		
 		public bool isDataChanged;
 
 		[Space(10)] [Header("Defaults")] 
@@ -213,17 +198,13 @@ namespace Sourav.Engine.Editable.DataRelated
 			CurrentLevel = currentLevelDefault;
 			CurrentLevelActual = currentLevelDefault;
 			IsTutorialOver = isTutorialOverDefault;
-			IsIntroIntroVideoOver = isIntroVideoOverDefault;
 			IsSfxOn = isSfxOnDefault;
 			IsMusicOn = isMusicOnDefault;
 			IsVibrationOn = isVibrationOnDefault;
 			Coins = coinsDefault;
-			CurrentMoney = currentMoneyDefault;
-			TotalMoney = totalMoneyDefault;
 			AdsInactive = isAdsInactiveDefault;
 			AreLevelsExhausted = false;
 			AdLastLevel = firstAdLevel;
-
 		}
 		#endregion
 
@@ -249,8 +230,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		public int rewardAmount;
 		[HideInInspector] public bool isFromDoubleEarnings;
 		public int bannerRequestLevel;
-		
-		
+
 		[Space(10)]
 		[Header("In App Purchase Related")]
 		public int coins1;
@@ -263,25 +243,9 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isFromRestore;
 		[HideInInspector] public int coinAdd;
 
-		[Space(10)]
-		[Header("Info PopUp Related")]
-		public string incorrectText;
-		public string correctText;
-		public string tutorialCompleteText;
-
 		[Space(10)] 
-		[Header("MAJOR FIXME NEXT TIME")]
-		public bool isHintPressed;
-		public int hintTutorialLevel;
+		[Header("Tutorial Related")]
 		public int maxTutorialLevels;
-		
-		[Space(10)]
-		[Header("Miscellaneous")]
-		public bool hasGameStarted;
-		public bool isPopUpOpenDuringBonusLevel;
-		public int removeTilesPerBomb;
-		public bool hideTutorialHand;
-		public bool collectEnable;
 	}
 
 	[System.Serializable]
@@ -290,9 +254,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		public int currentLevel;
 		public int currentLevelActual;
 		public bool areLevelsExhausted;
-		
-		public bool isIntroVideoOver;
-		
+
 		public int currentTutorialValue;
 		public bool isTutorialOver;
 		
@@ -306,9 +268,7 @@ namespace Sourav.Engine.Editable.DataRelated
 
 		public int lastAdLevel;
 
-		public int totalMoney;
-		public int currentMoney;
-
-		public bool isPromptShown;
+		public string lastDateTime;
+		public bool isOfflineTimerOn;
 	}
 }
