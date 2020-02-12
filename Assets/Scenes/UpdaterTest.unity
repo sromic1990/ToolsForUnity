@@ -396,3 +396,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInactive: 0
+  updateType: 0

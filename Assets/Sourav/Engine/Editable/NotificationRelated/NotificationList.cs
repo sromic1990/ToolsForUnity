@@ -37,6 +37,10 @@
         Update,
         LateUpdate,
         FixedUpdate,
+        
+        //Logic Related
+        UpdateLogic,
+        LogicUpdated,
 
         //Haptic Related
         HapticSuccess,

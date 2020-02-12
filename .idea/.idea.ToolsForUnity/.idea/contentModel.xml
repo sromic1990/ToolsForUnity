@@ -602,6 +602,10 @@
             <e p="SpriteAnimator.cs" t="Include" />
           </e>
           <e p="IdleGameEngine" t="Include">
+            <e p="AdditionalLogicRelated" t="Include">
+              <e p="LogicController.cs" t="Include" />
+              <e p="LogicType.cs" t="Include" />
+            </e>
             <e p="IdleCurrency" t="Include">
               <e p="_IdleCurrencyTest" t="Include">
                 <e p="_Scripts" t="Include">

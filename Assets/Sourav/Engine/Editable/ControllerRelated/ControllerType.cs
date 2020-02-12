@@ -4,11 +4,12 @@
 	public enum ControllerType
 	{
 		None,
+		PauseResumeController,
+		ButtonController,
+		LogicController,
 		GameController,
 		UiController,
 		UiScreenController,
-		PauseResumeController,
-		ButtonController,
 		CameraController,
 		SaveLoadController,
 		PositionRegistryController,

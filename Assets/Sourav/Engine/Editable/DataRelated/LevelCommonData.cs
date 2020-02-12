@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.IdleGameEngine.AdditionalLogicRelated;
 using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
 using Sourav.Utilities.Scripts.DrawLineRelated;
 using UnityEngine;
@@ -166,6 +167,49 @@ namespace Sourav.Engine.Editable.DataRelated
 				DataChanged();
 			}
 		}
+
+		public float Prestige
+		{
+			get { return game.prestige; }
+			set
+			{
+				game.prestige = value;
+				DataChanged();
+			}
+		}
+
+		public List<LogicData> LogicData
+		{
+			get { return game.logicData; }
+			set
+			{
+				game.logicData = value;
+				DataChanged();
+			}
+		}
+
+		public LogicStatus GetLogicStatus(LogicType type)
+		{
+			for (int i = 0; i < LogicData.Count; i++)
+			{
+				if (LogicData[i].type == type)
+				{
+					return LogicData[i].status;
+				}
+			}
+
+			return LogicStatus.Unfulfilled;
+		}
+
+		public bool IsLogicPopulated
+		{
+			get { return game.isLogicPopulated; }
+			set
+			{
+				game.isLogicPopulated = value;
+				DataChanged();
+			}
+		}
 		public int lastDateTimeSeconds;
 		public bool isLoaded;
 		public IdleCurrency unitsFoundInTapThisSecond;
@@ -297,6 +341,18 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isOfflineTimerOn;
 		public IdleCurrency unit;
 		public IdleCurrency unitIncrement;
+		public float prestige;
+		
+		//Additional Logic Related
+		public List<LogicData> logicData;
+		public bool isLogicPopulated;
 		#endregion
+	}
+
+	[System.Serializable]
+	public class LogicData
+	{
+		public LogicType type;
+		public LogicStatus status;
 	}
 }
