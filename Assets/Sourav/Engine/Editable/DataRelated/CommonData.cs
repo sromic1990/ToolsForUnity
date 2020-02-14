@@ -21,5 +21,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		LevelData,
 		CameraData,
 		TimerData,
+		//IDLE GAME RELATED
+		IdleCommonData,
 	}
 }

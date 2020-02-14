@@ -5,6 +5,7 @@ namespace Sourav.Engine.Editable.ButtonRelated
     //FIXME Fill this up with button types
     public enum ButtonType : int
     {
+        None,
         Play,
         Pause,
         Settings,

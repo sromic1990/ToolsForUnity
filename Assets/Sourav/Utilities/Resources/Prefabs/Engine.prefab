@@ -267,6 +267,8 @@ MonoBehaviour:
   commonData: {fileID: 114637837421062374}
   levelCommonData: {fileID: 114637837421062374}
   timerData: {fileID: 683620988}
+  idleCommonData: {fileID: 0}
+  logicEvaluator: {fileID: 2858327400661889528}
 --- !u!1 &1922192695968008
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +304,7 @@ Transform:
   - {fileID: 4132033493266813568}
   - {fileID: 4813244192168350232}
   - {fileID: 4277493391240832}
+  - {fileID: 3926850931875690583}
   - {fileID: 4216898611698232}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -374,7 +377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4270641490330586}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114637837421062374
 MonoBehaviour:
@@ -411,6 +414,146 @@ MonoBehaviour:
       Value: 0
       Exp: 0
     prestige: 0
+    idleLevels: []
+    idleOfflineTimerUpgrade:
+      hasIndex: 0
+      index: 0
+      type: 0
+      data: {fileID: 0}
+      hasAdsForCost: 0
+      currentCountOfTap: 0
+      adsEveryHowManyTap: 0
+      nextCost:
+        cost:
+          costType: 0
+          cost:
+            Value: 0
+            Exp: 0
+        isVideo: 0
+      idleActivation:
+        isUnlocked: 0
+        isAffordable: 0
+        isClickable: 0
+      logicToUnlock: []
+      currentCount: 0
+      hasVariableBlockTime: 0
+      currentBlockTime: 0
+      function: 0
+      unitAffected: 0
+      isUpgradeCompleted: 0
+      isHideOnComplete: 0
+      limitType: 0
+      upgradeLimit:
+        Value: 0
+        Exp: 0
+      upgradeLimitF: 0
+      upgradeLimitI: 0
+      hasLimitReached: 0
+      hidePostLimit: 0
+      postLimitIncrementPercentage: 0
+      upgradeCostSequence: []
+      currentSequence: 0
+      hasBoost: 0
+      boostQuantum:
+        defaultBoostPercentage: 0
+        currentBoostPercentage: 0
+        boostIncrementQuantum: 0
+      currentValue: 0
+      defaultValue: 0
+    idleOfflineEarningUpgrade:
+      hasIndex: 0
+      index: 0
+      type: 0
+      data: {fileID: 0}
+      hasAdsForCost: 0
+      currentCountOfTap: 0
+      adsEveryHowManyTap: 0
+      nextCost:
+        cost:
+          costType: 0
+          cost:
+            Value: 0
+            Exp: 0
+        isVideo: 0
+      idleActivation:
+        isUnlocked: 0
+        isAffordable: 0
+        isClickable: 0
+      logicToUnlock: []
+      currentCount: 0
+      hasVariableBlockTime: 0
+      currentBlockTime: 0
+      function: 0
+      unitAffected: 0
+      isUpgradeCompleted: 0
+      isHideOnComplete: 0
+      limitType: 0
+      upgradeLimit:
+        Value: 0
+        Exp: 0
+      upgradeLimitF: 0
+      upgradeLimitI: 0
+      hasLimitReached: 0
+      hidePostLimit: 0
+      postLimitIncrementPercentage: 0
+      upgradeCostSequence: []
+      currentSequence: 0
+      hasBoost: 0
+      boostQuantum:
+        defaultBoostPercentage: 0
+        currentBoostPercentage: 0
+        boostIncrementQuantum: 0
+      currentValue: 0
+      defaultValue: 0
+    idleTapperUpgrade:
+      hasIndex: 0
+      index: 0
+      type: 0
+      data: {fileID: 0}
+      hasAdsForCost: 0
+      currentCountOfTap: 0
+      adsEveryHowManyTap: 0
+      nextCost:
+        cost:
+          costType: 0
+          cost:
+            Value: 0
+            Exp: 0
+        isVideo: 0
+      idleActivation:
+        isUnlocked: 0
+        isAffordable: 0
+        isClickable: 0
+      logicToUnlock: []
+      currentCount: 0
+      hasVariableBlockTime: 0
+      currentBlockTime: 0
+      function: 0
+      unitAffected: 0
+      isUpgradeCompleted: 0
+      isHideOnComplete: 0
+      limitType: 0
+      upgradeLimit:
+        Value: 0
+        Exp: 0
+      upgradeLimitF: 0
+      upgradeLimitI: 0
+      hasLimitReached: 0
+      hidePostLimit: 0
+      postLimitIncrementPercentage: 0
+      upgradeCostSequence: []
+      currentSequence: 0
+      hasBoost: 0
+      boostQuantum:
+        defaultBoostPercentage: 0
+        currentBoostPercentage: 0
+        boostIncrementQuantum: 0
+      tapperValue:
+        Value: 0
+        Exp: 0
+      defaultTapperValue:
+        Value: 0
+        Exp: 0
     logicData: []
     isLogicPopulated: 0
   lastDateTimeSeconds: 0
@@ -418,6 +561,7 @@ MonoBehaviour:
   unitsFoundInTapThisSecond:
     Value: 0
     Exp: 0
+  currentMultiplier: 0
   isDataChanged: 0
   currentLevelDefault: 0
   isSfxOnDefault: 0
@@ -429,6 +573,7 @@ MonoBehaviour:
   isTutorialOverDefault: 0
   isIntroVideoOverDefault: 0
   isAdsInactiveDefault: 0
+  currentMultiplierDefault: 0
   isTutorialOn: 0
   levelOverCoins: 0
   multiplier: 0
@@ -543,6 +688,81 @@ MonoBehaviour:
   updateActions: []
   lateUpdateActions: []
   fixedUpdateActions: []
+--- !u!1 &1827977278797573787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2979491283495734517}
+  - component: {fileID: 2858327400661889528}
+  m_Layer: 0
+  m_Name: LogicEvaluator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2979491283495734517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827977278797573787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3926850931875690583}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2858327400661889528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827977278797573787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fece9d4c7dbd94a6c98fe75bca4095b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInactive: 0
+--- !u!1 &4736401553630731173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3926850931875690583}
+  m_Layer: 0
+  m_Name: Elements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3926850931875690583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4736401553630731173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2979491283495734517}
+  m_Father: {fileID: 4270641490330586}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8018415841937845808
 GameObject:
   m_ObjectHideFlags: 0

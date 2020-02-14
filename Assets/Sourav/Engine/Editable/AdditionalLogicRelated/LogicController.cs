@@ -1,7 +1,7 @@
 ﻿using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 
-namespace Sourav.IdleGameEngine.AdditionalLogicRelated
+namespace Sourav.Engine.Editable.AdditionalLogicRelated
 {
     public class LogicController : Sourav.Engine.Core.ControllerRelated.Controller
     {
@@ -14,7 +14,7 @@ namespace Sourav.IdleGameEngine.AdditionalLogicRelated
                     {
                         for (int i = 0; i < App.GetLevelData().LogicData.Count; i++)
                         {
-                            App.GetLevelData().LogicData[i].status = LogicStatus.Unfulfilled;
+                            App.GetLevelData().LogicData[i].fulfillmentStatus = LogicStatus.Unfulfilled;
                         }
                         App.GetLevelData().IsLogicPopulated = true;
                     }
@@ -32,7 +32,7 @@ namespace Sourav.IdleGameEngine.AdditionalLogicRelated
             {
                 if (App.GetLevelData().LogicData[i].type == logicType)
                 {
-                    App.GetLevelData().LogicData[i].status = logicStatus;
+                    App.GetLevelData().LogicData[i].fulfillmentStatus = logicStatus;
                 }
             }
             App.Notify(Notification.LogicUpdated);

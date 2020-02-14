@@ -2,10 +2,12 @@
 using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.AdditionalLogicRelated;
 using Sourav.Engine.Editable.ControllerRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.Timer;
+using Sourav.IdleGameEngine.IdleGameData;
 using Sourav.IdleGameEngine.UpdateRelated;
 using Sourav.Utilities.Scripts.Timer;
 using UnityEngine;
@@ -25,24 +27,12 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		[SerializeField] private LevelCommonData levelCommonData;
 		[SerializeField] private TimerData timerData;
 
-		#region Mono Methods
-		private void Awake()
-		{
-//			if (controllers.Count == 0) //No controllers registered to listen
-//			{
-//				controllers = new List<Controller>();
-//				for (int i = 0; i < controllerObject.childCount; i++)
-//				{
-//					Controller controller = controllerObject.GetChild(i).GetComponent<Controller>();
-//					if (controller != null)
-//					{
-//						controllers.Add(controller);
-//					}
-//				}
-//			}
-		}
-		#endregion
-		
+		#if IDLEGAME
+		[SerializeField] private IdleCommonData idleCommonData;
+		#endif
+
+		[SerializeField] private LogicEvaluator logicEvaluator;
+
 		#region Controller Related
 		public Core.ControllerRelated.Controller GetController(ControllerType type)
 		{
@@ -128,6 +118,20 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public TimerData GetTimerData()
 		{
 			return timerData;
+		}
+
+		#if IDLEGAME
+		public IdleCommonData GetIdleData()
+		{
+			return idleCommonData;
+		}
+		#endif
+		#endregion
+		
+		#region Element Related
+		public LogicEvaluator GetLogicEvaluator()
+		{
+			return logicEvaluator;
 		}
 		#endregion
 	}

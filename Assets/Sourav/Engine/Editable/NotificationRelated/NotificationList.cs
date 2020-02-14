@@ -41,6 +41,13 @@
         //Logic Related
         UpdateLogic,
         LogicUpdated,
+        
+        //Idle Button Related
+        IdleButtonPressed,
+        UpdateIdleButton,
+        
+        //Units Related
+        UnitsUpdated,
 
         //Haptic Related
         HapticSuccess,
@@ -92,7 +99,13 @@
         
         //Gameplay Related
         PlayGame,
+        SetUi,
+        UiSet,
+        SetUpIdleButtons,
         LevelComplete,
+        
+        //View Related
+        IdleButtonFillComplete,
     }
 }
 

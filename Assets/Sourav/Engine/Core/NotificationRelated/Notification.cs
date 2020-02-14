@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -20,13 +21,15 @@ namespace Sourav.Engine.Core.NotificationRelated
 		public List<Vector2> vector2Data;
 		public List<Vector3> vector3Data;
 		public List<Vector3Int> vector3IntData;
+		public List<IdleCurrency> idleCurrencyData;
 		
 
 		public bool shouldQueue;
 
 		public NotificationParam() : this(Mode.intData | Mode.floatData | Mode.doubleData | Mode.stringData |
 		                                  Mode.gameObjectData | Mode.boolData | Mode.unityObjectData | Mode.objectData |
-		                                  Mode.vector2IntData | Mode.vector2Data | Mode.vector3Data | Mode.vector3IntData)
+		                                  Mode.vector2IntData | Mode.vector2Data | Mode.vector3Data | Mode.vector3IntData |
+		                                  Mode.idleCurrencyData)
 		{}
 		
 		public NotificationParam(Mode mode)
@@ -79,6 +82,10 @@ namespace Sourav.Engine.Core.NotificationRelated
 			{
 				this.vector3IntData = new List<Vector3Int>();
 			}
+			if (mode.HasFlag(Mode.idleCurrencyData))
+			{
+				this.idleCurrencyData = new List<IdleCurrency>();
+			}
 			
 			this.shouldQueue = false;
 		}
@@ -98,7 +105,8 @@ namespace Sourav.Engine.Core.NotificationRelated
 		vector2IntData = objectData << 1,
 		vector2Data = vector2IntData << 1,
 		vector3Data = vector2Data << 1,
-		vector3IntData = vector3Data << 1
-		
+		vector3IntData = vector3Data << 1,
+		idleCurrencyData = vector3IntData << 1
+
 	}
 }

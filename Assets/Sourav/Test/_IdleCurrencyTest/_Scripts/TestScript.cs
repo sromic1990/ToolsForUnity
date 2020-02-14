@@ -1,8 +1,8 @@
 ﻿using Sourav.Engine.Core.DebugRelated;
-using Sourav.Utilities.Scripts.IdleCurrency.IdleCurrency;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using IdleCurrency = Sourav.IdleGameEngine.IdleCurrency.IdleCurrency.IdleCurrency;
 
 namespace Sourav.Test._IdleCurrencyTest._Scripts
 {

@@ -1,4 +1,4 @@
-﻿namespace Sourav.IdleGameEngine.AdditionalLogicRelated
+﻿namespace Sourav.Engine.Editable.AdditionalLogicRelated
 {
     public enum LogicStatus
     {
@@ -8,6 +8,7 @@
     
     public enum LogicType
     {
+        None,
         Logic1,
         Logic2,
         //Populate logic here

@@ -1,14 +1,24 @@
+// Licensed under the MIT license. 
+// See LICENSE file in the project root for full license information.
+
 using System;
 using System.Runtime.CompilerServices;
 
 namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
 {
+
     [System.Serializable]
     public struct IdleCurrency
     {
         public double Value;
         public int Exp;
-        
+
+        //public IdleCurrency()
+        //{
+        //    Value = 0;
+        //    Exp = 0;
+        //}
+
         public IdleCurrency(double d)
         {
             Value = 0;
@@ -16,15 +26,6 @@ namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
             ConvertFromDouble(d);
         }
 
-        public IdleCurrency(IdleCurrency value)
-        {
-            this.Value = value.Value;
-            this.Exp = value.Exp;
-            double currency = Math.Pow(10, value.Exp);
-            currency *= value.Value;
-            ConvertFromDouble(currency);
-        }
-        
         public IdleCurrency(byte value) : this((double)value)
         {
         }
@@ -395,6 +396,8 @@ namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
 
         public static int Compare(IdleCurrency left, IdleCurrency right)
         {
+            left.Format();
+            right.Format();
             int leftSign = left.Sign;
             int rightSign = right.Sign;
 
@@ -875,30 +878,30 @@ namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
 
                     }
                     //156-233
-                    else if (tExp < 78*3)
+                    else if (tExp < 78 * 3)
                     {
-                        tExp = tExp - (78*2);
+                        tExp = tExp - (78 * 2);
                         tS += FutureAlphapets[2] + FutureAlphapets[tExp / 3];
 
                     }
                     //234-311
-                    else if (tExp < 78*4)
+                    else if (tExp < 78 * 4)
                     {
-                        tExp = tExp - (78*3);
+                        tExp = tExp - (78 * 3);
                         tS += FutureAlphapets[3] + FutureAlphapets[tExp / 3];
 
                     }
                     //312-390
-                    else if (tExp < 78*5)
+                    else if (tExp < 78 * 5)
                     {
-                        tExp = tExp - (78*4);
+                        tExp = tExp - (78 * 4);
                         tS += FutureAlphapets[4] + FutureAlphapets[tExp / 3];
 
                     }
                     //391-467
-                    else if (tExp < 78*6)
+                    else if (tExp < 78 * 6)
                     {
-                        tExp = tExp - (78*5);
+                        tExp = tExp - (78 * 5);
                         tS += FutureAlphapets[5] + FutureAlphapets[tExp / 3];
 
                     }
@@ -908,6 +911,92 @@ namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
                     }
                     result += tS;
                 }
+            }
+            return result;
+        }
+
+        public string ToLongString()
+        {
+            string[] PremitiveSuffixes = { "Thousand", "Million", "Billion", "Trillion" };
+            string[] FutureSuffixes = { "Quadrillion","Quintillion", "Sextillion", "Septillion", "Octillion", "Nonillion",
+                "Decillion", "Undecillion", "Duodecillion", "Tredecillion", "Quattuordecillion", "Quindecillion", "Sexdecillion", "Septendecillion", "Octodecillion", "Novemdecillion",
+                "Vigintillion", "Unvigintillion", "Duovigintillion", "Trevigintillion","Quattuorvigintillion", "Quinvigintillion", "Sexvigintillion", "Septenvigintillion", "Octovigintillion", "Novemvigintillion",
+                "Trigintillion","Untrigintillion","Duotrigintillion","Tretrigintillion","Quattuortrigintillion","Quintrigintillion","Sextrigintillion","Septentrigintillion","Octotrigintillion","Novemtrigintillion",
+                "Quadragintillion","Unquadragintillion","Duoquadragintillion","Trequadragintillion","Quattuorquadragintillion","Quinquadragintillion","Sexquadragintillion","Septenquadragintillion","Octaquadragintillion","Novemquadragintillion",
+                "Quinragintillion","Unquinquagintillion","Duoquinquagintillion","Trequinquagintillion","Quattuorquinquagintillion","Quinquinquagintillion","Sexquinquagintillion","Septenquinquagintillion","Octoquinquagintillion","Novemquinquagintillion",
+                "Sexagintillion","Unsexagintillion","Duosexagintillion","Tresexagintillion","Quattuorsexagintillion","Quinsexagintillion","Sexsexagintillion","Septsexagintillion","Octosexagintillion","Novemsexagintillion",
+                "Septuagintillion","Unseptuagintillion","Duoseptuagintillion","Treseptuagintillion","Quattuorseptuagintillion","Quinseptuagintillion","Sexseptuagintillion","Septseptuagintillion","Octoseptuagintillion","Novemseptuagintillion"};
+
+            Format();
+            string result = "";
+            int index = 0;
+
+            //if (Exp < 3)
+            //{
+
+            if (Exp == 0 && Value < 0.001)
+            {
+                result = "0";
+            }
+            else
+            {
+
+                result = Value.ToString("#.##");
+                //}
+                if (Exp < 3)
+                {
+                }
+                else if (Exp >= 3 && Exp < 15)
+                {
+                    index = (int)(Exp / 3);
+                    result += " " + PremitiveSuffixes[index - 1];
+                }
+                else
+                {
+                    int tExp = (int)(Exp - 15);
+                    string tS = "";
+
+                    //0-77
+                    if (tExp < 226)
+                    {
+                        tS += " " + FutureSuffixes[tExp / 3];
+                    }
+                    else
+                    {
+                        tS = "+e" + (tExp + 15).ToString();
+                    }
+                    result += tS;
+                }
+            }
+            return result;
+        }
+
+        public string ToExponentForm()
+        {
+            string[] PremitiveSuffixes = { "Thousand", "Million", "Billion", "Trillion" };
+
+            Format();
+            string result = "";
+            int index = 0;
+
+            //if (Exp < 3)
+            //{
+
+            if (Exp == 0 && Value < 0.001)
+            {
+                result = "0";
+            }
+            else
+            {
+
+                result = Value.ToString("#.##");
+                string tS = "";
+                //}
+                if (Exp >= 3)
+                {
+                    tS = "+e" + (Exp).ToString();
+                }
+                result += tS;
             }
             return result;
         }
@@ -928,6 +1017,5 @@ namespace Sourav.IdleGameEngine.IdleCurrency.IdleCurrency
             else
                 Exp = 0;
         }
-
     }
 }

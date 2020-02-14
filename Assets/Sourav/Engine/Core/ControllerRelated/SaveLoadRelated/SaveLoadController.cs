@@ -66,7 +66,9 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 				App.GetLevelData().SetDefault();
 				SaveData();
 			}
+			#if IDLEGAME
 			App.GetLevelData().isLoaded = true;
+			#endif
 		}
 	}
 }

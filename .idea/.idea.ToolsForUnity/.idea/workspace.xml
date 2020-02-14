@@ -4,12 +4,39 @@
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UpdaterTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UpdaterTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObjectAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObjectAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CoroutineHandlerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CoroutineHandlerTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UnitsRelated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,118 +47,105 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/MemoryGame/Scripts/BoardControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/AdMobAdManager/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Common/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Common/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/CameraExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" />
-        <option value="$PROJECT_DIR$/Assets/DoozyUI/Scripts/OrientationManager/OrientationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationId.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/AdMobAdManager/AdMobController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" />
@@ -149,11 +163,40 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleButtonRelated/IdleType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleButtonRelated/IdleUnitType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/GameplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/UiController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/AdditionalLogicRelated/LogicController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/GameplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/IdleTestGameplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/IdleTestMainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/UiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/IdleTestUiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/IdleButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/Dependent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleButtonRelated/IdleButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" />
       </list>
     </option>
   </component>
@@ -237,6 +280,10 @@
       <workItem from="1581150237665" duration="200000" />
       <workItem from="1581166362905" duration="2367000" />
       <workItem from="1581496837872" duration="136000" />
+      <workItem from="1581512021830" duration="5619000" />
+      <workItem from="1581574860526" duration="15338000" />
+      <workItem from="1581601698760" duration="4658000" />
+      <workItem from="1581659467688" duration="5048000" />
     </task>
     <servers />
   </component>
@@ -245,11 +292,28 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1988" y="308" width="823" height="486" key="find.popup" timestamp="1580979110839">
+    <state x="1988" y="308" width="823" height="486" key="find.popup" timestamp="1581595016956">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1988" y="308" width="823" height="486" key="find.popup/1440.23.1920.1057/0.23.1440.810@1440.23.1920.1057" timestamp="1580979110839" />
+    <state x="1988" y="308" width="823" height="486" key="find.popup/1440.23.1920.1057/0.23.1440.810@1440.23.1920.1057" timestamp="1581595016956" />
+    <state x="-243" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1581603395486">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="-243" y="154" width="672" height="678" key="search.everywhere.popup/1440.23.1920.1057/0.23.1440.810@0.23.1440.810" timestamp="1581603395486" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
