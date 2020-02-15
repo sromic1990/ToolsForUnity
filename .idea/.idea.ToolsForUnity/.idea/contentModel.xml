@@ -669,16 +669,19 @@
             <e p="IdleGameTest" t="Include">
               <e p="_Scripts" t="Include">
                 <e p="ControllerRelated" t="Include">
+                  <e p="IdleButtonController.cs" t="Include" />
                   <e p="IdleTestGameplayController.cs" t="Include" />
                   <e p="IdleTestMainController.cs" t="Include" />
                   <e p="IdleTestUiController.cs" t="Include" />
                 </e>
                 <e p="ViewRelated" t="Include">
                   <e p="Controller" t="Include">
-                    <e p="IdleButtonController.cs" t="Include" />
+                    <e p="IdleButtonViewController.cs" t="Include" />
                   </e>
                   <e p="Elements" t="Include">
+                    <e p="IdleButtonGenerator.cs" t="Include" />
                     <e p="IdleButtonView.cs" t="Include" />
+                    <e p="RequirementView.cs" t="Include" />
                   </e>
                 </e>
               </e>

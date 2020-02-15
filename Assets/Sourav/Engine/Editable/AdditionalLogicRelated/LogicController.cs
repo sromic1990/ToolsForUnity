@@ -12,11 +12,14 @@ namespace Sourav.Engine.Editable.AdditionalLogicRelated
                 case Notification.GameLoaded:
                     if (!App.GetLevelData().IsLogicPopulated)
                     {
-                        for (int i = 0; i < App.GetLevelData().LogicData.Count; i++)
+                        if (App.GetLevelData().LogicData != null)
                         {
-                            App.GetLevelData().LogicData[i].fulfillmentStatus = LogicStatus.Unfulfilled;
+                            for (int i = 0; i < App.GetLevelData().LogicData.Count; i++)
+                            {
+                                App.GetLevelData().LogicData[i].fulfillmentStatus = LogicStatus.Unfulfilled;
+                            }
+                            App.GetLevelData().IsLogicPopulated = true;
                         }
-                        App.GetLevelData().IsLogicPopulated = true;
                     }
                     break;
                 

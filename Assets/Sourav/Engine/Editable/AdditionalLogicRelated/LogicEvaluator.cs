@@ -19,6 +19,11 @@ namespace Sourav.Engine.Editable.AdditionalLogicRelated
             {
                 return status;
             }
+
+            if (App.GetLevelData().LogicData == null)
+            {
+                return status;
+            }
             
             for (int i = 0; i < logicData.Count; i++)
             {

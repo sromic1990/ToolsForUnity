@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.DebugRelated;
+using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 
 namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
@@ -12,6 +13,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
             switch (notification)
             {
                 case Notification.PlayGame:
+                    // D.Log("IdleTestGameplayController -> PlayGame");
                     isGamePlaying = false;
                     App.Notify(Notification.SetUi);
                     break;
@@ -23,11 +25,22 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
                 case Notification.SecondTick:
                     if(!isGamePlaying)
                         return;
+                    if (App.GetLevelData().unitsToBeAddedNextTick > 0)
+                    {
+                        App.GetLevelData().UnitIncrement += App.GetLevelData().unitsToBeAddedNextTick;
+                        App.GetLevelData().unitsToBeAddedNextTick = 0;
+                    }
                     App.GetLevelData().Unit += App.GetLevelData().UnitIncrement;
+                    App.GetLevelData().unitsFoundInTapThisSecond = 0;
+                    App.Notify(Notification.UnitsUpdated);
                     break;
                 
-                case Notification.IdleButtonPressed:
-                    
+                case Notification.TapperPressed:
+                    if(!isGamePlaying)
+                        return;
+                    App.GetLevelData().Unit += App.GetLevelData().UnitPerTap;
+                    App.GetLevelData().unitsFoundInTapThisSecond += App.GetLevelData().UnitPerTap;
+                    App.Notify(Notification.UnitsUpdated);
                     break;
             }
         }

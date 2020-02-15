@@ -169,6 +169,16 @@ namespace Sourav.Engine.Editable.DataRelated
 			}
 		}
 
+		public IdleCurrency UnitPerTap
+		{
+			get { return game.unitPerTap; }
+			set
+			{
+				game.unitPerTap = value;
+				DataChanged();
+			}
+		}
+
 		public float Prestige
 		{
 			get { return game.prestige; }
@@ -233,6 +243,10 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isIntroVideoOverDefault;
 		public bool isAdsInactiveDefault;
 		public float currentMultiplierDefault;
+		#if IDLEGAME
+		public IdleCurrency defaultUnits;
+		public IdleCurrency defaultUnitPerSecond;
+		#endif
 		
 		private void DataChanged()
 		{
@@ -306,6 +320,8 @@ namespace Sourav.Engine.Editable.DataRelated
 			unitsFoundInTapThisSecond = new IdleCurrency(0);
 			Prestige = 1.0f;
 			currentMultiplier = currentMultiplierDefault;
+			UnitIncrement = defaultUnitPerSecond;
+			Unit = defaultUnits;
 			#endif
 			//Idle Game Related
 		}
@@ -349,6 +365,11 @@ namespace Sourav.Engine.Editable.DataRelated
 		[Space(10)] 
 		[Header("Tutorial Related")]
 		public int maxTutorialLevels;
+		
+		#if IDLEGAME
+		[Space(10)] [Header("Idle Game Related")]
+		public IdleCurrency unitsToBeAddedNextTick;
+#endif
 	}
 
 	[System.Serializable]
@@ -377,6 +398,7 @@ namespace Sourav.Engine.Editable.DataRelated
 		public bool isOfflineTimerOn;
 		public IdleCurrency unit;
 		public IdleCurrency unitIncrement;
+		public IdleCurrency unitPerTap;
 		public float prestige;
 
 		//Game Specific

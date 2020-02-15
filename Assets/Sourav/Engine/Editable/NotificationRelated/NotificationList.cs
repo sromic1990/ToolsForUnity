@@ -105,7 +105,13 @@
         LevelComplete,
         
         //View Related
+        ButtonsUpdated,
+        GenerateIdleButtons,
+        IdleButtonsGenerated,
+        StartBlockIng,
+        IdleButtonFillStarted,
         IdleButtonFillComplete,
+        TapperPressed,
     }
 }
 

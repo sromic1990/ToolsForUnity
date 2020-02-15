@@ -5,6 +5,9 @@
         None,
         ButtonType1,
         //Populate Idle Buttons type here
+        InfoType1,
+        InfoType2,
+        InfoType3,
     }
     
     public enum IdlePurchasableItemType

@@ -16,6 +16,48 @@ namespace Sourav.IdleGameEngine.IdleGameData
         [Header("PaintLevels Related")]
         public List<IdleLevel> idleLevels;
 
+        public int GetCount(IdleUnitType item)
+        {
+            int count = 0;
+            bool canBreak = false;
+            for (int i = 0; i < idleLevels.Count; i++)
+            {
+                for (int j = 0; j < idleLevels[i].idleInfos.Count; j++)
+                {
+                    if (item == idleLevels[i].idleInfos[j].unitType)
+                    {
+                        count = idleLevels[i].idleInfos[j].currentCount;
+                        canBreak = true;
+                        break;
+                    }
+                }
+                if(canBreak)
+                    break;
+            }
+            return count;
+        }
+        
+        public IdleInfo GetInfo(IdleUnitType item)
+        {
+            IdleInfo info = null;
+            bool canBreak = false;
+            for (int i = 0; i < idleLevels.Count; i++)
+            {
+                for (int j = 0; j < idleLevels[i].idleInfos.Count; j++)
+                {
+                    if (item == idleLevels[i].idleInfos[j].unitType)
+                    {
+                        info = idleLevels[i].idleInfos[j];
+                        canBreak = true;
+                        break;
+                    }
+                }
+                if(canBreak)
+                    break;
+            }
+            return info;
+        }
+
     }
 
     [System.Serializable]
@@ -54,15 +96,31 @@ namespace Sourav.IdleGameEngine.IdleGameData
         [Button()]
         private void DetermineGrowthRate()
         {
-            growth.firstHalfClicks = (int)(data.totalCount * (growth.separatorPercentage / 100));
+            growth.firstHalfClicks = (int)(data.totalCount * (data.separatorPercentage / 100));
             growth.lastHalfClicks = data.totalCount - growth.firstHalfClicks;
 
-            float oneHalfGrowth = (maxSliderValue * (growth.valueSeparatorPercentage / 100));
+            float oneHalfGrowth = (maxSliderValue * (data.valueSeparatorPercentage / 100));
             
             growth.firstHalfGrowthRate = oneHalfGrowth / growth.firstHalfClicks;
             growth.lastHalfGrowthRate = (maxSliderValue - oneHalfGrowth) / growth.lastHalfClicks;
 
             growth.currentSliderValue = maxSliderValue;
+        }
+
+        [Button()]
+        public override void SetDefault()
+        {
+            base.SetDefault();
+            growth.currentSliderValue = minSliderValue;
+            if (dependsOn.dependencies != null)
+            {
+                for (int i = 0; i < dependsOn.dependencies.Count; i++)
+                {
+                    dependsOn.dependencies[i].isComplete = false;
+                }
+            }
+
+            permanentMultiplier = 1;
         }
     }
 
@@ -145,6 +203,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public IdleUnitData data;
         public bool hasAdsForCost;
         [ShowIf("hasAdsForCost", true)] public int currentCountOfTap;
+        [ShowIf("hasAdsForCost", true)] public bool alwaysVideo;
         [ShowIf("hasAdsForCost", true)] public int adsEveryHowManyTap;
         public NextCost nextCost;
 
@@ -155,11 +214,27 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public int currentCount;
 
         public bool hasVariableBlockTime;
+        // [ShowIf("hasVariableBlockTime", true)] public float decrementOfBlockTimePer
         [ShowIf("hasVariableBlockTime", true)] public float currentBlockTime;
 
-        public void SetDefault()
+        public virtual void SetDefault()
         {
-            
+            nextCost.cost.cost = data.baseCost;
+            currentCount = 0;
+            currentCountOfTap = 0;
+            if (data.isLockedByDefault)
+            {
+                idleActivation.isUnlocked = false;
+            }
+            else
+            {
+                idleActivation.isUnlocked = true;
+            }
+
+            idleActivation.isAffordable = false;
+            idleActivation.isClickable = false;
+            idleActivation.hasTimerFinished = true;
+            currentBlockTime = data.defaultTimer;
         }
     }
 
@@ -169,6 +244,8 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public bool isUnlocked;
         [ReadOnly] public bool isAffordable;
         [ReadOnly] public bool isClickable;
+        [ReadOnly] public bool allLogicFulfilled;
+        [ReadOnly] public bool hasTimerFinished;
     }
 
     [System.Serializable]
@@ -182,8 +259,6 @@ namespace Sourav.IdleGameEngine.IdleGameData
     [System.Serializable]
     public class GrowthRate
     {
-        public float separatorPercentage;
-        public float valueSeparatorPercentage;
         public float currentSliderValue;
         [Space(10)]
         [Header("ONLY FOR READONLY AND TESTING")]
