@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if IDLEGAME
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Sourav.Engine.Editable.DataRelated;
 using UnityEngine;
@@ -268,3 +269,4 @@ namespace Sourav.IdleGameEngine.IdleGameData
         [ReadOnly] public float lastHalfGrowthRate;
     }
 }
+#endif

@@ -1,4 +1,4 @@
-﻿using Sourav.Engine.Core.DebugRelated;
+﻿#if IDLEGAME
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
@@ -44,3 +44,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
         }
     }
 }
+#endif

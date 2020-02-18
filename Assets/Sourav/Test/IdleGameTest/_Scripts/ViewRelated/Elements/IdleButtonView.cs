@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if IDLEGAME
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
@@ -313,3 +314,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
         Finished,
     }
 }
+#endif

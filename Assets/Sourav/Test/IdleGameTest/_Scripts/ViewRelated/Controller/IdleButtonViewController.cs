@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if IDLEGAME
+using System.Collections.Generic;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -56,3 +57,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Controller
         }
     }
 }
+#endif

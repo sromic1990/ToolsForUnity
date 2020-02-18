@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.NotificationRelated;
+﻿#if IDLEGAME
+using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 
 namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
@@ -21,3 +22,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
         }
     }
 }
+#endif

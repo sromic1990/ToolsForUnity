@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.DebugRelated;
+﻿#if IDLEGAME
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.AdditionalLogicRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -212,3 +213,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
         }
     }
 }
+#endif
