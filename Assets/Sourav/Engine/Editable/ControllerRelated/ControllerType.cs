@@ -7,7 +7,7 @@
 		PauseResumeController,
 		ButtonController,
 		LogicController,
-		GameController,
+		MainController,
 		UiController,
 		UiScreenController,
 		CameraController,
@@ -16,8 +16,7 @@
 		AudioController,
 		TutorialController,
 		PopUpController,
-		IntroController,
-		
+
 		//Toggles Related
 		ToggleHandler,
 		
@@ -27,15 +26,8 @@
 		PurchaseController,
 		HapticFeedbackController,
 		AppsFlyerController,
-		
 		//Gameplay Related
 		GameplayController,
-		BallController,
-		HookController,
-		
-		//Spawner Related
-		HookSpawnerController,
-		LevelConstructor,
-		
+
 	}
 }
