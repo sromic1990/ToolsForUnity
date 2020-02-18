@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Sirenix.OdinInspector;
+using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.Components
 {
@@ -24,10 +25,10 @@ namespace Sourav.Utilities.Scripts.Components
 		{
 			canSpin = true;
 		}
-
+		
 		public void StopSpin()
 		{
-			canSpin = true;
+			canSpin = false;
 		}
 		
 		private void FixedUpdate()
