@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if IDLEGAME
+using System;
 using System.Globalization;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
@@ -75,3 +76,4 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.ControllerRelated
         }
     }
 }
+#endif

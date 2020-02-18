@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿#if IDLEGAME
+using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.IdleGameEngine.IdleGameData;
 using Sourav.Utilities.Extensions;
@@ -54,3 +55,4 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
         }
     }
 }
+#endif

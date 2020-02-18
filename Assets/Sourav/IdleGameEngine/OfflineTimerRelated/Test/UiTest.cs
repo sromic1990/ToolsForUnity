@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿#if IDLEGAME
+using System.Globalization;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -28,3 +29,4 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.Test
         }
     }
 }
+#endif
