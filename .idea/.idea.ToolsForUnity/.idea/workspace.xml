@@ -4,10 +4,6 @@
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/Scenes/IdleTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/Scenes/IdleTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Prefab/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Prefab/Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,6 +260,7 @@
       <workItem from="1581746911986" duration="20643000" />
       <workItem from="1582029392822" duration="175000" />
       <workItem from="1582188550679" duration="740000" />
+      <workItem from="1582194896511" duration="140000" />
     </task>
     <servers />
   </component>
