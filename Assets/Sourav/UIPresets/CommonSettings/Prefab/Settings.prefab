@@ -434,18 +434,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3604012618111757645}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 292130665620322925}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 11.303436, y: -7.200012}
-  m_SizeDelta: {x: 23.479996, y: 24.220001}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.45555556, y: 0.7924176}
+  m_AnchorMax: {x: 0.56666666, y: 0.8395696}
+  m_AnchoredPosition: {x: -0.17000008, y: 0.19000244}
+  m_SizeDelta: {x: 18.479996, y: 19.220001}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3604012618111757633
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -861,6 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d5f578ff4c643d1aa26e0208a92352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 0
   togglesHolder:
   - status: 0
@@ -1009,6 +1010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d5f578ff4c643d1aa26e0208a92352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 1
   togglesHolder:
   - status: 0
@@ -1157,6 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d5f578ff4c643d1aa26e0208a92352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   type: 2
   togglesHolder:
   - status: 0
@@ -1440,8 +1443,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7322de2200b5c419bb87705e7c33244d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInactive: 0
   settingsClose: {fileID: 3604012618111757645}
   bgShow: {fileID: 3604012617678858715}
   panel: {fileID: 939807517865186734}
   durationOfShow: 0.2
-  ease: 27
+  easeOnShow: 27
+  easeOnHide: 26
+  animateOnClose: 1
+  canCloseSettings: 0
