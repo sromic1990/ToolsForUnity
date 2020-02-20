@@ -12,6 +12,7 @@ namespace Sourav.UIPresets.CommonSettings.Scripts
         [SerializeField] private GameObject bgShow;
         [SerializeField] private GameObject panel;
         [SerializeField] private float durationOfShow;
+        [SerializeField] private float durationOfHide;
         [SerializeField] private Ease easeOnShow;
         [SerializeField] private Ease easeOnHide;
         [SerializeField] private bool animateOnClose;
@@ -49,8 +50,8 @@ namespace Sourav.UIPresets.CommonSettings.Scripts
             else
             {
                 canCloseSettings = false;
-                settingsClose.transform.DOLocalRotate(new Vector3(0, 0, -180), durationOfShow);
-                bgShow.transform.DOScale(new Vector3(1, 0, 1), durationOfShow).SetEase(easeOnHide).OnComplete(SettingsHidden);
+                settingsClose.transform.DOLocalRotate(new Vector3(0, 0, -180), durationOfHide);
+                bgShow.transform.DOScale(new Vector3(1, 0, 1), durationOfHide).SetEase(easeOnHide).OnComplete(SettingsHidden);
                 
             }
         }
