@@ -577,6 +577,9 @@
                 <e p="ToggleHandler.cs" t="Include" />
                 <e p="UiScreenHandler.cs" t="Include" />
               </e>
+              <e p="CurveRelated" t="Include">
+                <e p="CurveReading.cs" t="Include" />
+              </e>
               <e p="DataRelated" t="Include">
                 <e p="CameraCommonData.cs" t="Include" />
                 <e p="CommonData.cs" t="Include" />
@@ -662,6 +665,11 @@
               <e p="SortTest.cs" t="Include" />
               <e p="SubIndexTest.cs" t="Include" />
               <e p="TestOfTimer.cs" t="Include" />
+            </e>
+            <e p="CurveReadingTest" t="Include">
+              <e p="_Scripts" t="Include">
+                <e p="CurveValueTest.cs" t="Include" />
+              </e>
             </e>
             <e p="Editor" t="Include">
               <e p="CreateGameObject.cs" t="Include" />

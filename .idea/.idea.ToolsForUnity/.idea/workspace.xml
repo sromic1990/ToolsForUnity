@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +71,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/LargeNumbers/LargeNumber.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" />
@@ -169,6 +172,8 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" />
       </list>
     </option>
   </component>
@@ -188,7 +193,9 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -261,6 +268,7 @@
       <workItem from="1582029392822" duration="175000" />
       <workItem from="1582188550679" duration="740000" />
       <workItem from="1582194896511" duration="140000" />
+      <workItem from="1582284987767" duration="1573000" />
     </task>
     <servers />
   </component>
