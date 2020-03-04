@@ -15,7 +15,7 @@ namespace Sourav.Utilities.Editor.PopulateControllerRelated
         {
             SingletonObject[] objects = GameObject.FindObjectsOfType<SingletonObject>();
             ApplicationGame game = GameObject.FindObjectOfType<ApplicationGame>();
-            Controller[] controllers = GameObject.FindObjectsOfType<Controller>();
+            Sourav.Engine.Core.ControllerRelated.Controller[] controllers = GameObject.FindObjectsOfType<Sourav.Engine.Core.ControllerRelated.Controller>();
 
             if (objects == null)
             {

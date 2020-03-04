@@ -5,8 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" />
@@ -153,7 +157,6 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/IdleButtonView.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/Dependent.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleButtonRelated/IdleButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" />
@@ -174,6 +177,8 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" />
       </list>
     </option>
   </component>
@@ -269,6 +274,8 @@
       <workItem from="1582188550679" duration="740000" />
       <workItem from="1582194896511" duration="140000" />
       <workItem from="1582284987767" duration="1573000" />
+      <workItem from="1583301757842" duration="77000" />
+      <workItem from="1583301891239" duration="121000" />
     </task>
     <servers />
   </component>

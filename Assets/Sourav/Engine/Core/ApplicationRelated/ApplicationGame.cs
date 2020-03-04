@@ -59,9 +59,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return controllers;
 		}
 
-		public void SetControllers(Controller[] controllers)
+		public void SetControllers(Core.ControllerRelated.Controller[] controllers)
 		{
-			this.controllers = new List<Controller>();
+			this.controllers = new List<Core.ControllerRelated.Controller>();
 			for (int i = 0; i < controllers.Length; i++)
 			{
 				this.controllers.Add(controllers[i]);
