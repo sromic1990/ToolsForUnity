@@ -8,19 +8,21 @@ namespace Sourav.UIPresets
 {
     public class ButtonPressEffect : GameElement, IPointerDownHandler, IPointerUpHandler
     {
-        [SerializeField] private GameObject pushDownObject;
-        [SerializeField] private Vector3 onPointerDownPosition;
-        [SerializeField] private Vector3 onPointerUpPosition;
-
-        [SerializeField] private bool isLocal;
         [SerializeField] private bool isChangeImage;
+        [SerializeField] private bool isMoveDownPosition;
+        [ShowIf("isMoveDownPosition", true)][SerializeField] 
+        private GameObject pushDownObject;
+        [ShowIf("isMoveDownPosition", true)][SerializeField] 
+        private Vector3 onPointerDownPosition;
+        [ShowIf("isMoveDownPosition", true)][SerializeField] 
+        private Vector3 onPointerUpPosition;
+        [ShowIf("isMoveDownPosition", true)][SerializeField] 
+        private bool isLocal;
 
         [ShowIf("isChangeImage", true)] [SerializeField]
         private Image image;
-
         [ShowIf("isChangeImage", true)] [SerializeField]
         private Sprite pressUpImage;
-
         [ShowIf("isChangeImage", true)] [SerializeField]
         private Sprite pressDownImage;
         
