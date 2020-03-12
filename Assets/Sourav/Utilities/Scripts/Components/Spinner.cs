@@ -30,6 +30,24 @@ namespace Sourav.Utilities.Scripts.Components
 		{
 			canSpin = false;
 		}
+
+		[Sirenix.OdinInspector.Button()]
+		public void ChangeDirection()
+		{
+			if (direction == SpinningDirection.Clockwise)
+			{
+				direction = SpinningDirection.Anticlockwise;
+			}
+			else
+			{
+				direction = SpinningDirection.Clockwise;
+			}
+		}
+
+		public SpinningDirection GetDirection()
+		{
+			return direction;
+		}
 		
 		private void FixedUpdate()
 		{
