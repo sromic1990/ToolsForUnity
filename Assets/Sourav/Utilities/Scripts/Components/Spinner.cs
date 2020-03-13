@@ -13,14 +13,7 @@ namespace Sourav.Utilities.Scripts.Components
 		
 		private bool canSpin;
 
-		private void Start()
-		{
-			if (spinOnAwake)
-			{
-				canSpin = true;
-			}
-		}
-
+		#region SPINNING RELATED
 		public void StartSpinning()
 		{
 			canSpin = true;
@@ -30,8 +23,9 @@ namespace Sourav.Utilities.Scripts.Components
 		{
 			canSpin = false;
 		}
+		#endregion
 
-		[Sirenix.OdinInspector.Button()]
+		#region DIRECTION RELATED
 		public void ChangeDirection()
 		{
 			if (direction == SpinningDirection.Clockwise)
@@ -47,6 +41,27 @@ namespace Sourav.Utilities.Scripts.Components
 		public SpinningDirection GetDirection()
 		{
 			return direction;
+		}
+		#endregion
+		
+		#region MULTIPIER RELATED
+		public float Multiplier
+		{
+			get { return multiplier; }
+			set
+			{
+				multiplier = value;
+			}
+		}
+		#endregion
+		
+		#region MONO METHODS
+		private void Start()
+		{
+			if (spinOnAwake)
+			{
+				canSpin = true;
+			}
 		}
 		
 		private void FixedUpdate()
@@ -72,8 +87,9 @@ namespace Sourav.Utilities.Scripts.Components
 					break;
 			}
 
-			transform.Rotate(vectorAxis, multiplier * Time.fixedDeltaTime * (int)direction);
+			transform.Rotate(vectorAxis, multiplier * Time.fixedUnscaledDeltaTime * (int)direction);
 		}
+		#endregion
 	}
 
 	public enum SpinningDirection : int
