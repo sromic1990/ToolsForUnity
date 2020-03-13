@@ -25,6 +25,48 @@ namespace Sourav.UIPresets
         private Sprite pressUpImage;
         [ShowIf("isChangeImage", true)] [SerializeField]
         private Sprite pressDownImage;
+
+        [ShowIf("isMoveDownPosition", true)]
+        [Button()]
+        private void SetPositionDown()
+        {
+            if (isLocal)
+            {
+                onPointerDownPosition = pushDownObject.transform.localPosition;
+            }
+            else
+            {
+                onPointerDownPosition = pushDownObject.transform.position;
+            }
+        }
+        
+        [ShowIf("isMoveDownPosition", true)]
+        [Button()]
+        private void SetPositionUp()
+        {
+            if (isLocal)
+            {
+                onPointerUpPosition = pushDownObject.transform.localPosition;
+            }
+            else
+            {
+                onPointerUpPosition = pushDownObject.transform.position;
+            }
+        }
+
+        [ShowIf("isMoveDownPosition", true)]
+        [Button()]
+        private void SetDefault()
+        {
+            if (isLocal)
+            {
+                pushDownObject.transform.localPosition = onPointerUpPosition;
+            }
+            else
+            {
+                pushDownObject.transform.position = onPointerUpPosition;
+            }
+        }
         
         public void OnPointerDown(PointerEventData eventData)
         {
