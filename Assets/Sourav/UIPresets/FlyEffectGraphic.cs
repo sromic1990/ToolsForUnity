@@ -20,8 +20,8 @@ namespace _IdleWorkout._Scripts.ViewRelated
                 gObj.transform.position = objects[i].startPosition.position;
                 Graphic g = gObj.GetComponent<Graphic>();
                 gObj.transform.DOMove(objects[i].endPosition.position, objects[i].durationOfFlight)
-                    .SetEase(objects[i].flightEaseMovement);
-                g.DOFade(0, objects[i].durationOfFade).SetEase(objects[i].flightEaseFade)
+                    .SetEase(objects[i].flightEaseMovement).SetUpdate(true);
+                g.DOFade(0, objects[i].durationOfFade).SetEase(objects[i].flightEaseFade).SetUpdate(true)
                     .SetDelay(objects[i].delayBeforeFading).OnComplete(() =>
                     {
                         Destroy(g.gameObject);
