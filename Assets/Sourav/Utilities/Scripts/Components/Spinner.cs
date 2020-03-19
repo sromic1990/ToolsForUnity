@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using Sourav.Engine.Core.DebugRelated;
 using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.Components
@@ -11,17 +12,24 @@ namespace Sourav.Utilities.Scripts.Components
 
 		[SerializeField] private bool spinOnAwake;
 		
-		private bool canSpin;
+		[SerializeField][ReadOnly] private bool canSpin;
 
 		#region SPINNING RELATED
 		public void StartSpinning()
 		{
+			// D.Log("START SPIN");
 			canSpin = true;
 		}
 		
 		public void StopSpin()
 		{
+			// D.Log("STOP SPIN");
 			canSpin = false;
+		}
+
+		public bool IsSpinning
+		{
+			get { return canSpin; }
 		}
 		#endregion
 
@@ -60,7 +68,7 @@ namespace Sourav.Utilities.Scripts.Components
 		{
 			if (spinOnAwake)
 			{
-				canSpin = true;
+				StartSpinning();
 			}
 		}
 		
