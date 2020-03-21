@@ -13,6 +13,11 @@ namespace Sourav.Utilities.Scripts.ReadCSVFromPath
 		public void PopulateData()
 		{
 			string path = Application.dataPath + "/" + Path;
+			string[] pathElements = path.Split('.');
+			if (pathElements[pathElements.Length - 1] != "csv")
+			{
+				path += ".csv";
+			}
 			
 			ReadCsv rcsv = new ReadCsv();
 			rcsv.ReadFromCsv(path);
