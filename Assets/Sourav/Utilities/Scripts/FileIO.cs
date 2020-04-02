@@ -7,16 +7,18 @@ namespace Sourav.Utilities.Scripts
 {
     public static class FileIO
     {
+        private static string STRINGPATH = Application.persistentDataPath + "/gameData.sou";
+        
         public static void WriteData(string dataStream)
         {
-            File.WriteAllText(Application.persistentDataPath+"/gameData.sou", dataStream);
+            File.WriteAllText(STRINGPATH, dataStream);
         }
 
         public static string ReadData()
         {
             if (FileExists())
             {
-                string str = File.ReadAllText(Application.persistentDataPath + "/gameData.sou");
+                string str = File.ReadAllText(STRINGPATH);
                 return str;
             }
             else
@@ -27,7 +29,7 @@ namespace Sourav.Utilities.Scripts
 
         public static bool FileExists()
         {
-            if(File.Exists(Application.persistentDataPath + "/gameData.sou"))
+            if(File.Exists(STRINGPATH))
             {
                 return true;
             }
@@ -35,6 +37,11 @@ namespace Sourav.Utilities.Scripts
             {
                 return false;
             }
+        }
+
+        public static string GetSavePath()
+        {
+            return STRINGPATH;
         }
     }
 }
