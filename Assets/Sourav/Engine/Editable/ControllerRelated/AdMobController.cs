@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using GoogleMobileAds.Api;
 using MEC;
 using Sourav.Engine.Core.ControllerRelated;
+using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -200,6 +201,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 
 		private void HandleInterstitialOnAdClosed(object sender, EventArgs e)
 		{
+			Timing.RunCoroutine(RestartSounds());
 			Debug.Log("Interstital : OnAdClosed");
 			this.RequestInterstitial();
 		}
@@ -221,13 +223,29 @@ namespace Sourav.Engine.Editable.ControllerRelated
 
 		private void ShowInterstitial()
 		{
+			#if UNITY_EDITOR
+			D.Log("Interstitial Showing");
+			#else
 			if (this.interstitial.IsLoaded()) 
 			{
 				if (!App.GetLevelData().AdsInactive)
 				{
+					if (App.GetLevelData().IsMusicOn)
+					{
+						App.GetLevelData().turnOnMusic = true;
+						App.GetLevelData().IsMusicOn = false;
+					}
+				
+					if (App.GetLevelData().IsSfxOn)
+					{
+						App.GetLevelData().turnOnSfx = true;
+						App.GetLevelData().IsSfxOn = false;
+					}
+					
 					this.interstitial.Show();
 				}
 			}
+			#endif
 		}
 		#endregion
 		
@@ -316,8 +334,14 @@ namespace Sourav.Engine.Editable.ControllerRelated
 		
 		private void ShowRewardAd()
 		{
+			#if UNITY_EDITOR
+			App.GetNotificationCenter().Notify(Notification.AdRewarded);
+			App.GetNotificationCenter().Notify(Notification.RewardAdClosed);
+			
+			#else
 			if (rewardBasedVideo.IsLoaded()) 
 			{
+				App.Notify(Notification.ShowingRewardAd);
 				if (App.GetLevelData().IsMusicOn)
 				{
 					App.GetLevelData().turnOnMusic = true;
@@ -333,6 +357,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 				rewardBasedVideo.Show();
 				DisableAllVideoButtons();
 			}
+			#endif
 		}
 
 		private void DisableAllVideoButtons()
@@ -395,7 +420,10 @@ namespace Sourav.Engine.Editable.ControllerRelated
 					break;
 				
 				case Notification.RemoveAds:
-					RemoveBannerView();
+					if (typeOfAds.Contains(TypeOfID.Banner))
+					{
+						RemoveBannerView();
+					}
 					break;
 				
 				case Notification.ShowInterstitial:
