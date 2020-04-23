@@ -4,11 +4,9 @@
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,116 +18,115 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/MemoryGame/Scripts/BoardControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/AdMobAdManager/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DebugRelated/D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Common/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/CameraExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Common/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/CameraExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/DebugRelated/D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/IdleCurrency/IdleCurrency.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/IdleCurrency/SampleScript.cs" />
         <option value="$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" />
@@ -179,6 +176,8 @@
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +190,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -226,18 +224,6 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -276,11 +262,12 @@
       <workItem from="1582284987767" duration="1573000" />
       <workItem from="1583301757842" duration="77000" />
       <workItem from="1583301891239" duration="121000" />
+      <workItem from="1587626543064" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -289,13 +276,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1988" y="308" width="823" height="486" key="find.popup" timestamp="1581777607793">

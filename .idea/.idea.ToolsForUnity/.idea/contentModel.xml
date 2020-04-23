@@ -696,9 +696,6 @@
             </e>
           </e>
           <e p="Tools" t="Include">
-            <e p="AdMobAdManager" t="Include">
-              <e p="AdMobController.cs" t="Include" />
-            </e>
             <e p="OrientationManager" t="Include">
               <e p="OrientationManager.cs" t="Include" />
             </e>
@@ -743,11 +740,13 @@
             <e p="BarFillPreset" t="Include">
               <e p="BarFill.cs" t="Include" />
             </e>
+            <e p="ButtonPressEffect.cs" t="Include" />
             <e p="CommonSettings" t="Include">
               <e p="Scripts" t="Include">
                 <e p="SettingsView.cs" t="Include" />
               </e>
             </e>
+            <e p="FlyEffectGraphic.cs" t="Include" />
             <e p="MoveAndScaleHandler.cs" t="Include" />
             <e p="MoveAndScaleToPosition.cs" t="Include" />
             <e p="PopUpController.cs" t="Include" />
@@ -899,6 +898,10 @@
                 <e p="Blinker.cs" t="Include" />
                 <e p="ElementRotation.cs" t="Include" />
                 <e p="Spinner.cs" t="Include" />
+                <e p="ZoomPanRelated" t="Include">
+                  <e p="PanZoomScript.cs" t="Include" />
+                  <e p="ZoomPanButton.cs" t="Include" />
+                </e>
               </e>
               <e p="CreatePrefabInstance.cs" t="Include" />
               <e p="DataStructures" t="Include">
@@ -1178,7 +1181,7 @@
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="ToolsForUnity.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
   </component>
 </project>
