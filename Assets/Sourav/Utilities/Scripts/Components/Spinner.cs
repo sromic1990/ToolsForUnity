@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿using System;
+using Sirenix.OdinInspector;
 using Sourav.Engine.Core.DebugRelated;
 using UnityEngine;
 
@@ -27,6 +28,12 @@ namespace Sourav.Utilities.Scripts.Components
 			canSpin = false;
 		}
 
+		public void Reset()
+		{
+			StopSpin();
+			transform.rotation = Quaternion.identity;
+		}
+
 		public bool IsSpinning
 		{
 			get { return canSpin; }
@@ -36,6 +43,7 @@ namespace Sourav.Utilities.Scripts.Components
 		#region DIRECTION RELATED
 		public void ChangeDirection()
 		{
+			// D.Log("Change Direction");
 			if (direction == SpinningDirection.Clockwise)
 			{
 				direction = SpinningDirection.Anticlockwise;
