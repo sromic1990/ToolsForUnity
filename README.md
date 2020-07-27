@@ -7,6 +7,6 @@ _developer extremely caught up with pending work :P :)_
 
 Thanks for reading. The tools in this project are continually updated / modified / fixed / refactored for better readability and improvement in stability and performance. Do check back this info often if you are interested in knowing more about this project.
 
- - Sourav Chatterjee
+ Sourav Chatterjee
 
 **sromic@gmail.com**
