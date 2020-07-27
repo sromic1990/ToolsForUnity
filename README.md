@@ -1,6 +1,6 @@
 # ToolsForUnity
 
-This project is currently on Unity 2018.4 (LTS) with a version of MVC helper and design pattern organizer mainly for Hyoercasual and Idle Game development using Unity game engine.
+This project is currently on Unity 2018.4 (LTS) with a version of MVC helper and design pattern organizer mainly for Hypercasual and Idle Game development using Unity game engine.
 
 This is also a collection of useful helper shortcuts for Unity, details of which will be soon published here and in the wiki.
 
