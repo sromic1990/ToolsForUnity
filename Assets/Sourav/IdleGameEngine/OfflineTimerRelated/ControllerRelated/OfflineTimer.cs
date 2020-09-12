@@ -1,6 +1,7 @@
 ﻿#if IDLEGAME
 using System;
 using System.Globalization;
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -49,7 +50,7 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.ControllerRelated
                     {
                         App.GetLevelData().LastDateTime = DateTime.Now.ToString(CultureInfo.InvariantCulture);
                     }
-                    App.GetNotificationCenter().Notify(Notification.OfflineSecondsSet);
+                    App.Notify(Notification.OfflineSecondsSet);
                 }
                 _isTimerHandled = true;
             }

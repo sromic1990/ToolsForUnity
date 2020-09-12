@@ -1,6 +1,7 @@
 ﻿#if IDLEGAME
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Core.NotificationRelated;
@@ -46,7 +47,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
             PlayParticles();
             ShowAsPerStatus(ButtonStatus.Disabled);
             NotificationParam idleButtonPressed = new NotificationParam(Mode.intData);
-            idleButtonPressed.intData.Add((int)unitType);
+            idleButtonPressed.intData["buttonType"] = (int)unitType;
             App.Notify(Notification.ButtonPressed);
             App.Notify(Notification.IdleButtonPressed, idleButtonPressed);
         }
@@ -208,7 +209,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
         public void StartFill()
         {
             NotificationParam param = new NotificationParam(Mode.intData);
-            param.intData.Add((int)unitType);
+            param.intData["buttonType"] = (int)unitType;
             App.Notify(Notification.IdleButtonFillStarted, param);
             Updater updater = new Updater();
             updater.action = OnUpdate;
@@ -234,7 +235,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
         private void FillComplete()
         {
             NotificationParam param = new NotificationParam(Mode.intData);
-            param.intData.Add((int)unitType);
+            param.intData["buttonType"] = (int)unitType;
             App.Notify(Notification.IdleButtonFillComplete, param);
         }
 

@@ -1,0 +1,17 @@
+{
+    "name": "CoreEngineAssembly",
+    "references": [
+        "SouravExtensionsAssembly",
+        "DebugAssembly",
+        "EditorUpdateAssembly",
+        "CreatePrefabInstanceAssembly"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,5 +1,6 @@
 ﻿#if IDLEGAME
 using System.Collections.Generic;
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -20,11 +21,11 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Controller
             {
                 case Notification.GenerateIdleButtons:
                     // D.Log("IdleButtonViewController -> GenerateIdleButtons");
-                    generator.Generate(App.GetIdleData().idleLevels[App.GetLevelData().CurrentLevel], out buttonViews);
+                    generator.Generate(App.GetData<IdleCommonData>().idleLevels[App.GetLevelData().CurrentLevel], out buttonViews);
                     break;
                 
                 case Notification.StartBlockIng:
-                    IdleButtonView buttonView = GetIdleButton((IdleUnitType) param.intData[0]);
+                    IdleButtonView buttonView = GetIdleButton((IdleUnitType) param.intData["buttonType"]);
                     if (buttonView != null)
                     {
                         buttonView.StartFill();
@@ -34,7 +35,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Controller
                 case Notification.ButtonsUpdated:
                     for (int i = 0; i < buttonViews.Count; i++)
                     {
-                        buttonViews[i].SetUp(App.GetIdleData().idleLevels[App.GetLevelData().CurrentLevel].idleInfos[i]);
+                        buttonViews[i].SetUp(App.GetData<IdleCommonData>().idleLevels[App.GetLevelData().CurrentLevel].idleInfos[i]);
                     }
                     break;
             }

@@ -1,7 +1,7 @@
 ﻿#if IDLEGAME
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
-using Sourav.Engine.Editable.AdditionalLogicRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
 using Sourav.IdleGameEngine.IdleGameData;
@@ -19,16 +19,16 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
                     break;
                 
                 case Notification.IdleButtonPressed:
-                    HandleButtonPressed((IdleUnitType) param.intData[0]);
+                    HandleButtonPressed((IdleUnitType) param.intData["buttonType"]);
                     break;
                 
                 case Notification.IdleButtonFillStarted:
-                    HandleTimerOfInfo((IdleUnitType) param.intData[0], isStarted: true);
+                    HandleTimerOfInfo((IdleUnitType) param.intData["buttonType"], isStarted: true);
                     EvaluateInfos();
                     break;
                 
                 case Notification.IdleButtonFillComplete:
-                    HandleTimerOfInfo((IdleUnitType) param.intData[0], isStarted: false);
+                    HandleTimerOfInfo((IdleUnitType) param.intData["buttonType"], isStarted: false);
                     EvaluateInfos();
                     break;
             }
@@ -36,7 +36,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
 
         private void HandleButtonPressed(IdleUnitType unitType)
         {
-            IdleInfo info = App.GetIdleData().GetInfo(unitType);
+            IdleInfo info = App.GetData<IdleCommonData>().GetInfo(unitType);
             App.GetLevelData().unitsToBeAddedNextTick += info.defaultUnitIncreasePerSecond * info.permanentMultiplier *
                                                          (int)App.GetLevelData().currentMultiplier;
             IdleCurrency unit = App.GetLevelData().Unit;
@@ -103,7 +103,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
             if (info.data.hasTimerBeforeNextClick)
             {
                 NotificationParam param = new NotificationParam(Mode.intData);
-                param.intData.Add((int)info.unitType);
+                param.intData["buttonType"] = (int)info.unitType;
                 App.Notify(Notification.StartBlockIng, param);
             }
             App.Notify(Notification.UnitsUpdated);
@@ -111,7 +111,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
 
         private void HandleTimerOfInfo(IdleUnitType unit, bool isStarted)
         {
-            IdleInfo info = App.GetIdleData().GetInfo(unit);
+            IdleInfo info = App.GetData<IdleCommonData>().GetInfo(unit);
             if (info != null)
             {
                 if (isStarted)
@@ -128,15 +128,13 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
         private void EvaluateInfos()
         {
             // D.Log($"Evaluating info");
-            for (int i = 0; i < App.GetIdleData().idleLevels.Count; i++)
+            for (int i = 0; i < App.GetData<IdleCommonData>().idleLevels.Count; i++)
             {
-                for (int j = 0; j < App.GetIdleData().idleLevels[i].idleInfos.Count; j++)
+                for (int j = 0; j < App.GetData<IdleCommonData>().idleLevels[i].idleInfos.Count; j++)
                 {
-                    IdleInfo info = App.GetIdleData().idleLevels[i].idleInfos[j];
-
-                    LogicStatus status = App.GetLogicEvaluator().EvaluateLogic(info.logicToUnlock);
-
-                    if (info.nextCost.cost.cost < App.GetLevelData().Unit && status == LogicStatus.Fulfilled)
+                    IdleInfo info = App.GetData<IdleCommonData>().idleLevels[i].idleInfos[j];
+                    
+                    if (info.nextCost.cost.cost <= App.GetLevelData().Unit)
                     {
                         info.idleActivation.isAffordable = true;
                     }
@@ -169,7 +167,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
 
                             for (int k = 0; k < j; k++)
                             {
-                                IdleInfo prevInfo = App.GetIdleData().idleLevels[i].idleInfos[k];
+                                IdleInfo prevInfo = App.GetData<IdleCommonData>().idleLevels[i].idleInfos[k];
                                 if (prevInfo.currentCount < prevInfo.data.totalCount)
                                 {
                                     canUnlock = false;
@@ -186,7 +184,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
                             {
                                 IdleUnitType type = info.dependsOn.dependencies[i].unitType;
                                 int requiredCount = info.dependsOn.dependencies[i].countToUnlock;
-                                int actualCount = App.GetIdleData().GetCount(type);
+                                int actualCount = App.GetData<IdleCommonData>().GetCount(type);
                                 if (requiredCount <= actualCount)
                                 {
                                     info.dependsOn.dependencies[i].isComplete = true;

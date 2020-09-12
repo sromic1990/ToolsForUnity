@@ -1,4 +1,5 @@
 ﻿using System;
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
@@ -28,7 +29,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 
 		private void Start()
 		{
-			cameraCommonData = App.GetData().GetComponent<CameraCommonData>();
+			cameraCommonData = App.GetData<CameraCommonData>();
 		}
 
 		private void Update()
@@ -60,7 +61,7 @@ namespace Sourav.Utilities.Scripts.Camera.CameraFollow
 			switch (notification)
 			{
 				case Notification.StartCameraScript:
-					_target = App.GetData().GetComponent<GameCommonData>().player;
+					_target = App.GetData<GameCommonData>().player;
 					runScript = true;
 					break;
 				

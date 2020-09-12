@@ -1,0 +1,16 @@
+{
+    "name": "IdleEngineAssembly",
+    "references": [
+        "CoreEngineAssembly",
+        "DebugAssembly",
+        "SouravExtensionsAssembly"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

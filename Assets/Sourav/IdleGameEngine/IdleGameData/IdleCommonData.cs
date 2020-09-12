@@ -210,8 +210,6 @@ namespace Sourav.IdleGameEngine.IdleGameData
 
         public IdleActivation idleActivation;
 
-        public List<LogicData> logicToUnlock;
-
         public int currentCount;
 
         public bool hasVariableBlockTime;

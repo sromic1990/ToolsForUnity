@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -25,7 +26,7 @@ namespace Sourav.IdleGameEngine.TickerRelated
             if (currentSecondFraction > 1.0f)
             {
                 currentSecondFraction = 0.0f;
-                App.GetNotificationCenter().Notify(Notification.SecondTick);
+                App.Notify(Notification.SecondTick);
             }
         }
     }
