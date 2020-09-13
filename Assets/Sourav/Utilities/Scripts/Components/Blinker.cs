@@ -1,4 +1,4 @@
-﻿using Sourav.Utilities.Extensions;
+﻿using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.Components

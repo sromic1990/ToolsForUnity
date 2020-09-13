@@ -1,8 +1,8 @@
 ﻿#if IDLEGAME
-using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
-using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
+using Sourav.Idle;
 using UnityEngine;
 using UnityEngine.UI;
 

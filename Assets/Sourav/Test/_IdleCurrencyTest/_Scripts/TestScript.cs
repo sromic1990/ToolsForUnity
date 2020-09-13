@@ -1,8 +1,7 @@
-﻿using Sourav.Engine.Core.DebugRelated;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
-using IdleCurrency = Sourav.IdleGameEngine.IdleCurrency.IdleCurrency.IdleCurrency;
+using Sourav.Idle;
 
 namespace Sourav.Test._IdleCurrencyTest._Scripts
 {
@@ -62,7 +61,7 @@ namespace Sourav.Test._IdleCurrencyTest._Scripts
         private void CompareAndHandleButtonActivation(IdleCurrency unit, IdleCurrency currentCost)
         {
             int a = IdleCurrency.Compare(unit, currentCost);
-            D.Log($"a = {a}");
+            // D.Log($"a = {a}");
             
             if (a == -1)
             {

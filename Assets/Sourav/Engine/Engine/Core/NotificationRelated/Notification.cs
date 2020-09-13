@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
 using UnityEngine;
+using Sourav.Idle;
 
 namespace Sourav.Engine.Core.NotificationRelated
 {	

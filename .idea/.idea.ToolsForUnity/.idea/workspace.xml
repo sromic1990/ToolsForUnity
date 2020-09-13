@@ -25,132 +25,100 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/AndroidHapticManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/HapticFeedbackController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PositionDataController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DataRelated/LocalPositionRegistry.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DebugRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DebugRelated/D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/DebugRelated/D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/EngineRelated/EngineId.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/Notification.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/PositionRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/PositionRelated/PositionRecorder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Core/PositionRelated/PositionRecorder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicEvaluator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/AdditionalLogicRelated/LogicType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ButtonRelated/ButtonType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AdMobController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AppsFlyerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/AudioController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ControllerType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FacebookController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/FirebaseController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ToggleHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/CurveRelated/CurveReading.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CameraCommonData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/GameCommonData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelDataHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/TimerData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/TimerData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TestingRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TestingRelated/FireAnyNotification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TestingRelated/FireAnyNotification.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/TimerWatch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ToggleRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ToggleRelated/ToggleType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ToggleRelated/ToggleType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/SampleScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/SampleScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EngineTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EngineTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EngineTestScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EngineTestScene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ApplicationRelated/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ApplicationRelated/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ButtonRelated/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ButtonRelated/ButtonScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/GameElementRelated/GameElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/GameElementRelated/GameElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/IdleCurrency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/IdleCurrency/IdleCurrency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/IdleCurrency/IdleCurrency.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/SampleScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/SampleScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/Scenes/TestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/_Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/Notification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/Notification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/NotificationCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/NotificationCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/PositionRelated/PositionRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/PositionRelated/PositionRecorder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/TestScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/UpdateElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/UpdateElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/CoreEngineAssembly.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/CoreEngineAssembly.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/UiScreenHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/UiScreenHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/CurveRelated/CurveReading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/CurveRelated/CurveReading.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/LevelCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/TestingRelated/FireAnyNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/TestingRelated/FireAnyNotification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts/SettingsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts/SettingsView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/FlyEffectGraphic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/FlyEffectGraphic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/PopUpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/PopUpController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageHolderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageHolderView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ToggleSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ToggleSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/UiScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/UiScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleEngineAssembly.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleEngineAssembly.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/TimerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/TimerTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/CheckGameobjectAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/CheckGameobjectAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Editor/CheckEveryEditorUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Editor/CheckEveryEditorUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/CheckGameObjectsPresentInScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/CheckGameObjectsPresentInScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/SingletonObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/SingletonObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/SingletonTypes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CheckForExistingGameObjectInScene/Scripts/SingletonTypes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CreatePrefabInstance.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CreatePrefabInstance/CreatePrefabInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CreatePrefabInstance/CreatePrefabInstance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CreatePrefabInstance/CreatePrefabInstanceAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/CreatePrefabInstance/CreatePrefabInstanceAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/DebugAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/DebugAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/Editor/AddRemoveDebugFromBuild.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DebugRelated/Editor/AddRemoveDebugFromBuild.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DontDestroyOnLoad.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DontDestroyOnLoad/DontDestroyOnLoad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DontDestroyOnLoad/DontDestroyOnLoad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DontDestroyOnLoad/DontDestroyOnLoadAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/DontDestroyOnLoad/DontDestroyOnLoadAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/Editor/ReadCSVFromPath.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/Editor/ReadCSVFromPath/ReadCSVFromPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/Editor/ReadCSVFromPath/ReadCSVFromPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVFromPath.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVFromPath/ReadCSV.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVFromPath/ReadCSV.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVFromPath/ReadCsvFromPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/StandAlones/ReadCSV/ReadCSVFromPath/ReadCsvFromPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" afterDir="false" />
@@ -158,101 +126,128 @@
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/BarFillPreset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/BarFillPreset/BarFill.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/BarFillPreset/BarFill.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/ButtonPressEffect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/ButtonPressEffect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_HapticOFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_HapticOFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_HapticON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_HapticON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Music_OFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Music_OFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Music_ON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Music_ON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settingd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settingd.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settings_OFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settings_OFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settings_ON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/BTN_Settings_ON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/Settings_BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Icons/Settings_BG.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Prefab/Settings.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Prefab/Settings.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/CommonSettings/Scripts/SettingsView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/FlyEffectGraphic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/FlyEffectGraphic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleToPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/PopUpController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageHolderView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/StageView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/TestOfStageView.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/TestOfStageView.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/TestStageHolderView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/StageViewRelated/TestStageHolderView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/Timer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/Timer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/UiScreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/UIPresets/UiScreen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DebugRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DebugRelated/AddRemoveDebugFromBuild.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DebugRelated/AddRemoveDebugFromBuild.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/EngineRelated/CreateEngineCore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ReadCSVFromPath.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ReadCSVFromPath/ReadCSVFromPath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/ReadCSVFromPath/ReadCSVFromPath.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/RunEveryEditorUpdate.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/RunEveryEditorUpdate/CheckEveryEditorUpdate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/RunEveryEditorUpdate/CheckEveryEditorUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/ComputerIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/UnityIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/buildFrom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/button_active.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/chart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/clearOnSceneLoaded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/collapse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/date.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/error_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/even_log.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/fps.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/graphicCard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/info.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/log_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/memory.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/odd_log.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/reporterScrollerSkin.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_down_arraw.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_horizental_thumb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_left_arraw.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_right_arraw.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_up_arraw.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/scroller_vertical_thumb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/search.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/selected.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/software.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/timer_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/user.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Images/warning_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/MultiKeyDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Reporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/ReporterMessageReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Resources/Prefabs/Engine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ArrayExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/FloatExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/GameObjectExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/IEnumerableExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/ListExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/SouravExtensionsAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/SouravExtensionsAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/StringExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/StringExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/TransformExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/TransformExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/Vector2Extensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Extensions/Vector2Extensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CheckGameObjectsPresentInScene.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/CreatePrefabInstance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DontDestroyOnLoad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/FileIO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCSV.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCSV.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ReadCSVFromPath/ReadCsvFromPath.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Utilities/SingletonTypes.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Spinner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Spinner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintFromSeconds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintFromSeconds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Tests/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Tests/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Tests/Scene2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Tests/Scene2Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Tests/TestPoco.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Tests/TestPoco.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,67 +258,69 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Common/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/Scene2Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/Scene2CommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Extensions/CameraExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Tests/MainController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/MemoryGame/Scripts/BoardControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/AdCommonData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Tests/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../DebugPackage/Assets/Sourav/DebugRelated/Reporter/Editor/ReporterEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/IAPCommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ExtensionsPackageUnity/Assets/Sourav/Extensions/FloatExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/TestCommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E83EAA0A-6A58-488B-BC06-9BA02EC1D4CE/bd/68c6ab2c/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../DebugPackage/Assets/Sourav/DebugRelated/D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/Editor/CreateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Attributes/ButtonAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/TestPoco.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iOSHapticFeedback/Scripts/iOSHapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/MemoryGame/Scripts/BoardControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/CallbacksExample/Scripts/CallbacksExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/iTweenExamples/PathControlledCharacter/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Quick/Engine/Utils/QReflection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/943B05FB-D37D-4D6F-A8CB-5ADAF537E7F6/53/e7d9686d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -333,57 +330,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/IAPCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/AdCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/DefaultData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/ApplicationGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PopulateControllerRelated/PopulateAllControllers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/NotificationRelated/NotificationCenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/MoveAndScaleHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ButtonRelated/ButtonScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/TestingRelated/FireAnyNotification.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/UpdateElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/ToggleSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/PositionRelated/PositionRecorder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/UiScreenHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/IdleCurrency/_IdleCurrencyTest/_Scripts/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/NotificationCenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/UIPresets/UiScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/UpdateRelated/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/TimerTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/Reporter/Editor/ReporterEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/GameCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/TestCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/CommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/NotificationRelated/NotificationList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" />
         <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/GameElementRelated/GameElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/TestPoco.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/Scene2CommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/ChangeScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/Scene2Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Core/ApplicationRelated/App.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/ControllerRelated/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/DataRelated/LevelCommonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Editable/Timer/CoroutineHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/UIPresets/FlyEffectGraphic.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Spinner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintFromSeconds.cs" />
+        <option value="$PROJECT_DIR$/../DebugPackage/Assets/Sourav/DebugRelated/package.json" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/ArrayExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Algorithms/A_Star_PathFinding/PathFinding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/DateTimeRelated/ConvertDateTimeToString.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/FileIORelated/FindAllFolders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/FloatExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/GameObjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/IEnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/ListExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/StringExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/TransformExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/StandAlones/Extensions/Vector2Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ApplicationRelated/App.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/UiScreenHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts/SettingsView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageHolderView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/FlyEffectGraphic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/PopUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ToggleSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/UiScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/SubIndexTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" />
+        <option value="$PROJECT_DIR$/../DebugPackage/Assets/Sourav/DebugRelated/Reporter/Editor/ReporterEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/Notification.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/LevelCommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" />
       </list>
     </option>
   </component>
@@ -403,6 +400,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
@@ -416,6 +414,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -477,6 +476,12 @@
       <workItem from="1583301891239" duration="121000" />
       <workItem from="1587626543064" duration="122000" />
       <workItem from="1599911283148" duration="16915000" />
+      <workItem from="1599936597481" duration="303000" />
+      <workItem from="1599938825211" duration="2655000" />
+      <workItem from="1599981984544" duration="333000" />
+      <workItem from="1599999759816" duration="2000" />
+      <workItem from="1599999823777" duration="186000" />
+      <workItem from="1600016940371" duration="1300000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,4 @@
-﻿using Sourav.Engine.Core.DebugRelated;
-
-namespace Sourav.Utilities.Scripts.PrettyPrintTimeDuration
+﻿namespace Sourav.Utilities.Scripts.PrettyPrintTimeDuration
 {
     public static class PrettyPrintFromSeconds
     {
@@ -168,7 +166,7 @@ namespace Sourav.Utilities.Scripts.PrettyPrintTimeDuration
                 }
             }
             
-            D.Log($"longHand = {longHand}");
+            // D.Log($"longHand = {longHand}");
             return longHand;
         }
         
@@ -210,7 +208,7 @@ namespace Sourav.Utilities.Scripts.PrettyPrintTimeDuration
             }
             
             // shortHand = hours + ":" + mins + ":" + rem;
-            D.Log($"shortHand = {shortHand}");
+            // D.Log($"shortHand = {shortHand}");
             return shortHand;
         }
     }

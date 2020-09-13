@@ -1,7 +1,6 @@
-﻿using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
-using Sourav.Engine.Core.GameElementRelated;
+﻿using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.Timer;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using UnityEngine;
 
 namespace Sourav.Test._Scripts
@@ -16,9 +15,9 @@ namespace Sourav.Test._Scripts
             TimerWatch watch = new TimerWatch();
             TimerInfo infoCurrent = new TimerInfo(info);
             infoCurrent.id = "us";
-            infoCurrent.OnTickInt = i => { D.Log($"tickUnscaled = {i}");};
-            infoCurrent.OnTickContinous = f => { D.Log($"tickContinuous = {f}");};
-            infoCurrent.OnTimerFinished = () => { D.Log($"Timer finished UNSCALED");};
+            // infoCurrent.OnTickInt = i => { D.Log($"tickUnscaled = {i}");};
+            // infoCurrent.OnTickContinous = f => { D.Log($"tickContinuous = {f}");};
+            // infoCurrent.OnTimerFinished = () => { D.Log($"Timer finished UNSCALED");};
             
             App.GetCoroutineHandler().StartTimer(watch: watch, info: infoCurrent);
         }
@@ -29,9 +28,9 @@ namespace Sourav.Test._Scripts
             TimerWatch watch = new TimerWatch();
             TimerInfo infoCurrent = new TimerInfo(info);
             infoCurrent.id = "s";
-            infoCurrent.OnTickInt = i => { D.Log($"tickScaled = {i}");};
-            infoCurrent.OnTickContinous = f => { D.Log($"tickContinuous = {f}");};
-            infoCurrent.OnTimerFinished = () => { D.Log($"Timer finished SCALED");};
+            // infoCurrent.OnTickInt = i => { D.Log($"tickScaled = {i}");};
+            // infoCurrent.OnTickContinous = f => { D.Log($"tickContinuous = {f}");};
+            // infoCurrent.OnTimerFinished = () => { D.Log($"Timer finished SCALED");};
             
             App.GetCoroutineHandler().StartTimer(watch: watch, info: infoCurrent);
         }

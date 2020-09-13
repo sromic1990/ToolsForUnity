@@ -1,6 +1,6 @@
 ﻿using DG.Tweening;
 using Sourav.Engine.Core.GameElementRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 

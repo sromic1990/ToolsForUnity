@@ -1,5 +1,4 @@
-﻿using Sourav.Engine.Core.DebugRelated;
-using Sourav.Engine.Core.GameElementRelated;
+﻿using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
 namespace Sourav.Engine.Editable.CurveRelated
@@ -13,7 +12,7 @@ namespace Sourav.Engine.Editable.CurveRelated
         {
             timeOfCurve = Mathf.Clamp01(timeOfCurve);
             float result = curve.Evaluate(timeOfCurve);
-            D.Log($"Value = {result}");
+            // D.Log($"Value = {result}");
             
             return result;
         }

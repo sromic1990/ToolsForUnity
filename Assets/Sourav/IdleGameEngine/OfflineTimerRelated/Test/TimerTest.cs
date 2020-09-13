@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
 using Sirenix.OdinInspector;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
@@ -15,7 +14,7 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.Test
         [Sirenix.OdinInspector.Button()]
         public void ShowDateTime()
         {
-            D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
+            // D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
         }
 
         [Sirenix.OdinInspector.Button()]
@@ -23,12 +22,12 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.Test
         {
             if (!storeFirst)
             {
-                D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
+                // D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
                 dateTime1 = System.DateTime.Now.ToString(CultureInfo.InvariantCulture);
             }
             else
             {
-                D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
+                // D.Log("DateTime = "+System.DateTime.Now.ToString(CultureInfo.InvariantCulture));
                 dateTime2 = System.DateTime.Now.ToString(CultureInfo.InvariantCulture);
             }
 
@@ -42,7 +41,7 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.Test
             System.DateTime d2 = System.DateTime.Parse(dateTime2);
 
             System.TimeSpan t = d2 - d1;
-            D.Log("Elapsed = "+t.TotalSeconds);
+            // D.Log("Elapsed = "+t.TotalSeconds);
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.IO;
 using Sourav.Utilities.Editor.BuildTargetGroupRelated;
 using Sourav.Utilities.Editor.MacroRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEditor;
 using UnityEngine;
 

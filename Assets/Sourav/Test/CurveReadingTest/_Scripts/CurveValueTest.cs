@@ -1,7 +1,6 @@
-﻿using Sourav.Engine.Core.DebugRelated;
-using Sourav.Engine.Core.GameElementRelated;
+﻿using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.CurveRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.Test.CurveReadingTest._Scripts
@@ -19,7 +18,7 @@ namespace Sourav.Test.CurveReadingTest._Scripts
 
             float finalValue = value.Remap(0, 1, values.x, values.y);
             
-            D.Log($"finalValue = {finalValue}");
+            // D.Log($"finalValue = {finalValue}");
         }
     }
 }

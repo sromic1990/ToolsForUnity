@@ -1,7 +1,6 @@
-﻿using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
-using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 
 namespace _Tests
 {
@@ -17,8 +16,8 @@ namespace _Tests
             switch (notification)
             {
                 case Notification.GameLoaded:
-                    D.Log("Game loaded Scene 2");
-                    D.Log($"Scene 2 data = {App.GetData<Scene2CommonData>().testData2}");
+                    // D.Log("Game loaded Scene 2");
+                    // D.Log($"Scene 2 data = {App.GetData<Scene2CommonData>().testData2}");
                     break;
             }
         }

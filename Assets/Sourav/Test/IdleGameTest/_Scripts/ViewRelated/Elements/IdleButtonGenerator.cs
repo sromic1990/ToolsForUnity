@@ -1,11 +1,10 @@
 ﻿#if IDLEGAME
 using System.Collections.Generic;
-using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using Sourav.IdleGameEngine.IdleGameData;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements

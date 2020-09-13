@@ -1,7 +1,6 @@
 ﻿using Sirenix.OdinInspector;
-using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using UnityEngine;
 
 namespace Sourav.IdleGameEngine.UpdateRelated
@@ -35,15 +34,15 @@ namespace Sourav.IdleGameEngine.UpdateRelated
             switch (updateType)
             {
                 case UpdateType.Update:
-                    D.Log("From Update");
+                    // D.Log("From Update");
                     break;
                 
                 case UpdateType.FixedUpdate:
-                    D.Log("From FixedUpdate");
+                    // D.Log("From FixedUpdate");
                     break;
                 
                 case UpdateType.LateUpdate:
-                    D.Log("From LateUpdate");
+                    // D.Log("From LateUpdate");
                     break;
             }
         }

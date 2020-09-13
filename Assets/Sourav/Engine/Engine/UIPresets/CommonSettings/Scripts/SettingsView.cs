@@ -1,7 +1,7 @@
 ﻿using DG.Tweening;
 using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.UIPresets.CommonSettings.Scripts

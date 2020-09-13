@@ -2,17 +2,16 @@
 using Sirenix.OdinInspector;
 using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.ControllerRelated.SaveLoadRelated;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.Timer;
 using Sourav.IdleGameEngine.UpdateRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Sourav.Engine.Core.ApplicationRelated
+namespace Sourav.Engine.Engine.Core.ApplicationRelated
 {
 	public class App : MonoBehaviour
 	{
@@ -20,7 +19,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 
 		#region FIELDS
 		private static NotificationCenter _notificationCenter;
-		[SerializeField][ReadOnly] private List<Core.ControllerRelated.Controller> _controllers;
+		[SerializeField][ReadOnly] private List<Sourav.Engine.Core.ControllerRelated.Controller> _controllers;
 		private static CoroutineHandler _coroutineHandler;
 		private static UpdateElement _updateElement;
 		private static List<CommonData> commonData;
@@ -44,7 +43,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 
 			SceneManager.activeSceneChanged += (arg0, scene) =>
 			{
-				D.Log($"Scene Changed to {SceneManager.GetActiveScene().name}");
+				// D.Log($"Scene Changed to {SceneManager.GetActiveScene().name}");
 				Initialize();
 			};
 			
@@ -109,9 +108,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 
 		private void FindAndPopulateAllControllers()
 		{
-			Core.ControllerRelated.Controller[] controllers =
-				Resources.FindObjectsOfTypeAll<Core.ControllerRelated.Controller>();
-			List<Core.ControllerRelated.Controller> tempController = controllers.ToList();
+			Sourav.Engine.Core.ControllerRelated.Controller[] controllers =
+				Resources.FindObjectsOfTypeAll<Sourav.Engine.Core.ControllerRelated.Controller>();
+			List<Sourav.Engine.Core.ControllerRelated.Controller> tempController = controllers.ToList();
 			this._controllers = tempController;
 		}
 
@@ -172,7 +171,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		#endregion
 		
 		#region CONTROLLER RELATED METHODS
-		public Core.ControllerRelated.Controller GetController<T>() where T : Core.ControllerRelated.Controller
+		public Sourav.Engine.Core.ControllerRelated.Controller GetController<T>() where T : Sourav.Engine.Core.ControllerRelated.Controller
 		{
 			for (int i = 0; i < _controllers.Count; i++)
 			{
@@ -185,9 +184,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return null;
 		}
 
-		public Dictionary<string, Core.ControllerRelated.Controller> GetAllControllers()
+		public Dictionary<string, Sourav.Engine.Core.ControllerRelated.Controller> GetAllControllers()
 		{
-			Dictionary<string, Core.ControllerRelated.Controller> controllers = new Dictionary<string, Core.ControllerRelated.Controller>();
+			Dictionary<string, Sourav.Engine.Core.ControllerRelated.Controller> controllers = new Dictionary<string, Sourav.Engine.Core.ControllerRelated.Controller>();
 			for (int i = 0; i < this._controllers.Count; i++)
 			{
 				controllers[this._controllers[i].GetType().Name] = this._controllers[i];
@@ -196,9 +195,9 @@ namespace Sourav.Engine.Core.ApplicationRelated
 			return controllers;
 		}
 
-		public void SetControllers(Core.ControllerRelated.Controller[] controllers)
+		public void SetControllers(Sourav.Engine.Core.ControllerRelated.Controller[] controllers)
 		{
-			this._controllers = new List<Core.ControllerRelated.Controller>();
+			this._controllers = new List<Sourav.Engine.Core.ControllerRelated.Controller>();
 			for (int i = 0; i < controllers.Length; i++)
 			{
 				this._controllers.Add(controllers[i]);
@@ -211,7 +210,7 @@ namespace Sourav.Engine.Core.ApplicationRelated
 		public bool IsGamePaused()
 		{
 			bool isPaused = false;
-			Core.ControllerRelated.Controller pauseController = GetController<PauseResumeController>();
+			Sourav.Engine.Core.ControllerRelated.Controller pauseController = GetController<PauseResumeController>();
 			if (pauseController != null)
 			{
 				if (pauseController is PauseResumeController)

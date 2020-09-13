@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.Test._Scripts

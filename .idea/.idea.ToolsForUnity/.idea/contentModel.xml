@@ -556,17 +556,6 @@
                 <e p="GameElementRelated" t="Include">
                   <e p="GameElement.cs" t="Include" />
                 </e>
-                <e p="IdleCurrency" t="Include">
-                  <e p="_IdleCurrencyTest" t="Include">
-                    <e p="_Scripts" t="Include">
-                      <e p="TestScript.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="IdleCurrency" t="Include">
-                    <e p="IdleCurrency.cs" t="Include" />
-                  </e>
-                  <e p="SampleScript.cs" t="Include" />
-                </e>
                 <e p="NotificationRelated" t="Include">
                   <e p="Notification.cs" t="Include" />
                   <e p="NotificationCenter.cs" t="Include" />
@@ -681,46 +670,6 @@
               <e p="Ticker.cs" t="Include" />
             </e>
           </e>
-          <e p="StandAlones" t="Include">
-            <e p="CheckForExistingGameObjectInScene" t="Include">
-              <e p="CheckGameobjectAssembly.asmdef" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="CheckEveryEditorUpdate.cs" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="CheckGameObjectsPresentInScene.cs" t="Include" />
-                <e p="SingletonObject.cs" t="Include" />
-                <e p="SingletonTypes.cs" t="Include" />
-              </e>
-            </e>
-            <e p="CreatePrefabInstance" t="Include">
-              <e p="CreatePrefabInstance.cs" t="Include" />
-              <e p="CreatePrefabInstanceAssembly.asmdef" t="Include" />
-            </e>
-            <e p="DebugRelated" t="Include">
-              <e p="D.cs" t="Include" />
-              <e p="DebugAssembly.asmdef" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="AddRemoveDebugFromBuild.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DontDestroyOnLoad" t="Include">
-              <e p="DontDestroyOnLoad.cs" t="Include" />
-              <e p="DontDestroyOnLoadAssembly.asmdef" t="Include" />
-            </e>
-            <e p="ReadCSV" t="Include">
-              <e p="Editor" t="Include">
-                <e p="ReadCSVFromPath" t="Include">
-                  <e p="ReadCsvFromPath.cs" t="Include" />
-                </e>
-              </e>
-              <e p="ReadCSVAssembly.asmdef" t="Include" />
-              <e p="ReadCSVFromPath" t="Include">
-                <e p="ReadCSV.cs" t="Include" />
-                <e p="ReadCsvFromPath.cs" t="Include" />
-              </e>
-            </e>
-          </e>
           <e p="Test" t="Include">
             <e p="_IdleCurrencyTest" t="Include">
               <e p="_Scripts" t="Include">
@@ -795,15 +744,6 @@
                 </e>
               </e>
             </e>
-            <e p="Reporter" t="Include">
-              <e p="Editor" t="Include">
-                <e p="ReporterEditor.cs" t="Include" />
-              </e>
-              <e p="MultiKeyDictionary.cs" t="Include" />
-              <e p="Reporter.cs" t="Include" />
-              <e p="ReporterGUI.cs" t="Include" />
-              <e p="ReporterMessageReceiver.cs" t="Include" />
-            </e>
             <e p="SearchTool" t="Include">
               <e p="Editor" t="Include">
                 <e p="SearchSelectionHistoryTracker.cs" t="Include" />
@@ -868,17 +808,6 @@
               <e p="Shortcuts" t="Include">
                 <e p="OpenScriptsShortcut.cs" t="Include" />
               </e>
-            </e>
-            <e p="Extensions" t="Include">
-              <e p="ArrayExtensions.cs" t="Include" />
-              <e p="FloatExtensions.cs" t="Include" />
-              <e p="GameObjectExtensions.cs" t="Include" />
-              <e p="IEnumerableExtensions.cs" t="Include" />
-              <e p="ListExtensions.cs" t="Include" />
-              <e p="SouravExtensionsAssembly.asmdef" t="Include" />
-              <e p="StringExtensions.cs" t="Include" />
-              <e p="TransformExtensions.cs" t="Include" />
-              <e p="Vector2Extensions.cs" t="Include" />
             </e>
             <e p="Scripts" t="Include">
               <e p="Algorithms" t="Include">
@@ -1205,20 +1134,14 @@
         </e>
       </e>
       <e p="CoreEngineAssembly.csproj" t="IncludeRecursive" />
-      <e p="CreatePrefabInstanceAssembly.csproj" t="IncludeRecursive" />
-      <e p="DebugAssembly.csproj" t="IncludeRecursive" />
-      <e p="DontDestroyOnLoadAssembly.csproj" t="IncludeRecursive" />
-      <e p="EditorUpdateAssembly.csproj" t="IncludeRecursive" />
       <e p="IdleEngineAssembly.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="QHierarchyEditor.csproj" t="IncludeRecursive" />
       <e p="QHierarchyNullable.csproj" t="IncludeRecursive" />
       <e p="QHierarchyRuntime.csproj" t="IncludeRecursive" />
-      <e p="ReadCSVAssembly.csproj" t="IncludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
-      <e p="SouravExtensionsAssembly.csproj" t="IncludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="ToolsForUnity.sln" t="IncludeFlat" />
     </e>

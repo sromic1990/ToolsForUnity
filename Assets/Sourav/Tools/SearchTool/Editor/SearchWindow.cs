@@ -7,7 +7,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;

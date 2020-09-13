@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.sourav.checkforsingleton": "https://github.com/sromic1990/CheckForSingletonPackage.git#upm",
+    "com.sourav.createprefabinstance": "https://github.com/sromic1990/CreatePrefabInstancePackage.git#upm",
+    "com.sourav.debug": "https://github.com/sromic1990/DebugPackage.git#upm",
+    "com.sourav.dontdestroyonload": "https://github.com/sromic1990/DontDestroyOnLoadPackage.git#upm",
+    "com.sourav.extensions": "https://github.com/sromic1990/ExtensionsPackageUnity.git#upm",
+    "com.sourav.idlecurrency": "https://github.com/sromic1990/IdleCurrencyPackage.git#upm",
+    "com.sourav.readcsv": "https://github.com/sromic1990/ReadCSVPackage.git#upm",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.2.3",
     "com.unity.collab-proxy": "1.2.15",

@@ -1,5 +1,4 @@
 ﻿using Sirenix.OdinInspector;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 using UnityEngine.UI;
@@ -30,7 +29,7 @@ namespace Sourav.UIPresets.StageViewRelated
         {
             if (currentLevelIndex > levels.Length)
             {
-                D.LogError($"CURRENT LEVEL {currentLevelIndex} IS GREATER THAN LEVEL COUNT {GetLevelsCount()}");
+                // D.LogError($"CURRENT LEVEL {currentLevelIndex} IS GREATER THAN LEVEL COUNT {GetLevelsCount()}");
                 return;
             }
 
@@ -74,7 +73,7 @@ namespace Sourav.UIPresets.StageViewRelated
         
         private void ResetFill()
         {
-            D.Log("RESET FILL");
+            // D.Log("RESET FILL");
             fillImage.fillAmount = 0.0f;
         }
 

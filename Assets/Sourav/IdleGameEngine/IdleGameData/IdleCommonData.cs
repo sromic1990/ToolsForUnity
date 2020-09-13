@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Sourav.Engine.Editable.DataRelated;
 using UnityEngine;
+using Sourav.Idle;
 
 namespace Sourav.IdleGameEngine.IdleGameData
 {
@@ -71,9 +72,9 @@ namespace Sourav.IdleGameEngine.IdleGameData
         [Space(10)][Header("Status Related")]
         public bool isComplete;
         public bool isLocked;
-        public IdleCurrency.IdleCurrency.IdleCurrency unlockCost;
+        public IdleCurrency unlockCost;
         public bool canUnlockByUnits;
-        public IdleCurrency.IdleCurrency.IdleCurrency unitsPerSecondAfterComplete;
+        public IdleCurrency unitsPerSecondAfterComplete;
 
     }
     
@@ -84,8 +85,8 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public IdleUnitType unitType;
 
         [Space(10)] [Header("Unit Increment Related")]
-        public IdleCurrency.IdleCurrency.IdleCurrency defaultUnitIncreasePerSecond;
-        public IdleCurrency.IdleCurrency.IdleCurrency permanentMultiplier;
+        public IdleCurrency defaultUnitIncreasePerSecond;
+        public IdleCurrency permanentMultiplier;
         
         [Space(10)] [Header("Dependency Related")]
         public bool dependsOnAllPrevious;
@@ -137,7 +138,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public bool isHideOnComplete;
         //Upgrade limit if any
         public LimitType limitType;
-        public IdleCurrency.IdleCurrency.IdleCurrency upgradeLimit;
+        public IdleCurrency upgradeLimit;
         public float upgradeLimitF;
         public float upgradeLimitI;
         public bool hasLimitReached;
@@ -146,7 +147,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public float postLimitIncrementPercentage;
         
         //In case of Serialized upgrade, serialized list of price increments;
-        public List<IdleCurrency.IdleCurrency.IdleCurrency> upgradeCostSequence;
+        public List<IdleCurrency> upgradeCostSequence;
         [ReadOnly] public int currentSequence;
 
         public bool hasBoost;
@@ -163,8 +164,8 @@ namespace Sourav.IdleGameEngine.IdleGameData
     [System.Serializable]
     public class IdleCommonCurrencyUpgrade : IdleLevelUpgrades
     {
-        public IdleCurrency.IdleCurrency.IdleCurrency tapperValue;
-        public IdleCurrency.IdleCurrency.IdleCurrency defaultTapperValue;
+        public IdleCurrency tapperValue;
+        public IdleCurrency defaultTapperValue;
     }
 
 
@@ -192,7 +193,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
     public class Cost
     {
         public IdleCostType costType;
-        [ShowIf("costType", IdleCostType.Price)]public IdleCurrency.IdleCurrency.IdleCurrency cost;
+        [ShowIf("costType", IdleCostType.Price)]public IdleCurrency cost;
     }
     
     [System.Serializable]

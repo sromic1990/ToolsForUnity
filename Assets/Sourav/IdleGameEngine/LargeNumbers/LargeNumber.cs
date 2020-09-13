@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Sourav.Engine.Core.DebugRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 
 namespace Sourav.IdleGameEngine.LargeNumbers
@@ -60,7 +59,7 @@ namespace Sourav.IdleGameEngine.LargeNumbers
         
         public void SetUpNumber(string numberInput)
         {
-            D.Log("number input = "+numberInput);
+            // D.Log("number input = "+numberInput);
             InitializeAllLists();
             #region VERIFY THAT THE INPUT IS A PARSABLE NUMBER
 
@@ -72,7 +71,7 @@ namespace Sourav.IdleGameEngine.LargeNumbers
 
                 if (!isNumberParsable)
                 {
-                    D.LogError("NUMBER IS NOT PARSABLE. FOUND "+numberInputString+" , which is NOT A NUMBER");
+                    // D.LogError("NUMBER IS NOT PARSABLE. FOUND "+numberInputString+" , which is NOT A NUMBER");
                     return;
                 }
             }
@@ -749,7 +748,7 @@ namespace Sourav.IdleGameEngine.LargeNumbers
             
             if (l2.Compare(zeroNumber) == Comparision.Equal)
             {
-                D.LogError("Attempted division by zero");
+                // D.LogError("Attempted division by zero");
                 throw new System.DivideByZeroException();
             }
             else

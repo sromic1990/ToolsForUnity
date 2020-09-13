@@ -1,15 +1,14 @@
 ﻿#if IDLEGAME
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
-using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
-using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
+using Sourav.Idle;
 using Sourav.IdleGameEngine.IdleGameData;
 using Sourav.IdleGameEngine.UpdateRelated;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -111,7 +110,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
                     {
                         if (info.dependsOn.dependencies.Count != requirementsToUnlock.Count)
                         {
-                            D.LogError($"Dependencies count {info.dependsOn.dependencies.Count} is not equal to requirements Count {requirementsToUnlock.Count}");
+                            // D.LogError($"Dependencies count {info.dependsOn.dependencies.Count} is not equal to requirements Count {requirementsToUnlock.Count}");
                         }
                         else
                         {

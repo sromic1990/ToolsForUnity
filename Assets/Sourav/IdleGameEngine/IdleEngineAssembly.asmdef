@@ -2,8 +2,9 @@
     "name": "IdleEngineAssembly",
     "references": [
         "CoreEngineAssembly",
-        "DebugAssembly",
-        "SouravExtensionsAssembly"
+        "Sourav.DebugAssembly",
+        "Sourav.ExtensionsAssembly",
+        "Sourav.IdleCurrencyAssembly"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

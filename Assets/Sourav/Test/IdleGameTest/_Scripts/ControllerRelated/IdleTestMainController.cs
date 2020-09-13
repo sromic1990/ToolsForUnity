@@ -1,7 +1,7 @@
 ﻿#if IDLEGAME
-using Sourav.Engine.Core.ApplicationRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 
 namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using Sourav.Utilities.Scripts.DataStructures;
 using UnityEngine;
 using Debug = UnityEngine.Debug;

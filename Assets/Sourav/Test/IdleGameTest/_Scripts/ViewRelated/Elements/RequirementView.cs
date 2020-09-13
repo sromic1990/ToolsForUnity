@@ -2,7 +2,7 @@
 using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.IdleGameEngine.IdleGameData;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 

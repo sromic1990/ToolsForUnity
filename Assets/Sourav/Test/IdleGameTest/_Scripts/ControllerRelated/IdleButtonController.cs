@@ -1,9 +1,8 @@
 ﻿#if IDLEGAME
-using Sourav.Engine.Core.ApplicationRelated;
-using Sourav.Engine.Core.DebugRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
-using Sourav.IdleGameEngine.IdleCurrency.IdleCurrency;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
+using Sourav.Idle;
 using Sourav.IdleGameEngine.IdleGameData;
 
 namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
@@ -84,7 +83,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ControllerRelated
             }
 
             int addition = (int)App.GetLevelData().currentMultiplier;
-            D.Log($"addition is {addition}");
+            // D.Log($"addition is {addition}");
             info.currentCount += addition;
 
             info.growth.currentSliderValue = 0;

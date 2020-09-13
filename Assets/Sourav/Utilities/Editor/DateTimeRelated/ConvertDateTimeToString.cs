@@ -1,5 +1,5 @@
 ﻿using System;
-using Sourav.Utilities.Extensions;
+using Sourav.Extensions;
 
 namespace Sourav.Utilities.Editor.DateTimeRelated
 {

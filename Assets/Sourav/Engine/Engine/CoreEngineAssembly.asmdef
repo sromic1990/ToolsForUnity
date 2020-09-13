@@ -1,10 +1,10 @@
 {
     "name": "CoreEngineAssembly",
     "references": [
-        "SouravExtensionsAssembly",
-        "DebugAssembly",
-        "EditorUpdateAssembly",
-        "CreatePrefabInstanceAssembly"
+        "Sourav.ExtensionsAssembly",
+        "Sourav.CheckForSingleton",
+        "Sourav.CreatePrefabInstanceAssembly",
+        "Sourav.IdleCurrencyAssembly"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
