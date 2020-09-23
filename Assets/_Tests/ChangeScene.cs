@@ -9,13 +9,13 @@ namespace _Tests
         [Button]
         public void GoToScene1()
         {
-            SceneManager.LoadScene(0);
+            SceneManager.UnloadSceneAsync(1);
         }
     
         [Button]
         public void GoToScene2()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(1, LoadSceneMode.Additive);
         }
     }
 }

@@ -43,5 +43,35 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.sourav.checkforsingleton": {
+      "revision": "upm",
+      "hash": "b7f2718148cf8a2eba9a72c1d94c5fffc6e8f789"
+    },
+    "com.sourav.createprefabinstance": {
+      "revision": "upm",
+      "hash": "870dda277a1d982989d2255979046ec3fa1c634b"
+    },
+    "com.sourav.debug": {
+      "revision": "upm",
+      "hash": "5b0588ab8dfb35c37fe17ad548bfcbc939f84da0"
+    },
+    "com.sourav.dontdestroyonload": {
+      "revision": "upm",
+      "hash": "5f8521d3f4e2dad8ce8593f7256174db13c70243"
+    },
+    "com.sourav.extensions": {
+      "revision": "upm",
+      "hash": "642d2372ed230d1793abd1b44885b9427923f96a"
+    },
+    "com.sourav.idlecurrency": {
+      "revision": "upm",
+      "hash": "36283d20e1ee9bd0a5f96d27f72ed6c8a395e1e8"
+    },
+    "com.sourav.readcsv": {
+      "revision": "upm",
+      "hash": "32d054da3190709cd8f3c9ec268e873b3083051c"
+    }
   }
 }

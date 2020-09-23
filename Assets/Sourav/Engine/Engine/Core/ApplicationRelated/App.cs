@@ -41,7 +41,13 @@ namespace Sourav.Engine.Engine.Core.ApplicationRelated
 				return;
 			}
 
-			SceneManager.activeSceneChanged += (arg0, scene) =>
+			SceneManager.sceneLoaded += (arg0, scene) =>
+			{
+				// D.Log($"Scene Changed to {SceneManager.GetActiveScene().name}");
+				Initialize();
+			};
+			
+			SceneManager.sceneUnloaded += arg0 => 
 			{
 				// D.Log($"Scene Changed to {SceneManager.GetActiveScene().name}");
 				Initialize();
