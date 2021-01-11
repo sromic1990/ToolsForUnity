@@ -1,145 +1,140 @@
+// This iOS haptic interface is a pretty straightforward implementation of UIKit's framework :
+// You can learn more about these methods at https://developer.apple.com/documentation/uikit/animation_and_haptics
+// DO NOT remove this from your project, or iOS vibrations won't work anymore!
+
 #import <Foundation/Foundation.h>
 
+UISelectionFeedbackGenerator* SelectionFeedbackGenerator;
+UINotificationFeedbackGenerator* NotificationFeedbackGenerator;
+UIImpactFeedbackGenerator* LightImpactFeedbackGenerator;
+UIImpactFeedbackGenerator* MediumImpactFeedbackGenerator;
+UIImpactFeedbackGenerator* HeavyImpactFeedbackGenerator;
+UIImpactFeedbackGenerator* RigidImpactFeedbackGenerator;
+UIImpactFeedbackGenerator* SoftImpactFeedbackGenerator;
 
+// INIT METHOD ---------------------------------------------------------------------------
 
-UISelectionFeedbackGenerator* selectionFeedbackGenerator;
-
-UIImpactFeedbackGenerator* impactFeedbackGeneratorLight;
-UIImpactFeedbackGenerator* impactFeedbackGeneratorMedium;
-UIImpactFeedbackGenerator* impactFeedbackGeneratorHeavy;
-
-UINotificationFeedbackGenerator* notificationFeedbackGenerator;
-
-void _instantiateFeedbackGenerator(int id)
+void MMNViOS_InstantiateFeedbackGenerators()
 {
-    
-    switch (id)
+    SelectionFeedbackGenerator = [[UISelectionFeedbackGenerator alloc] init];
+    NotificationFeedbackGenerator = [[UINotificationFeedbackGenerator alloc] init];
+    LightImpactFeedbackGenerator = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleLight];
+    MediumImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
+    HeavyImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleHeavy];
+    if (@available(iOS 13, *))
     {
-        case 0:
-            selectionFeedbackGenerator = [[UISelectionFeedbackGenerator alloc] init];
-            break;
-        case 1:
-            impactFeedbackGeneratorLight = [[UIImpactFeedbackGenerator alloc] initWithStyle:
-                                            UIImpactFeedbackStyleLight];
-            break;
-        case 2:
-            impactFeedbackGeneratorMedium =  [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
-            break;
-        case 3:
-            impactFeedbackGeneratorHeavy =  [[UIImpactFeedbackGenerator alloc] initWithStyle:
-                                             UIImpactFeedbackStyleHeavy];
-            break;
-        case 4:
-        case 5:
-        case 6:
-            notificationFeedbackGenerator = [[UINotificationFeedbackGenerator alloc] init];
-            break;
+      RigidImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleRigid];
+    	SoftImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleSoft];
+    }
+    else
+    {
+      RigidImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleHeavy];
+    	SoftImpactFeedbackGenerator =  [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleLight];
     }
 }
 
-void _prepareFeedbackGenerator (int id)
+// RELEASE METHOD ---------------------------------------------------------------------------
+
+void MMNViOS_ReleaseFeedbackGenerators ()
 {
-    switch (id)
-    {
-        case 0:
-            [selectionFeedbackGenerator prepare];
-            break;
-        case 1:
-            [impactFeedbackGeneratorLight prepare];
-            break;
-        case 2:
-            [impactFeedbackGeneratorMedium prepare];
-            break;
-        case 3:
-            [impactFeedbackGeneratorHeavy prepare];
-            break;
-        case 4:
-        case 5:
-        case 6:
-            [notificationFeedbackGenerator prepare];
-            break;
-    }
+    SelectionFeedbackGenerator = nil;
+    NotificationFeedbackGenerator = nil;
+    LightImpactFeedbackGenerator = nil;
+    MediumImpactFeedbackGenerator = nil;
+    HeavyImpactFeedbackGenerator = nil;
+    RigidImpactFeedbackGenerator = nil;
+    SoftImpactFeedbackGenerator = nil;
 }
 
+// PREPARATION METHODS ----------------------------------------------------------------------
 
-void _releaseFeedbackGenerator (int id)
+void MMNViOS_PrepareSelectionFeedbackGenerator()
 {
-    switch (id)
-    {
-        case 0:
-            selectionFeedbackGenerator = nil;
-            break;
-        case 1:
-            impactFeedbackGeneratorLight = nil;
-            break;
-        case 2:
-            impactFeedbackGeneratorMedium = nil;
-            break;
-        case 3:
-            impactFeedbackGeneratorHeavy = nil;
-            break;
-        case 4:
-        case 5:
-        case 6:
-            notificationFeedbackGenerator = nil;
-            break;
-    }
+    [SelectionFeedbackGenerator prepare];
 }
 
-
-
-/*
- Triggers a specific feedback.
- 0 = Selection change
- 1 = ImpactLight
- 2 = ImpactMedium
- 3 = ImpactHeavy
- 4 = Success
- 5 = Warning
- 6 = Failure
- */
-void _triggerFeedbackGenerator(int id, bool advanced)
+void MMNViOS_PrepareNotificationFeedbackGenerator()
 {
-    switch (id)
-    {
-        case 0:
-            if (!advanced)
-                [selectionFeedbackGenerator prepare];
-            [selectionFeedbackGenerator selectionChanged];
-            break;
-        case 1:
-            if (!advanced)
-                [impactFeedbackGeneratorLight prepare];
-            [impactFeedbackGeneratorLight impactOccurred];
-            break;
-        case 2:
-            if (!advanced)
-                [impactFeedbackGeneratorMedium prepare];
-            [impactFeedbackGeneratorMedium impactOccurred];
-            break;
-        case 3:
-            if (!advanced)
-                [impactFeedbackGeneratorHeavy prepare];
-            [impactFeedbackGeneratorHeavy impactOccurred];
-            break;
-        case 4:
-            if (!advanced)
-                [notificationFeedbackGenerator prepare];
-            [notificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeSuccess];
-            break;
-        case 5:
-            if (!advanced)
-                [notificationFeedbackGenerator prepare];
-            [notificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeWarning];
-            break;
-        case 6:
-            if (!advanced)
-                [notificationFeedbackGenerator prepare];
-            [notificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeError];
-            break;
-    }
+    [NotificationFeedbackGenerator prepare];
 }
 
+void MMNViOS_PrepareLightImpactFeedbackGenerator()
+{
+    [LightImpactFeedbackGenerator prepare];
+}
 
+void MMNViOS_PrepareMediumImpactFeedbackGenerator()
+{
+    [MediumImpactFeedbackGenerator prepare];
+}
 
+void MMNViOS_PrepareHeavyImpactFeedbackGenerator()
+{
+    [HeavyImpactFeedbackGenerator prepare];
+}
 
+void MMNViOS_PrepareRigidImpactFeedbackGenerator()
+{
+    [RigidImpactFeedbackGenerator prepare];
+}
+
+void MMNViOS_PrepareSoftImpactFeedbackGenerator()
+{
+    [SoftImpactFeedbackGenerator prepare];
+}
+
+// FEEDBACK TRIGGER METHODS -------------------------------------------------------------------------
+
+void MMNViOS_SelectionHaptic()
+{
+    [SelectionFeedbackGenerator prepare];
+    [SelectionFeedbackGenerator selectionChanged];
+}
+
+void MMNViOS_SuccessHaptic()
+{
+    [NotificationFeedbackGenerator prepare];
+    [NotificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeSuccess];
+}
+
+void MMNViOS_WarningHaptic()
+{
+    [NotificationFeedbackGenerator prepare];
+    [NotificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeWarning];
+}
+
+void MMNViOS_FailureHaptic()
+{
+    [NotificationFeedbackGenerator prepare];
+    [NotificationFeedbackGenerator notificationOccurred:UINotificationFeedbackTypeError];
+}
+
+void MMNViOS_LightImpactHaptic()
+{
+    [LightImpactFeedbackGenerator prepare];
+    [LightImpactFeedbackGenerator impactOccurred];
+}
+
+void MMNViOS_MediumImpactHaptic()
+{
+    [MediumImpactFeedbackGenerator prepare];
+    [MediumImpactFeedbackGenerator impactOccurred];
+}
+
+void MMNViOS_HeavyImpactHaptic()
+{
+    [HeavyImpactFeedbackGenerator prepare];
+    [HeavyImpactFeedbackGenerator impactOccurred];
+}
+
+void MMNViOS_RigidImpactHaptic()
+{
+    [RigidImpactFeedbackGenerator prepare];
+    [RigidImpactFeedbackGenerator impactOccurred];
+}
+
+void MMNViOS_SoftImpactHaptic()
+{
+    [SoftImpactFeedbackGenerator prepare];
+    [SoftImpactFeedbackGenerator impactOccurred];
+}

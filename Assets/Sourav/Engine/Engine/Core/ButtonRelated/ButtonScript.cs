@@ -1,7 +1,10 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
+﻿using System.Collections;
+using Sourav.DebugRelated;
+using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.ButtonRelated;
 using Sourav.Engine.Editable.ControllerRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using UnityEngine;
 
 namespace Sourav.Engine.Core.ButtonRelated
@@ -17,19 +20,25 @@ namespace Sourav.Engine.Core.ButtonRelated
 			button = GetComponent<UnityEngine.UI.Button>();
 		}
 		
-		void Start () 
+		void Start ()
 		{
+			StartCoroutine(WaitAndAttachToController());
+		}
+
+		private IEnumerator WaitAndAttachToController()
+		{
+			yield return new WaitForSeconds(0.1f);
 			button.onClick.AddListener(() =>
 			{
-				Core.ControllerRelated.Controller c = App.GetController<ButtonController>();
-				if(c != null)
+				ButtonController[] c = Resources.FindObjectsOfTypeAll<ButtonController>();
+				if(c.Length == 1)
 				{
-					ButtonController bc = (ButtonController) c;
+					ButtonController bc = c[0];
 					bc.OnButtonPressed(type);
 				}
 				else
 				{
-					// D.LogError("c is not ButtonController");
+					D.LogError("c is not ButtonController");
 				}
 			});
 		}

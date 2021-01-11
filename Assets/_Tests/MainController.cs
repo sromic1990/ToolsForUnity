@@ -37,8 +37,8 @@ namespace _Tests
 
         private void HandleLoadData()
         {
-            int coins = App.GetData<LevelCommonData>().Coins;
-            D.Log($"Coins = {coins}");
+            // int coins = App.GetData<LevelCommonData>().Coins;
+            // D.Log($"Coins = {coins}");
 
             int dataValue = App.GetData<TestCommonData>().dataValue;
             D.Log($"DataValue = {dataValue}");

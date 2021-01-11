@@ -16,13 +16,13 @@ namespace Sourav.Engine.Core.ControllerRelated.PauseResumeRelated
 		private void Pause()
 		{
 			isPaused = true;
-			App.Notify(Notification.GamePaused);
+			Engine.Core.ApplicationRelated.App.Notify(Notification.GamePaused);
 		}
 
 		private void Resume()
 		{
 			isPaused = false;
-			App.Notify(Notification.GameResumed);
+			Engine.Core.ApplicationRelated.App.Notify(Notification.GameResumed);
 		}
 
 		public override void Init()

@@ -9,7 +9,7 @@ namespace Sourav.Engine.Core.GameElementRelated
 
 		[SerializeField] protected bool isInactive;
 		
-		protected App App
+		protected App AppGame
 		{
 			get
 			{

@@ -52,7 +52,7 @@ namespace Sourav.Engine.Core.PositionRelated
 				position = position1;
 			}
 
-			App.Notify(Notification.RecordPositionData, recordPosition);
+			Engine.Core.ApplicationRelated.App.Notify(Notification.RecordPositionData, recordPosition);
 		}
 	}
 }

@@ -61,7 +61,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 
 				rewardBasedVideo.OnAdLoaded += HandleRewardBasedVideoLoaded;
 				// Called when an ad request failed to load.
-//				rewardBasedVideo.OnAdFailedToLoad += HandleRewardBasedVideoFailedToLoad;
+				rewardBasedVideo.OnAdFailedToLoad += HandleRewardBasedVideoFailedToLoad;
 				// Called when an ad is shown.
 				rewardBasedVideo.OnAdOpening += HandleRewardBasedVideoOpened;
 				// Called when the ad starts to play.

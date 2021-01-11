@@ -30,7 +30,7 @@ namespace Sourav.Engine.Core.ControllerRelated.PositionDataController
 					NotificationParam positionData = new NotificationParam(Mode.vector3Data | Mode.stringData);
 					positionData.vector3Data["position"] = registry.GetPosition(param.stringData["objectName"]);
 					positionData.stringData["objectName"] = param.stringData["objectName"];
-					App.Notify(Notification.PositionData, positionData);
+					Engine.Core.ApplicationRelated.App.Notify(Notification.PositionData, positionData);
 					break;
 			}
 		}

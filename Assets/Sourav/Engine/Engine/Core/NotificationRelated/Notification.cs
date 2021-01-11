@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Sourav.Idle;
+using Object = UnityEngine.Object;
 
 namespace Sourav.Engine.Core.NotificationRelated
 {	
@@ -20,14 +22,14 @@ namespace Sourav.Engine.Core.NotificationRelated
 		public Dictionary<string, Vector3> vector3Data;
 		public Dictionary<string, Vector3Int> vector3IntData;
 		public Dictionary<string, IdleCurrency> idleCurrencyData;
-		
+		public Dictionary<string, System.Action> actionData;
 
 		public bool shouldQueue;
 
 		public NotificationParam() : this(Mode.intData | Mode.floatData | Mode.doubleData | Mode.stringData |
 		                                  Mode.gameObjectData | Mode.boolData | Mode.unityObjectData | Mode.objectData |
 		                                  Mode.vector2IntData | Mode.vector2Data | Mode.vector3Data | Mode.vector3IntData |
-		                                  Mode.idleCurrencyData)
+		                                  Mode.idleCurrencyData | Mode.actionData)
 		{}
 		
 		public NotificationParam(Mode mode)
@@ -84,6 +86,10 @@ namespace Sourav.Engine.Core.NotificationRelated
 			{
 				this.idleCurrencyData = new Dictionary<string, IdleCurrency>();
 			}
+			if (mode.HasFlag(Mode.actionData))
+			{
+				this.actionData = new Dictionary<string, Action>();
+			}
 			
 			this.shouldQueue = false;
 		}
@@ -104,7 +110,8 @@ namespace Sourav.Engine.Core.NotificationRelated
 		vector2Data = vector2IntData << 1,
 		vector3Data = vector2Data << 1,
 		vector3IntData = vector3Data << 1,
-		idleCurrencyData = vector3IntData << 1
+		idleCurrencyData = vector3IntData << 1,
+		actionData = idleCurrencyData << 1,
 
 	}
 }

@@ -31,24 +31,16 @@
         DataChanged,
         
         //Timer Related
-        OfflineSecondsSet,
         SecondTick,
         
         //Update Related
         Update,
         LateUpdate,
         FixedUpdate,
-        
-        //Logic Related
-        UpdateLogic,
-        LogicUpdated,
-        
+
         //Idle Button Related
         IdleButtonPressed,
         UpdateIdleButton,
-        
-        //Units Related
-        UnitsUpdated,
 
         //Haptic Related
         HapticSuccess,
@@ -56,33 +48,43 @@
         HapticHeavy,
         HapticMild,
         HapticAndroid,
+        HapticSelectionChange,
+        HapticImpactLight,
+        HapticImpactMedium,
+        HapticImpactHeavy,
+        HapticWarning,
+        HapticSoft,
+        HapticRigid,
 
         //UI Related
         ButtonPressed,
         HomeButtonPressed,
+        ButtonPressedInternally,
         
         //Toggle Related
         ToggleOn,
         ToggleOff,
-        
-        //PopUp Related
-        ClosePopUp,
-        OpenPopUp,
-        
+
         //Purchase Related
-        Coins1,
-        Coins2,
-        Coins3,
-        Coins4,
-        Coins5,
-        Coins6,
+        SetUpIAPStore,
+        IAPPricesSet,
+        Diamonds1,
+        Diamonds2,
+        Diamonds3,
+        Diamonds4,
+        Diamonds5,
+        DiamondsCombo,
         RemoveAds,
         RestorePurchase,
-        PurchaseSuccessful,
+        PurchaseConsumable,
+        PurchaseNonConsumable,
+        PurchaseFailed,
         ShowPurchaseSuccessful,
         RestorePurchaseSuccessful,
+        RestorePurchaseFailed,
         ShowLoading,
         HideLoading,
+        NoAdsPurchased,
         
         //Ad Related
         AdRewarded,
@@ -91,7 +93,15 @@
         HideBanner,
         ShowInterstitial,
         ShowRewardVideo,
+        ShowDebugger,
         VideoCoinsRewarded,
+        ShowingRewardAd,
+        NoRVAvailable,
+        ShowingInterstitialAd,
+        ShowAdComplianceScreen,
+        InterstitialClosed,
+        HideAdComplianceScreen,
+        NoAdsAvailable,
 
         //UI Screen Transition related
         ShowScreen,
@@ -100,11 +110,18 @@
         
         //Gameplay Related
         PlayGame,
+        ContinueGame,
+        Get2xCoins,
         SetUi,
         UiSet,
         SetUpIdleButtons,
         LevelComplete,
         
+        StartGame,
+
+
+        //Tutorial
+
         //View Related
         ButtonsUpdated,
         GenerateIdleButtons,
@@ -113,6 +130,99 @@
         IdleButtonFillStarted,
         IdleButtonFillComplete,
         TapperPressed,
+        
+        //Cheat Related
+        CheatUnits,
+        
+        //Offline Time Related
+        ShowOfflineTime,
+        AddOfflineEarning,
+        OfflineBoost1,
+        OfflineBoost2,
+        OfflineDiamondAttempt,
+
+        //Game Related
+        RestartGame,
+        StartUnlocking,
+        UnlockedNewLevel,
+
+        FollowMan,
+        TapperButtonClicked,
+        RevealHistoryElements,
+        CoinTapperTapped,
+        UpdateUI,
+        ShowBook,
+        FlyingObjectsReached,
+        CoinsCollected,
+        ElementDropped,
+        CoinsAdded,
+
+        ShowStore,
+        ShowTimeTravelStore,
+        
+        //Units and Gems Related
+        UnitsUpdated,
+        DiamondsUpdated,
+        DiamondsAddedPopUp,
+        DiamondsComboPopUp,
+        DiamondsAdded,
+        NotEnoughDiamonds,
+        FreeDiamondsAdded,
+        
+        //Flying RV Related
+        FlyingRVDataSet,
+        ShowFRV,
+        FlyingRVClicked,
+        FRVPurchaseAttempt,
+        RestartFlyingRVTimer,
+        FlyingRVRewarded,
+        
+        //UpgradeRelated
+        OfflineCoinsUpgraded,
+        TapperCoinsUpgraded,
+        UpgradeComplete,
+
+        //Time Travel Related
+        SetUpTimeTravel,
+        ShowFreeTimeTravel,
+        StartTimeTravel,
+        StartShowingTimeTravel,
+        StopShowingTimeTravel,
+        CloseTimeTravelGainsPopUp,
+        TimeTravelPurchaseAttempt,
+        TimeTravelSecondsUpdated,
+        
+        //RC Related
+        RCFetched,
+
+        //Remote Config Related
+        SetUpRemoteConfig,
+        RemoteConfigSet,
+        ShowServerFetch,
+        HideServerFetch,
+
+        //Cheat Related
+        CheatActivated,
+        
+        //PopUp Related
+        ShowPopup,
+        HidePopUp,
+        HideAllPopUps,
+        PopUpHidden,
+        PopUpButtonPressed,
+
+        //ANALYTICS
+        RewardVideoSeenAnalytics = 2000,
+        HistoryUnlockedAnalytics = 2001,
+        
+        //TUTORIALS
+        TutorialPressed = 5000,
+        TutorialComplete = 5001,
+        ShowTutorial = 5002,
+        ShowNextTutorial = 5003,
+        HistoryTutorialFinished = 5004,
+        CoinTutorialFinished = 5005,
+        PinchZoomTutorialFinished = 5006,
     }
 }
 

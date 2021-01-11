@@ -362,6 +362,113 @@
             </e>
           </e>
         </e>
+        <e p="NiceVibrations" t="Include">
+          <e p="Common" t="Include">
+            <e p="Plugins" t="Include">
+              <e p="Android" t="Include">
+                <e p="AndroidManifest.xml" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MMNVAndroidWaveFormAssetEditor.cs" t="Include" />
+              </e>
+              <e p="MMNVAHAP.cs" t="Include" />
+              <e p="MMNVAndroid.cs" t="Include" />
+              <e p="MMNVAndroidWaveFormAsset.cs" t="Include" />
+              <e p="MMNVBuildPostProcessor.cs" t="Include" />
+              <e p="MMNViOS.cs" t="Include" />
+              <e p="MMNViOSCoreHaptics.cs" t="Include" />
+              <e p="MMVibrationManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Demos" t="Include">
+            <e p="_Common" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DemoManager.cs" t="Include" />
+                <e p="NiceVibrationsDemoHelpers.cs" t="Include" />
+                <e p="SoundSwitch.cs" t="Include" />
+                <e p="UI" t="Include">
+                  <e p="HapticCurve.cs" t="Include" />
+                  <e p="MMFPSCounter.cs" t="Include" />
+                  <e p="MMFPSUnlock.cs" t="Include" />
+                  <e p="MMKnob.cs" t="Include" />
+                  <e p="MMProgressBar.cs" t="Include" />
+                  <e p="MMSignal.cs" t="Include" />
+                  <e p="MMSpriteReplace.cs" t="Include" />
+                  <e p="MMSwitch.cs" t="Include" />
+                  <e p="MMTouchButton.cs" t="Include" />
+                  <e p="MMUIShaker.cs" t="Include" />
+                  <e p="Pagination.cs" t="Include" />
+                </e>
+                <e p="V2DemoManager.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="MaskedUI.shader" t="Include" />
+              </e>
+            </e>
+            <e p="_OLD" t="Include">
+              <e p="v1Demo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="NiceVibrationsDemoManager.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="DemoAssets" t="Include">
+              <e p="AHAPPresetsDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="PresetDemoManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="BallDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BallDemoBall.cs" t="Include" />
+                  <e p="BallDemoManager.cs" t="Include" />
+                  <e p="BallDemoWall.cs" t="Include" />
+                  <e p="BallPusher.cs" t="Include" />
+                  <e p="BallTouchZone.cs" t="Include" />
+                </e>
+              </e>
+              <e p="CarDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="CarDemoManager.cs" t="Include" />
+                  <e p="PowerBarElement.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ContinuousDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ContinuousHapticsDemoManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="RegularPresetsDemo" t="Include">
+                <e p="RegularPresetsDemoManager.cs" t="Include" />
+              </e>
+              <e p="TransientDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="TransientHapticsDemoManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="WobbleDemo" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="WobbleButton.cs" t="Include" />
+                  <e p="WobbleDemoManager.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="license.txt" t="Include" />
+          <e p="OlderVersions" t="Include">
+            <e p="v1.7" t="Include">
+              <e p="NiceVibrations-v-1-7-readme.txt" t="Include" />
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="ThirdParty" t="Include">
+            <e p="Newtonsoft" t="Include">
+              <e p="NewtonsoftJsonLicense.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Pixelplacement" t="Include">
           <e p="iTween" t="Include">
             <e p="iTweenExtensions.cs" t="Include" />
@@ -526,16 +633,31 @@
           <e p="Engine" t="Include">
             <e p="Engine" t="Include">
               <e p="Core" t="Include">
+                <e p="Ads" t="Include">
+                  <e p="AdController.cs" t="Include" />
+                  <e p="IAdProvider.cs" t="Include" />
+                </e>
                 <e p="ApplicationRelated" t="Include">
                   <e p="App.cs" t="Include" />
                 </e>
                 <e p="ButtonRelated" t="Include">
                   <e p="ButtonScript.cs" t="Include" />
                 </e>
+                <e p="CheckForSingleton" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="CheckEveryEditorUpdate.cs" t="Include" />
+                  </e>
+                  <e p="Scripts" t="Include">
+                    <e p="CheckGameObjectsPresentInScene.cs" t="Include" />
+                    <e p="SingletonObject.cs" t="Include" />
+                    <e p="SingletonTypes.cs" t="Include" />
+                  </e>
+                </e>
                 <e p="ControllerRelated" t="Include">
                   <e p="AndroidHapticManager.cs" t="Include" />
                   <e p="Controller.cs" t="Include" />
                   <e p="HapticFeedbackController.cs" t="Include" />
+                  <e p="HapticFeedbackControllerNV.cs" t="Include" />
                   <e p="PauseResumeRelated" t="Include">
                     <e p="PauseResumeController.cs" t="Include" />
                   </e>
@@ -547,8 +669,32 @@
                     <e p="SaveLoadController.cs" t="Include" />
                   </e>
                 </e>
+                <e p="CreatePrefabInstance" t="Include">
+                  <e p="CreatePrefabInstance.cs" t="Include" />
+                </e>
                 <e p="DataRelated" t="Include">
                   <e p="LocalPositionRegistry.cs" t="Include" />
+                </e>
+                <e p="DebugRelated" t="Include">
+                  <e p="D.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="AddRemoveDebugFromBuild.cs" t="Include" />
+                  </e>
+                  <e p="Reporter" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="ReporterEditor.cs" t="Include" />
+                    </e>
+                    <e p="MultiKeyDictionary.cs" t="Include" />
+                    <e p="Reporter.cs" t="Include" />
+                    <e p="ReporterGUI.cs" t="Include" />
+                    <e p="ReporterMessageReceiver.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="DontDestroyOnLoad" t="Include">
+                  <e p="DontDestroyOnLoad.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="CreateEngineCore.cs" t="Include" />
                 </e>
                 <e p="EngineRelated" t="Include">
                   <e p="EngineId.cs" t="Include" />
@@ -568,8 +714,12 @@
                   <e p="UpdateElement.cs" t="Include" />
                 </e>
               </e>
-              <e p="CoreEngineAssembly.asmdef" t="Include" />
               <e p="Editable" t="Include">
+                <e p="Ads" t="Include">
+                  <e p="AdsData.cs" t="Include" />
+                  <e p="AdsRCHandler.cs" t="Include" />
+                  <e p="IronSourceAdProvider.cs" t="Include" />
+                </e>
                 <e p="ButtonRelated" t="Include">
                   <e p="ButtonType.cs" t="Include" />
                 </e>
@@ -598,6 +748,23 @@
                 <e p="NotificationRelated" t="Include">
                   <e p="NotificationList.cs" t="Include" />
                 </e>
+                <e p="RemoteConfig" t="Include">
+                  <e p="AsyncSceneLoad.cs" t="Include" />
+                  <e p="DownloadAndPopulateTSV.cs" t="Include" />
+                  <e p="RCData.cs" t="Include" />
+                  <e p="RCHandlerBase.cs" t="Include" />
+                  <e p="RemoteConfigController.cs" t="Include" />
+                  <e p="RemoteConfigDataHolder.cs" t="Include" />
+                  <e p="RemoteConfigScript.cs" t="Include" />
+                </e>
+                <e p="SO" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="GameDefaultsSO.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="StaticScripts" t="Include">
+                  <e p="Constants.cs" t="Include" />
+                </e>
                 <e p="TestingRelated" t="Include">
                   <e p="FireAnyNotification.cs" t="Include" />
                 </e>
@@ -608,32 +775,38 @@
                 <e p="ToggleRelated" t="Include">
                   <e p="ToggleType.cs" t="Include" />
                 </e>
-              </e>
-              <e p="Editor" t="Include">
-                <e p="CreateEngineCore.cs" t="Include" />
-              </e>
-              <e p="UIPresets" t="Include">
-                <e p="BarFillPreset" t="Include">
-                  <e p="BarFill.cs" t="Include" />
-                </e>
-                <e p="ButtonPressEffect.cs" t="Include" />
-                <e p="CommonSettings" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="SettingsView.cs" t="Include" />
+                <e p="UIPresets" t="Include">
+                  <e p="BarFillPreset" t="Include">
+                    <e p="BarFill.cs" t="Include" />
                   </e>
+                  <e p="ButtonPressEffect.cs" t="Include" />
+                  <e p="CommonSettings" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="SettingsView.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="FlyEffectGraphic.cs" t="Include" />
+                  <e p="MoveAndScaleHandler.cs" t="Include" />
+                  <e p="MoveAndScaleToPosition.cs" t="Include" />
+                  <e p="PopUp" t="Include">
+                    <e p="IPopUpButton.cs" t="Include" />
+                    <e p="IPopUpView.cs" t="Include" />
+                    <e p="PopUpButton.cs" t="Include" />
+                    <e p="PopUpButtonActions.cs" t="Include" />
+                    <e p="PopUpController.cs" t="Include" />
+                    <e p="PopUpData.cs" t="Include" />
+                    <e p="PopUpUiButton.cs" t="Include" />
+                    <e p="PopUpView.cs" t="Include" />
+                  </e>
+                  <e p="StageViewRelated" t="Include">
+                    <e p="StageHolderView.cs" t="Include" />
+                    <e p="StageView.cs" t="Include" />
+                    <e p="TestStageHolderView.cs" t="Include" />
+                  </e>
+                  <e p="Timer.cs" t="Include" />
+                  <e p="ToggleSwitch.cs" t="Include" />
+                  <e p="UiScreen.cs" t="Include" />
                 </e>
-                <e p="FlyEffectGraphic.cs" t="Include" />
-                <e p="MoveAndScaleHandler.cs" t="Include" />
-                <e p="MoveAndScaleToPosition.cs" t="Include" />
-                <e p="PopUpController.cs" t="Include" />
-                <e p="StageViewRelated" t="Include">
-                  <e p="StageHolderView.cs" t="Include" />
-                  <e p="StageView.cs" t="Include" />
-                  <e p="TestStageHolderView.cs" t="Include" />
-                </e>
-                <e p="Timer.cs" t="Include" />
-                <e p="ToggleSwitch.cs" t="Include" />
-                <e p="UiScreen.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -647,8 +820,28 @@
             </e>
             <e p="SpriteAnimator.cs" t="Include" />
           </e>
+          <e p="Extensions" t="Include">
+            <e p="ArrayExtensions.cs" t="Include" />
+            <e p="FloatExtensions.cs" t="Include" />
+            <e p="GameObjectExtensions.cs" t="Include" />
+            <e p="IEnumerableExtensions.cs" t="Include" />
+            <e p="ListExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+            <e p="TransformExtensions.cs" t="Include" />
+            <e p="Vector2Extensions.cs" t="Include" />
+          </e>
+          <e p="IdleCurrency" t="Include">
+            <e p="_IdleCurrencyTest" t="Include">
+              <e p="_Scripts" t="Include">
+                <e p="TestScript.cs" t="Include" />
+              </e>
+            </e>
+            <e p="IdleCurrency" t="Include">
+              <e p="IdleCurrency.cs" t="Include" />
+            </e>
+            <e p="SampleScript.cs" t="Include" />
+          </e>
           <e p="IdleGameEngine" t="Include">
-            <e p="IdleEngineAssembly.asmdef" t="Include" />
             <e p="IdleGameData" t="Include">
               <e p="IdleCommonData.cs" t="Include" />
               <e p="IdleUnitData.cs" t="Include" />
@@ -668,6 +861,20 @@
             </e>
             <e p="TickerRelated" t="Include">
               <e p="Ticker.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ReadCSV" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadCSVFromPath" t="Include">
+                <e p="ReadCsvFromPath.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ReadCSVFromPath" t="Include">
+              <e p="ReadCSV.cs" t="Include" />
+              <e p="ReadCsvFromPath.cs" t="Include" />
+              <e p="ReadTSV.cs" t="Include" />
+              <e p="ReadTsvFromPath.cs" t="Include" />
+              <e p="ReadTxtFromPath.cs" t="Include" />
             </e>
           </e>
           <e p="Test" t="Include">
@@ -722,33 +929,6 @@
           <e p="Tools" t="Include">
             <e p="OrientationManager" t="Include">
               <e p="OrientationManager.cs" t="Include" />
-            </e>
-            <e p="ReferenceFinder" t="Include">
-              <e p="Editor" t="Include">
-                <e p="Data" t="Include">
-                  <e p="AssetDependencies.cs" t="Include" />
-                  <e p="CacheManager.cs" t="Include" />
-                  <e p="DependencyBase.cs" t="Include" />
-                  <e p="FileDependency.cs" t="Include" />
-                  <e p="FindDependencies.cs" t="Include" />
-                  <e p="InSceneDependency.cs" t="Include" />
-                  <e p="ResultRow.cs" t="Include" />
-                  <e p="SearchTarget.cs" t="Include" />
-                  <e p="SerializableCache.cs" t="Include" />
-                </e>
-                <e p="DependencyWindow.cs" t="Include" />
-                <e p="FeedbackPopup.cs" t="Include" />
-                <e p="Styles" t="Include">
-                  <e p="ContentStylePair.cs" t="Include" />
-                  <e p="DependencyStyle.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="SearchTool" t="Include">
-              <e p="Editor" t="Include">
-                <e p="SearchSelectionHistoryTracker.cs" t="Include" />
-                <e p="SearchWindow.cs" t="Include" />
-              </e>
             </e>
           </e>
           <e p="Utilities" t="Include">
@@ -899,8 +1079,28 @@
               <e p="Timer" t="Include">
                 <e p="Timer.cs" t="Include" />
               </e>
+              <e p="TimeRelated" t="Include">
+                <e p="DateTimeUtility.cs" t="Include" />
+              </e>
               <e p="Utilities" t="Include">
                 <e p="GetRandomAlphabets.cs" t="Include" />
+              </e>
+              <e p="ViewUtils" t="Include">
+                <e p="AnimateSuccess.cs" t="Include" />
+                <e p="AnimateSuccessWithButton.cs" t="Include" />
+                <e p="AnimateSuccessWithButtonAndOptions.cs" t="Include" />
+                <e p="AnimateSuccessWithParticlesAndSound.cs" t="Include" />
+                <e p="AnimateSuccessWithSound.cs" t="Include" />
+                <e p="AnimateSuccessWithSoundWithButton.cs" t="Include" />
+                <e p="AppearPop.cs" t="Include" />
+                <e p="ColorUpdate.cs" t="Include" />
+                <e p="DisappearPop.cs" t="Include" />
+                <e p="IAnimate.cs" t="Include" />
+                <e p="IAppearAction.cs" t="Include" />
+                <e p="IGraphic.cs" t="Include" />
+                <e p="IGraphicView.cs" t="Include" />
+                <e p="IRemoveAction.cs" t="Include" />
+                <e p="IUpdateColor.cs" t="Include" />
               </e>
             </e>
             <e p="Shaders" t="Include">
@@ -1133,8 +1333,6 @@
           </e>
         </e>
       </e>
-      <e p="CoreEngineAssembly.csproj" t="IncludeRecursive" />
-      <e p="IdleEngineAssembly.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="QHierarchyEditor.csproj" t="IncludeRecursive" />
@@ -1145,7 +1343,7 @@
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="ToolsForUnity.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_ToolsForUnity.1116288483.00" t="ExcludeRecursive" />
   </component>
 </project>

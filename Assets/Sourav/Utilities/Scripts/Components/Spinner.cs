@@ -1,5 +1,4 @@
-﻿using System;
-using Sirenix.OdinInspector;
+﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Sourav.Utilities.Scripts.Components
@@ -66,6 +65,8 @@ namespace Sourav.Utilities.Scripts.Components
 			set
 			{
 				multiplier = value;
+				StopSpin();
+				StartSpinning();
 			}
 		}
 		#endregion

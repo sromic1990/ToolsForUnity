@@ -3,6 +3,11 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.google.external-dependency-manager@1.2.163</Path>
+      <Path>Library/PackageCache/com.google.firebase.analytics@7.0.2</Path>
+      <Path>Library/PackageCache/com.google.firebase.app@7.0.2</Path>
+      <Path>Library/PackageCache/com.google.firebase.crashlytics@7.0.2</Path>
+      <Path>Library/PackageCache/com.google.firebase.remote-config@7.0.2</Path>
       <Path>Library/PackageCache/com.sourav.checkforsingleton@b7f2718148cf8a2eba9a72c1d94c5fffc6e8f789</Path>
       <Path>Library/PackageCache/com.sourav.createprefabinstance@870dda277a1d982989d2255979046ec3fa1c634b</Path>
       <Path>Library/PackageCache/com.sourav.debug@5b0588ab8dfb35c37fe17ad548bfcbc939f84da0</Path>

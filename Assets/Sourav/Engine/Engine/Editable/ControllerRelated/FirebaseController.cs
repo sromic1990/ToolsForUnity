@@ -1,11 +1,11 @@
-﻿#if FIREBASE
-using Sourav.Engine.Core.ControllerRelated;
-using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 
 namespace Sourav.Engine.Editable.ControllerRelated
 {
-    public class FirebaseController : Controller
+    public class FirebaseController : Sourav.Engine.Core.ControllerRelated.Controller
     {
         void Start()
         {
@@ -18,7 +18,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
             {
                 case Notification.LevelComplete:
                     Firebase.Analytics.FirebaseAnalytics
-                        .LogEvent("StageComplete "+App.GetLevelData().CurrentLevel);
+                        .LogEvent("StageComplete "+App.GetData<LevelCommonData>().CurrentLevel);
                     break;
                 
                 case Notification.AdRewarded:
@@ -34,4 +34,3 @@ namespace Sourav.Engine.Editable.ControllerRelated
         }
     }
 }
-#endif

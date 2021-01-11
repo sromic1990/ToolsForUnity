@@ -1,7 +1,9 @@
 ﻿using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Editable.ToggleRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using Sourav.UIPresets;
 using UnityEngine;
 
@@ -34,15 +36,15 @@ namespace Sourav.Engine.Editable.ControllerRelated
             {
                 if (toggles[i].GetToggleType() == ToggleType.Music)
                 {
-                    toggles[i].SetToggle(App.GetLevelData().IsMusicOn);
+                    toggles[i].SetToggle(Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsMusicOn);
                 }
                 else if (toggles[i].GetToggleType() == ToggleType.Vibration)
                 {
-                    toggles[i].SetToggle(App.GetLevelData().IsVibrationOn);
+                    toggles[i].SetToggle(Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsVibrationOn);
                 }
                 else if(toggles[i].GetToggleType() == ToggleType.SFX)
                 {
-                    toggles[i].SetToggle(App.GetLevelData().IsSfxOn);
+                    toggles[i].SetToggle(Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsSfxOn);
                 }
             }
         }
@@ -55,15 +57,15 @@ namespace Sourav.Engine.Editable.ControllerRelated
                     switch (toggle)
                     {
                         case ToggleType.Music:
-                            App.GetLevelData().IsMusicOn = true;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsMusicOn = true;
                             break;
                         
                         case ToggleType.Vibration:
-                            App.GetLevelData().IsVibrationOn = true;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsVibrationOn = true;
                             break;
                         
                         case ToggleType.SFX:
-                            App.GetLevelData().IsSfxOn = true;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsSfxOn = true;
                             break;
                     }
                     break;
@@ -72,15 +74,15 @@ namespace Sourav.Engine.Editable.ControllerRelated
                     switch (toggle)
                     {
                         case ToggleType.Music:
-                            App.GetLevelData().IsMusicOn = false;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsMusicOn = false;
                             break;
                         
                         case ToggleType.Vibration:
-                            App.GetLevelData().IsVibrationOn = false;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsVibrationOn = false;
                             break;
                         
                         case ToggleType.SFX:
-                            App.GetLevelData().IsSfxOn = false;
+                            Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsSfxOn = false;
                             break;
                     }
                     break;

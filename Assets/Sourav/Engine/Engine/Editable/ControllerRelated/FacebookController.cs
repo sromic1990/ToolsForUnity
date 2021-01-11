@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using Facebook.Unity;
 using Sourav.Engine.Core.ControllerRelated;
 using Sourav.Engine.Core.NotificationRelated;
+using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 
 namespace Sourav.Engine.Editable.ControllerRelated
 {
@@ -58,7 +60,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
             var levelParams = new Dictionary<string, object>()
             {
                 {
-                    "Level", App.GetLevelData().CurrentLevel.ToString()
+                    "Level", App.GetData<LevelCommonData>().CurrentLevel.ToString()
                 }
             };
 //            levelParams[AppEventParameterName.ContentID] = App.GetLevelData().currentLevelShow;

@@ -1,4 +1,4 @@
-﻿#if IDLEGAME
+﻿#if IDLEGAME_OLD
 using System;
 using System.Globalization;
 using Sourav.Engine.Core.NotificationRelated;
@@ -25,7 +25,7 @@ namespace Sourav.IdleGameEngine.OfflineTimerRelated.ControllerRelated
 
         private void HandleOfflineTime()
         {
-            App.GetLevelData().lastDateTimeSeconds = 0;
+            AppGame.GetLevelData().lastDateTimeSeconds = 0;
             if (App.GetLevelData().isLoaded)
             { 
                 if (App.GetLevelData().IsOfflineTimerOn)

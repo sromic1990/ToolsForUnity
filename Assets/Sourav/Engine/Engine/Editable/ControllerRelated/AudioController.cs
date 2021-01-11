@@ -1,7 +1,7 @@
-﻿using Sourav.Engine.Core.ControllerRelated;
-using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
+using Sourav.Engine.Engine.Core.ApplicationRelated;
 using UnityEngine;
 
 namespace Sourav.Engine.Editable.ControllerRelated
@@ -14,13 +14,16 @@ namespace Sourav.Engine.Editable.ControllerRelated
 		private bool musicMute;
 
 		private bool wasMusicMute;
+
+		[SerializeField] private GameObject tringSource;
+		[SerializeField] private Transform tringHolder;
 		
 		public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
 		{
 			switch (notification)
 			{
 				case Notification.GameLoaded:
-					if (!App.GetLevelData().IsSfxOn)
+					if (!App.GetData<LevelCommonData>().IsSfxOn)
 					{
 						sfxMute = true;
 					}
@@ -29,7 +32,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 						sfxMute = false;
 					}
 					
-					if (!App.GetLevelData().IsMusicOn)
+					if (!App.GetData<LevelCommonData>().IsMusicOn)
 					{
 						musicMute = true;
 						wasMusicMute = true;
@@ -42,7 +45,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 					break;
 				
 				case Notification.DataChanged:
-					if (!App.GetLevelData().IsSfxOn)
+					if (!App.GetData<LevelCommonData>().IsSfxOn)
 					{
 						sfxMute = true;
 					}
@@ -51,7 +54,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 						sfxMute = false;
 					}
 					
-					if (!App.GetLevelData().IsMusicOn)
+					if (!Engine.Core.ApplicationRelated.App.GetData<LevelCommonData>().IsMusicOn)
 					{
 						musicMute = true;
 						wasMusicMute = true;
@@ -61,6 +64,46 @@ namespace Sourav.Engine.Editable.ControllerRelated
 						musicMute = false;
 					}
 					PlayPauseBGAsPerSavedData();
+					break;
+
+				case Notification.StartUnlocking:
+					if (!sfxMute)
+					{
+						AudioInfo source = GetAudioInfoAsPerType(AudioType.LevelComplete);
+						if (source != null)
+						{
+							source.source.Play();
+						}
+					}
+					break;
+				case Notification.ButtonPressed:
+					if (!sfxMute)
+					{
+						AudioInfo source = GetAudioInfoAsPerType(AudioType.Button);
+						if (source != null)
+						{
+							source.source.Play();
+						}
+					}
+					break;
+				
+				case Notification.FlyingObjectsReached:
+					if (!sfxMute)
+					{
+						GameObject gObj = Instantiate(tringSource, tringHolder);
+						Destroy(gObj, 1f);
+					}
+					break;
+				
+				case Notification.ElementDropped:
+					if (!sfxMute)
+					{
+						AudioInfo source = GetAudioInfoAsPerType(AudioType.Drop);
+						if (source != null)
+						{
+							source.source.Play();
+						}
+					}
 					break;
 			}
 		}
@@ -108,11 +151,7 @@ namespace Sourav.Engine.Editable.ControllerRelated
 		None,
 		BackgroundMusic,
 		Button,
-		Recall,
-		Error,
 		LevelComplete,
-		Bomb,
-		CoinCollected,
-		GameWin
+		Drop,
 	}
 }

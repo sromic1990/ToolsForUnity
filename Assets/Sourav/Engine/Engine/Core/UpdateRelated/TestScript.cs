@@ -16,7 +16,7 @@ namespace Sourav.IdleGameEngine.UpdateRelated
             updater.action = UpdateAction;
             updater.id = "TestScript.UpdateAction";
             // bool isAttached = App.GetUpdater().AddAction(updater, type);
-            App.GetUpdater().AddAction(updater, type);
+            Engine.Engine.Core.ApplicationRelated.App.GetUpdater().AddAction(updater, type);
             // if (isAttached)
             // {
             //     updateType = type;
@@ -26,7 +26,7 @@ namespace Sourav.IdleGameEngine.UpdateRelated
         [Button()]
         public void DetachFromUpdate()
         {
-            App.GetUpdater().RemoveAction("TestScript.UpdateAction");
+            Engine.Engine.Core.ApplicationRelated.App.GetUpdater().RemoveAction("TestScript.UpdateAction");
         }
 
         private void UpdateAction()

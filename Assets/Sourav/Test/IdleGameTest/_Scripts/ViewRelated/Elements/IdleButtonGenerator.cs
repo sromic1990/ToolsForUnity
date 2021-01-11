@@ -1,4 +1,4 @@
-﻿#if IDLEGAME
+﻿#if IDLEGAME_OLD
 using System.Collections.Generic;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.NotificationRelated;

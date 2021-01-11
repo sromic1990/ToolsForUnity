@@ -1,4 +1,5 @@
-﻿using Sourav.Engine.Core.NotificationRelated;
+﻿using Sourav.DebugRelated;
+using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.DataRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Engine.Core.ApplicationRelated;
@@ -7,7 +8,7 @@ using UnityEngine;
 
 namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 {
-	public class SaveLoadController : Sourav.Engine.Core.ControllerRelated.Controller
+	public class SaveLoadController : Controller
 	{	
 		public override void OnNotificationReceived(Notification notification, NotificationParam param = null)
 		{
@@ -40,12 +41,8 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 //				LoadData();
 //			}
 		}
-
-#if ODIN_INSPECTOR
+		
 		[Sirenix.OdinInspector.Button()]
-#else
-		[Sourav.Utilities.Scripts.Attributes.Button()]
-		#endif
 		private void SaveData()
 		{
 			SaveGame data = App.GetData<LevelCommonData>().GetCurrentData();
@@ -55,6 +52,7 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 
 		private void LoadData()
 		{
+			// D.Log("LOAD DATA");
 			if (FileIO.FileExists())
 			{
 				string stringData = FileIO.ReadData();
@@ -63,12 +61,9 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 			}
 			else
 			{
-				App.GetLevelData().SetDefault();
+				App.GetData<LevelCommonData>().SetDefault();
 				SaveData();
 			}
-			#if IDLEGAME
-			App.GetLevelData().isLoaded = true;
-			#endif
 		}
 	}
 }
