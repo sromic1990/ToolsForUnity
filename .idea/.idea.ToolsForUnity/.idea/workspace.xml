@@ -20,284 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40246f1b-37bc-4a46-8003-2e7877a5d704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToolsForUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.sourav_data" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.sourav_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/iOS.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/iOS/Swift.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Plugins/iOS/Swift.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Scripts/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Common/Sounds.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Sounds.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/AHAPPresetsDemo/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Physics2DMaterials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Physics2DMaterials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/BallDemo/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Sounds.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/CarDemo/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/ContinuousDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/ContinuousDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/ContinuousDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/ContinuousDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/RegularPresetsDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/RegularPresetsDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/RegularPresetsDemo/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/RegularPresetsDemo/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/TransientDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/TransientDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/TransientDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/TransientDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/AHAP.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/AHAP.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/DemoAssets/WobbleDemo/Sounds.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Fonts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Fonts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Scripts/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Scripts/UI.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Shaders.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_Common/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/Demos/_OLD/v1Demo/Sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/ThirdParty.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/ThirdParty.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NiceVibrations/ThirdParty/Newtonsoft.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NiceVibrations/ThirdParty/Newtonsoft.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ApplicationRelated/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ApplicationRelated/App.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ButtonRelated/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ButtonRelated/ButtonScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/AndroidHapticManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/AndroidHapticManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PauseResumeRelated/PauseResumeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/PositionDataController/PositionRegistryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/ControllerRelated/SaveLoadRelated/SaveLoadController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/DataRelated/LocalPositionRegistry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/DataRelated/LocalPositionRegistry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/EngineRelated/EngineId.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/EngineRelated/EngineId.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/GameElementRelated/GameElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/GameElementRelated/GameElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/Notification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/Notification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/NotificationCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/NotificationRelated/NotificationCenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/PositionRelated/PositionRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/PositionRelated/PositionRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/TestScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/UpdateElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Core/UpdateRelated/UpdateElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/CoreEngineAssembly.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/CoreEngineAssembly.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ButtonRelated/ButtonType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ButtonRelated/ButtonType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AdMobController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AdMobController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AppsFlyerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AppsFlyerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AudioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/AudioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ButtonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ControllerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ControllerType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/FacebookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/FacebookController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/FirebaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/FirebaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ToggleHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/ToggleHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/UiScreenHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/UiScreenHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/CurveRelated/CurveReading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/CurveRelated/CurveReading.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/CameraCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/CameraCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/CommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/CommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/GameCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/GameCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/LevelCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/LevelCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/TimerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/DataRelated/TimerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/NotificationRelated/NotificationList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/NotificationRelated/NotificationList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/TestingRelated/FireAnyNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/TestingRelated/FireAnyNotification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Timer/CoroutineHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Timer/CoroutineHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Timer/TimerWatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Timer/TimerWatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ToggleRelated/ToggleType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ToggleRelated/ToggleType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editor/CreateEngineCore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editor/CreateEngineCore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/BarFillPreset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/BarFillPreset/BarFill.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/BarFillPreset/BarFill.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ButtonPressEffect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ButtonPressEffect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_HapticOFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_HapticOFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_HapticON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_HapticON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Music_OFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Music_OFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Music_ON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Music_ON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settingd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settingd.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settings_OFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settings_OFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settings_ON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/BTN_Settings_ON.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/Settings_BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Icons/Settings_BG.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Prefab/Settings.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Prefab/Settings.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts/SettingsView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/CommonSettings/Scripts/SettingsView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/FlyEffectGraphic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/FlyEffectGraphic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/MoveAndScaleHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/MoveAndScaleHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/MoveAndScaleToPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/MoveAndScaleToPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/PopUpController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/PopUpController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageHolderView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageHolderView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/StageView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/TestOfStageView.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/TestOfStageView.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/TestStageHolderView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/StageViewRelated/TestStageHolderView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/Timer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/Timer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ToggleSwitch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/ToggleSwitch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/UiScreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/UIPresets/UiScreen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/AdCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/AdCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/IAPCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/EngineDataSnippets/IAPCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Experimental/Editor/SpriteAnimatorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Experimental/Editor/SpriteAnimatorEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Experimental/SpriteAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleEngineAssembly.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleEngineAssembly.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleUnitData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/TypesScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/LargeNumbers/LargeNumber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/ControllerRelated/OfflineTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/TimerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/TimerTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/OfflineTimerRelated/Test/UiTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/TickerRelated/Ticker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/CurveReadingTest/_Scripts/CurveValueTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleButtonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestUiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Controller/IdleButtonViewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/IdleButtonView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ViewRelated/Elements/RequirementView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_IdleCurrencyTest/_Scripts/TestScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/OrientationManagerTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Test/_Scripts/TestOfTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Tools/OrientationManager/OrientationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/bulb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/email_pro.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/forum_pro.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/happy_pro.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/sad.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/star.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Feedback/tweetbtn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Personal.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/Style.Pro.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Content/lookup_pro.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/AssetDependencies.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/CacheManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/DependencyBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FileDependency.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/FindDependencies.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/InSceneDependency.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/ResultRow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SearchTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Data/SerializableCache.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/DependencyWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/FeedbackPopup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/ContentStylePair.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/ReferenceFinder/Editor/Styles/DependencyStyle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchSelectionHistoryTracker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Tools/SearchTool/Editor/SearchWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/OrientationManagerRelated/CreateOrientationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Editor/PostProcessorBuild/BuildProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Materials/Blur.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/CameraFollow/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/OrthographicPanZoom/CameraPanZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/OrthographicPanZoom/CameraPanZoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/Util/OrthographicUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/Util/OrthographicUtilities.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomPerAspectRatio/CameraZoomInOutPerAspectRatio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomToKeepObjectsInView/ZoomSuchThatBottomIsAlwaysOnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomToKeepObjectsInView/ZoomSuchThatBottomIsAlwaysOnPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomToKeepObjectsInView/ZoomToKeepObjectsInView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Camera/ZoomToKeepObjectsInView/ZoomToKeepObjectsInView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Circle/ConstructCircle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Circle/ConstructCircle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Circle/Create3DCircles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Circle/Create3DCircles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Blinker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ElementRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ElementRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Spinner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/Spinner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/PanZoomScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DrawLineRelated/DrawLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/DrawLineRelated/DrawLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/MoveToDestination/MoveToPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintFromSeconds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintFromSeconds.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/PrettyPrintTimeDuration/PrettyPrintTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomColors/RandomizeColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/RandomColors/RandomizeColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/TimeRelated/DateTimeUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/TimeRelated/DateTimeUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Timer/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sourav/Utilities/Shaders/SimpleGrabPassBlur.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sourav/Utilities/Shaders/SimpleGrabPassBlur.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Tests/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Tests/MainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS/HapticFeedback.m" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS/HapticFeedback.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS/HapticFeedback.m.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iOSHapticFeedback/Plugins/iOS/HapticFeedback.m.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,6 +57,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/TestPoco.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Utilities/Scripts/Components/ZoomPanRelated/ZoomPanButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Analytics/AdjustElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestMainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/IdleGameEngine/IdleGameData/IdleCommonData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sourav/Test/IdleGameTest/_Scripts/ControllerRelated/IdleTestGameplayController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -393,6 +117,8 @@
       <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/RemoteConfig/RemoteConfigScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/RemoteConfig/RemoteConfigController.cs" />
       <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/ControllerRelated/FirebaseController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Analytics/AdjustElement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sourav/Engine/Engine/Editable/Analytics/AnalyticsController.cs" />
     </changedPaths>
   </component>
   <component name="InvalidFacetManager">
@@ -497,6 +223,7 @@
       <workItem from="1600237586198" duration="1472000" />
       <workItem from="1600264186847" duration="958000" />
       <workItem from="1610357643590" duration="2592000" />
+      <workItem from="1611038656008" duration="262000" />
     </task>
     <servers />
   </component>

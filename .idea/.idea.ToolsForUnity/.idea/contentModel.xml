@@ -720,6 +720,10 @@
                   <e p="AdsRCHandler.cs" t="Include" />
                   <e p="IronSourceAdProvider.cs" t="Include" />
                 </e>
+                <e p="Analytics" t="Include">
+                  <e p="AdjustElement.cs" t="Include" />
+                  <e p="AnalyticsController.cs" t="Include" />
+                </e>
                 <e p="ButtonRelated" t="Include">
                   <e p="ButtonType.cs" t="Include" />
                 </e>
