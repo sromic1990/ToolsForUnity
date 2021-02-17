@@ -9,7 +9,7 @@ namespace Sourav.ReadCSV
         [SerializeField] private List<Line> lines;
 		
 
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
         public void PopulateData()
         {
             string path = Application.dataPath + "/" + Path;

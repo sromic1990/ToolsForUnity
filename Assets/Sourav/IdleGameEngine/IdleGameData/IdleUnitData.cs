@@ -1,4 +1,4 @@
-﻿using Sirenix.OdinInspector;
+﻿// using Sirenix.OdinInspector;
 using UnityEngine;
 using Sourav.Idle;
 
@@ -12,10 +12,13 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public float percentageOnNewCost;
         public int totalCount;
         public bool isLockedByDefault;
-        [ShowIf("isLockedByDefault", true)] public bool canBeUnlockedWithCost;
-        [ShowIf("canBeUnlockedWithCost", true)]public IdleCurrency unlockCost;
+        // [ShowIf("isLockedByDefault", true)] 
+        public bool canBeUnlockedWithCost;
+        // [ShowIf("canBeUnlockedWithCost", true)]
+        public IdleCurrency unlockCost;
         public bool hasTimerBeforeNextClick;
-        [ShowIf("hasTimerBeforeNextClick")] public float defaultTimer;
+        // [ShowIf("hasTimerBeforeNextClick")] 
+        public float defaultTimer;
         
         [Space(10)][Header("Growth Related")]
         public float separatorPercentage;

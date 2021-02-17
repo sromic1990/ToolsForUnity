@@ -1,5 +1,5 @@
 ﻿#if IDLEGAME
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.IdleGameEngine.IdleGameData;
 using Sourav.Extensions;
@@ -13,7 +13,7 @@ namespace Sourav.Test.IdleGameTest._Scripts.ViewRelated.Elements
         [SerializeField] private GameObject[] incompleteItems;
         [SerializeField] private GameObject[] completeItems;
         [SerializeField] private Text[] valueText;
-        [SerializeField] [ReadOnly] private IdleUnitType idleUnitType;
+        [SerializeField] /*[ReadOnly]*/ private IdleUnitType idleUnitType;
 
         public void SetUp(SingleDependency dependency)
         {

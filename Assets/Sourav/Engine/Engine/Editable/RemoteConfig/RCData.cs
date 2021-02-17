@@ -1,4 +1,4 @@
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Editable.DataRelated;
 
 namespace Sourav.Engine.Editable.RemoteConfig
@@ -40,28 +40,28 @@ namespace Sourav.Engine.Editable.RemoteConfig
     [System.Serializable]
     public class RCValueDefault
     {
-        [FoldoutGroup("$nameOfField")]
+        // [FoldoutGroup("$nameOfField")]
         public RCType type;
-        [FoldoutGroup("$nameOfField")]
+        // [FoldoutGroup("$nameOfField")]
         public string nameOfField;
-        [FoldoutGroup("$nameOfField")]
+        // [FoldoutGroup("$nameOfField")]
         public TypeOfValue valueType;
-        [FoldoutGroup("$nameOfField")]
-        [ShowIf("valueType", TypeOfValue.Integer)]
+        // [FoldoutGroup("$nameOfField")]
+        // [ShowIf("valueType", TypeOfValue.Integer)]
         public int intValue;
-        [FoldoutGroup("$nameOfField")]
-        [ShowIf("valueType", TypeOfValue.Float)]
+        // [FoldoutGroup("$nameOfField")]
+        // [ShowIf("valueType", TypeOfValue.Float)]
         public float floatValue;
-        [FoldoutGroup("$nameOfField")]
-        [ShowIf("valueType", TypeOfValue.String)]
+        // [FoldoutGroup("$nameOfField")]
+        // [ShowIf("valueType", TypeOfValue.String)]
         public string stringValue;
-        [FoldoutGroup("$nameOfField")]
-        [ShowIf("valueType", TypeOfValue.Bool)]
+        // [FoldoutGroup("$nameOfField")]
+        // [ShowIf("valueType", TypeOfValue.Bool)]
         public bool boolValue;
-        [FoldoutGroup("$nameOfField")]
+        // [FoldoutGroup("$nameOfField")]
         public RCHandlerBase rcHandler;
-        [FoldoutGroup("$nameOfField")] 
-        [ReadOnly] public bool isFetched;
+        // [FoldoutGroup("$nameOfField")] 
+        /*[ReadOnly]*/ public bool isFetched;
     }
 
     public enum TypeOfValue

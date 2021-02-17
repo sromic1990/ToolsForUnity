@@ -1,4 +1,4 @@
-﻿using Sirenix.OdinInspector;
+﻿// using Sirenix.OdinInspector;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Engine.Core.ApplicationRelated;
 using Sourav.Idle;
@@ -455,7 +455,8 @@ namespace Sourav.Engine.Editable.DataRelated
 		public GameDefaultsSO defaults;
 		public int defaultProgression;
 		
-		[Title("URL Defaults")]
+		// [Title("URL Defaults")]
+		[Header("URL Defaults")]
 		public string defaultFactsURL;
 		public string defaultsGameplayDataURL;
 		public string defaultsCoinsProgressionURL;

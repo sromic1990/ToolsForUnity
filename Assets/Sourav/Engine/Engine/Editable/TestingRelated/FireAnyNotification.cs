@@ -11,7 +11,7 @@ namespace Sourav.Engine.Editable.TestingRelated
         [SerializeField] private Notification notification;
         [SerializeField] private NotificationParam param;
 
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
         private void FireNotification()
         {
             App.Notify(notification, param);

@@ -10,7 +10,6 @@ namespace Sourav.Test.CurveReadingTest._Scripts
         [SerializeField] private CurveReading curve;
         [SerializeField] private Vector2 values;
 
-        [Sirenix.OdinInspector.Button()]
         private void GetValueAt(float time)
         {
             time = Mathf.Clamp01(time);

@@ -1,4 +1,5 @@
-﻿using MoreMountains.NiceVibrations;
+﻿#if NV
+using MoreMountains.NiceVibrations;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using UnityEngine;
@@ -67,3 +68,4 @@ namespace Sourav.Engine.Core.ControllerRelated
 		}
 	}
 }
+#endif

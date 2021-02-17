@@ -1,6 +1,6 @@
 ﻿#if IDLEGAME
 using System.Collections.Generic;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Editable.DataRelated;
 using UnityEngine;
 using Sourav.Idle;
@@ -95,7 +95,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
         [Space(10)] [Header("Growth Related")] public GrowthRate growth;
         public float minSliderValue;
         public float maxSliderValue;
-        [Button()]
+        // [Button()]
         private void DetermineGrowthRate()
         {
             growth.firstHalfClicks = (int)(data.totalCount * (data.separatorPercentage / 100));
@@ -109,7 +109,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
             growth.currentSliderValue = maxSliderValue;
         }
 
-        [Button()]
+        // [Button()]
         public override void SetDefault()
         {
             base.SetDefault();
@@ -134,7 +134,7 @@ namespace Sourav.IdleGameEngine.IdleGameData
         //Which unit this upgrade affects
         public IdleUnitType unitAffected;
         //If this is completed, don't show the upgrade any further
-        [ReadOnly] public bool isUpgradeCompleted;
+        /*[ReadOnly]*/ public bool isUpgradeCompleted;
         public bool isHideOnComplete;
         //Upgrade limit if any
         public LimitType limitType;
@@ -148,10 +148,10 @@ namespace Sourav.IdleGameEngine.IdleGameData
         
         //In case of Serialized upgrade, serialized list of price increments;
         public List<IdleCurrency> upgradeCostSequence;
-        [ReadOnly] public int currentSequence;
+        /*[ReadOnly]*/ public int currentSequence;
 
         public bool hasBoost;
-        [ShowIf("hasBoost", true)]public IdleBoostQuantum boostQuantum;
+        /*[ShowIf("hasBoost", true)]*/public IdleBoostQuantum boostQuantum;
     }
 
     [System.Serializable]
@@ -193,20 +193,24 @@ namespace Sourav.IdleGameEngine.IdleGameData
     public class Cost
     {
         public IdleCostType costType;
-        [ShowIf("costType", IdleCostType.Price)]public IdleCurrency cost;
+        /*[ShowIf("costType", IdleCostType.Price)]*/public IdleCurrency cost;
     }
     
     [System.Serializable]
     public class IdlePurchasableItem
     {
         public bool hasIndex;
-        [ShowIf("hasIndex", true)]public int index;
+        // [ShowIf("hasIndex", true)]
+        public int index;
         public IdlePurchasableItemType type;
         public IdleUnitData data;
         public bool hasAdsForCost;
-        [ShowIf("hasAdsForCost", true)] public int currentCountOfTap;
-        [ShowIf("hasAdsForCost", true)] public bool alwaysVideo;
-        [ShowIf("hasAdsForCost", true)] public int adsEveryHowManyTap;
+        // [ShowIf("hasAdsForCost", true)] 
+        public int currentCountOfTap;
+        // [ShowIf("hasAdsForCost", true)] 
+        public bool alwaysVideo;
+        // [ShowIf("hasAdsForCost", true)] 
+        public int adsEveryHowManyTap;
         public NextCost nextCost;
 
         public IdleActivation idleActivation;
@@ -215,7 +219,8 @@ namespace Sourav.IdleGameEngine.IdleGameData
 
         public bool hasVariableBlockTime;
         // [ShowIf("hasVariableBlockTime", true)] public float decrementOfBlockTimePer
-        [ShowIf("hasVariableBlockTime", true)] public float currentBlockTime;
+        // [ShowIf("hasVariableBlockTime", true)] 
+        public float currentBlockTime;
 
         public virtual void SetDefault()
         {
@@ -242,10 +247,14 @@ namespace Sourav.IdleGameEngine.IdleGameData
     public class IdleActivation
     {
         public bool isUnlocked;
-        [ReadOnly] public bool isAffordable;
-        [ReadOnly] public bool isClickable;
-        [ReadOnly] public bool allLogicFulfilled;
-        [ReadOnly] public bool hasTimerFinished;
+        // [ReadOnly] 
+        public bool isAffordable;
+        // [ReadOnly] 
+        public bool isClickable;
+        // [ReadOnly] 
+        public bool allLogicFulfilled;
+        // [ReadOnly] 
+        public bool hasTimerFinished;
     }
 
     [System.Serializable]
@@ -262,10 +271,14 @@ namespace Sourav.IdleGameEngine.IdleGameData
         public float currentSliderValue;
         [Space(10)]
         [Header("ONLY FOR READONLY AND TESTING")]
-        [ReadOnly] public int firstHalfClicks;
-        [ReadOnly] public int lastHalfClicks;
-        [ReadOnly] public float firstHalfGrowthRate;
-        [ReadOnly] public float lastHalfGrowthRate;
+        // [ReadOnly] 
+        public int firstHalfClicks;
+        // [ReadOnly] 
+        public int lastHalfClicks;
+        // [ReadOnly] 
+        public float firstHalfGrowthRate;
+        // [ReadOnly] 
+        public float lastHalfGrowthRate;
     }
 }
 #endif

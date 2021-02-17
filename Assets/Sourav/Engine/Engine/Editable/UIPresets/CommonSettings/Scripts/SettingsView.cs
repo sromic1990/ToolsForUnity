@@ -1,5 +1,5 @@
 ﻿using DG.Tweening;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Extensions;
 using UnityEngine;
@@ -17,7 +17,7 @@ namespace Sourav.UIPresets.CommonSettings.Scripts
         [SerializeField] private Ease easeOnHide;
         [SerializeField] private bool animateOnClose;
 
-        [SerializeField] [ReadOnly] private bool canCloseSettings;
+        [SerializeField] /*[ReadOnly]*/ private bool canCloseSettings;
         
 
         public void ShowSettings()

@@ -18,7 +18,7 @@ namespace Sourav.Utilities.Scripts.Components
 		}
 		
 		#if ODIN_INSPECTOR
-		[Sirenix.OdinInspector.Button()]
+		// [Sirenix.OdinInspector.Button()]
 		#else
 		[Sourav.Utilities.Scripts.Attributes.Button()]
 		#endif

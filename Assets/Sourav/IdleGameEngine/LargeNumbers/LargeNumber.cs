@@ -44,7 +44,7 @@ namespace Sourav.IdleGameEngine.LargeNumbers
         #endregion
         
         #region UTILITY TO ENTER A NUMBER FROM INSPECTOR AND SETUP
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
         public void SetUp()
         {
             SetUpNumber(numberToBeSetUpAsLargeNumber);

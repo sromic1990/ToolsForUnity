@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using DG.Tweening;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Core.NotificationRelated;
 using Sourav.Engine.Editable.NotificationRelated;
@@ -103,13 +103,13 @@ namespace Sourav.Engine.UIPresets.PopUp
                 });
         }
 
-        [Button()]
+        // [Button()]
         public void HidePopUpSilently()
         {
             InitializePopUp();
         }
 
-        [Button()]
+        // [Button()]
         public void ShowPopUpSilently()
         {
             for (int i = 0; i < _blurBGs.Length; i++)

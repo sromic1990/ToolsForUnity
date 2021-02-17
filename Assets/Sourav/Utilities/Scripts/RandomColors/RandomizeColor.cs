@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
@@ -9,7 +9,7 @@ namespace Sourav.Utilities.Scripts.RandomColors
     {
         private static List<Color> colors;
 
-        [Button()]
+        // [Button()]
         public static List<Color> GetColors(int numberOfColors)
         {
             colors = new List<Color>(numberOfColors);

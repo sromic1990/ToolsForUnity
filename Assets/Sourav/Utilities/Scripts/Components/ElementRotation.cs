@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
@@ -21,14 +21,14 @@ namespace Sourav.Utilities.Scripts.Components
         [SerializeField] private bool isDelayFront;
         [SerializeField] private bool isDelayRear;
         
-        [SerializeField][ReadOnly] private float currentSpeed;
-        [SerializeField][ReadOnly] private float currentAngle;
-        [SerializeField][ReadOnly] private float nextAngle;
+        [SerializeField]/*[ReadOnly]*/ private float currentSpeed;
+        [SerializeField]/*[ReadOnly]*/ private float currentAngle;
+        [SerializeField]/*[ReadOnly]*/ private float nextAngle;
         
 
-        [SerializeField][ReadOnly] private bool rotationManuallyStopped;
-        [SerializeField][ReadOnly] private int currentDirectionMultiplier;
-        [SerializeField][ReadOnly] private bool startToFinish;
+        [SerializeField]/*[ReadOnly]*/ private bool rotationManuallyStopped;
+        [SerializeField]/*[ReadOnly]*/ private int currentDirectionMultiplier;
+        [SerializeField]/*[ReadOnly]*/ private bool startToFinish;
         
         private bool canRotate;
         private bool isPaused;
@@ -75,7 +75,7 @@ namespace Sourav.Utilities.Scripts.Components
             isDelayRear = isRearDelay;
         }
         
-        [Button()]
+        // [Button()]
         public void StartRotation()
         {
             if (isDelayFront)
@@ -98,7 +98,7 @@ namespace Sourav.Utilities.Scripts.Components
             RenewRotation();
         }
 
-        [Button()]
+        // [Button()]
         public void StopRotation()
         {
             rotationManuallyStopped = true;
@@ -106,14 +106,14 @@ namespace Sourav.Utilities.Scripts.Components
             Time.timeScale = 1;
         }
 
-        [Button()]
+        // [Button()]
         public void PauseRotation()
         {
             Time.timeScale = 0;
             isPaused = true;
         }
         
-        [Button()]
+        // [Button()]
         public void ResumeRotation()
         {
             Time.timeScale = 1;

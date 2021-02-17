@@ -1,4 +1,4 @@
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Editable.NotificationRelated;
 using Sourav.Engine.Engine.Core.ApplicationRelated;
@@ -8,7 +8,7 @@ namespace Sourav.Engine.Editable.RemoteConfig
 {
     public abstract class RCHandlerBase : GameElement
     {
-        [SerializeField][ReadOnly] private RCType rcType;
+        [SerializeField]/*[ReadOnly]*/ private RCType rcType;
 
         public virtual void HandleRC(string data, RCType type)
         {

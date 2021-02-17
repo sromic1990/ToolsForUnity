@@ -51,7 +51,7 @@ namespace Sourav.Utilities.Scripts.DrawLineRelated
         #region START STOP EXTERNAL
         
 #if ODIN_INSPECTOR
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
 #else
         [Sourav.Utilities.Scripts.Attributes.Button()]
 #endif
@@ -68,7 +68,7 @@ namespace Sourav.Utilities.Scripts.DrawLineRelated
         }
 
 #if ODIN_INSPECTOR
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
 #else
         [Sourav.Utilities.Scripts.Attributes.Button()]
 #endif

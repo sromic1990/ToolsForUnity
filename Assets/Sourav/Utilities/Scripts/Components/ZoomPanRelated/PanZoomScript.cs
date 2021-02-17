@@ -1,4 +1,4 @@
-﻿using Sirenix.OdinInspector;
+﻿// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ namespace Sourav.Utilities.Scripts.Components.ZoomPanRelated
     {
         [SerializeField] private float minZoom = 8;  
         [SerializeField] private float maxZoom = 80;
-        [SerializeField][ReadOnly] private float defaultZoom = 30; 
+        [SerializeField]/*[ReadOnly]*/ private float defaultZoom = 30; 
         [SerializeField] private float zoomMultiplier = 4;
         [SerializeField] private float spinnerMultiplier = 0.5f;
         [SerializeField] private UnityEngine.Camera zoomCamera;

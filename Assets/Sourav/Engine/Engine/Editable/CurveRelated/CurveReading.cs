@@ -7,7 +7,7 @@ namespace Sourav.Engine.Editable.CurveRelated
     {
         [SerializeField] private AnimationCurve curve;
 
-        [Sirenix.OdinInspector.Button()]
+        // [Sirenix.OdinInspector.Button()]
         public float GetValue(float timeOfCurve)
         {
             timeOfCurve = Mathf.Clamp01(timeOfCurve);

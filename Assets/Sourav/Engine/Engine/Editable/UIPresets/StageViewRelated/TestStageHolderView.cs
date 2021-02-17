@@ -1,4 +1,4 @@
-﻿using Sirenix.OdinInspector;
+﻿// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using UnityEngine;
 
@@ -8,19 +8,19 @@ namespace Sourav.UIPresets.StageViewRelated
     {
         [SerializeField] private StageHolderView stageHolder;
 
-        [Button()]
+        // [Button()]
         public void SetStageView(int numberOfLevels, int currentLevel, int pointsOfProgression)
         {
             stageHolder.SetUpStages(numberOfLevels, currentLevel, pointsOfProgression);
         }
         
-        [Button()]
+        // [Button()]
         public void SetStageView(int numberOfLevels, int currentLevel)
         {
             stageHolder.SetUpStages(numberOfLevels, currentLevel, 10);
         }
 
-        [Button()]
+        // [Button()]
         public void IncreaseProgression()
         {
             stageHolder.IncreaseProgressionInStage();

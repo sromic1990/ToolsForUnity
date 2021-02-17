@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.ControllerRelated.PauseResumeRelated;
 using Sourav.Engine.Core.ControllerRelated.SaveLoadRelated;
 using Sourav.Engine.Core.NotificationRelated;
@@ -19,7 +19,7 @@ namespace Sourav.Engine.Engine.Core.ApplicationRelated
 
 		#region FIELDS
 		private static NotificationCenter _notificationCenter;
-		[SerializeField][ReadOnly] private List<Sourav.Engine.Core.ControllerRelated.Controller> _controllers;
+		[SerializeField]/*[ReadOnly]*/ private List<Sourav.Engine.Core.ControllerRelated.Controller> _controllers;
 		private static CoroutineHandler _coroutineHandler;
 		private static UpdateElement _updateElement;
 		private static List<CommonData> commonData;

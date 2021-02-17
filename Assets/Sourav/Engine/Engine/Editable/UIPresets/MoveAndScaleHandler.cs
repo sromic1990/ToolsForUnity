@@ -15,7 +15,7 @@ namespace Sourav.UIPresets
 
 		public UnityEvent events;
 		
-		[Sirenix.OdinInspector.Button()]
+		// [Sirenix.OdinInspector.Button()]
 		public void InvokeMovement(bool invokeEvents)
 		{
 			if (invokeEvents)

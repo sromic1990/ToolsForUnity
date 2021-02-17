@@ -42,7 +42,7 @@ namespace Sourav.Engine.Core.ControllerRelated.SaveLoadRelated
 //			}
 		}
 		
-		[Sirenix.OdinInspector.Button()]
+		// [Sirenix.OdinInspector.Button()]
 		private void SaveData()
 		{
 			SaveGame data = App.GetData<LevelCommonData>().GetCurrentData();

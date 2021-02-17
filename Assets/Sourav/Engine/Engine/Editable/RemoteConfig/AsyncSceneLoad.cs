@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,10 +12,10 @@ namespace Sourav.Engine.Editable.RemoteConfig
         [SerializeField] private float minimumTimer;
         [SerializeField] private float fillUpto;
         [SerializeField] private float secondsWaitAfterLoad;
-        [ReadOnly][SerializeField] private float currentFill;
-        [ReadOnly][SerializeField] private bool isLoaded;
-        [ReadOnly][SerializeField] private bool isSceneLoadStarted;
-        [ReadOnly][SerializeField] private bool isLoadReady;
+        /*[ReadOnly]*/[SerializeField] private float currentFill;
+        /*[ReadOnly]*/[SerializeField] private bool isLoaded;
+        /*[ReadOnly]*/[SerializeField] private bool isSceneLoadStarted;
+        /*[ReadOnly]*/[SerializeField] private bool isLoadReady;
         private AsyncOperation asyncOperation;
 
         private bool isFirebaseLoaded;

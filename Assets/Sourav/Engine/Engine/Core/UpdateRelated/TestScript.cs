@@ -1,4 +1,4 @@
-﻿using Sirenix.OdinInspector;
+﻿// using Sirenix.OdinInspector;
 using Sourav.Engine.Core.GameElementRelated;
 using Sourav.Engine.Engine.Core.ApplicationRelated;
 using UnityEngine;
@@ -7,9 +7,9 @@ namespace Sourav.IdleGameEngine.UpdateRelated
 {
     public class TestScript : GameElement
     {
-        [SerializeField][ReadOnly] private UpdateType updateType;
+        [SerializeField]/*[ReadOnly]*/ private UpdateType updateType;
         
-        [Button()]
+        // [Button()]
         public void AttachToUpdate(UpdateType type)
         {
             Updater updater = new Updater();
@@ -23,7 +23,7 @@ namespace Sourav.IdleGameEngine.UpdateRelated
             // }
         }
         
-        [Button()]
+        // [Button()]
         public void DetachFromUpdate()
         {
             Engine.Engine.Core.ApplicationRelated.App.GetUpdater().RemoveAction("TestScript.UpdateAction");

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using Sirenix.OdinInspector;
+// using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -16,7 +16,7 @@ namespace Sourav.Utilities.Scripts.MoveToDestination
         private float currentStep;
         private Vector3 startPosition;
         [SerializeField]private bool canMove;
-        [SerializeField] [ReadOnly] private float durationOfMovement;
+        [SerializeField] /*[ReadOnly]*/ private float durationOfMovement;
         private bool isPaused;
 
         public UnityEvent onDestinationReached;
